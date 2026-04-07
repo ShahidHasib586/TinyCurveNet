@@ -1,0 +1,6 @@
+/home/shahid-ahamed.hasib/Downloads/LiteEnhanceNet-main/experiments/phys_curve_prog5/src/train_progressive.py:171: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=bool(cfg["train"]["amp"]) and device.type == "cuda")
+/home/shahid-ahamed.hasib/Downloads/LiteEnhanceNet-main/experiments/phys_curve_prog5/src/train_progressive.py:224: FutureWarning: `torch.cuda.amp.autocast(args...)` is deprecated. Please use `torch.amp.autocast('cuda', args...)` instead.
+  with torch.cuda.amp.autocast(enabled=scaler.is_enabled()):
+/home/shahid-ahamed.hasib/venvs/uie_gpu/lib64/python3.9/site-packages/numpy/_core/_methods.py:164: RuntimeWarning: overflow encountered in reduce
+  arrmean = umr_sum(arr, axis, dtype, keepdims=True, where=where)

@@ -1,0 +1,3255 @@
+Using device: cuda
+Loading pretrained model LPIPS from /home/shahid-ahamed.hasib/.cache/torch/hub/pyiqa/LPIPS_v0.1_alex-df73285e.pth
+
+========== STAGE 1/5 | crop=256 | batch=16 | lr=0.0003 ==========
+
+[stage 1 | epoch 1 | step 25] loss=0.296773
+[stage 1 | epoch 1 | step 50] loss=0.276885
+Stage 1 Epoch 1 | L1=0.110390  PSNR↑=17.9068  SSIM↑=0.8668  MS-SSIM↑=0.9082  LPIPS↓=0.2312  time=31.7s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 2 | step 25] loss=0.252056
+[stage 1 | epoch 2 | step 50] loss=0.247884
+Stage 1 Epoch 2 | L1=0.089961  PSNR↑=19.7772  SSIM↑=0.8752  MS-SSIM↑=0.9050  LPIPS↓=0.1980  time=18.9s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 3 | step 25] loss=0.255388
+[stage 1 | epoch 3 | step 50] loss=0.248084
+Stage 1 Epoch 3 | L1=0.086421  PSNR↑=20.0370  SSIM↑=0.8808  MS-SSIM↑=0.9067  LPIPS↓=0.1945  time=20.1s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 4 | step 25] loss=0.240227
+[stage 1 | epoch 4 | step 50] loss=0.238625
+Stage 1 Epoch 4 | L1=0.084709  PSNR↑=20.2312  SSIM↑=0.8818  MS-SSIM↑=0.9079  LPIPS↓=0.1885  time=19.5s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 5 | step 25] loss=0.258037
+[stage 1 | epoch 5 | step 50] loss=0.250313
+Stage 1 Epoch 5 | L1=0.084241  PSNR↑=20.2810  SSIM↑=0.8786  MS-SSIM↑=0.9041  LPIPS↓=0.1857  time=21.1s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 6 | step 25] loss=0.227494
+[stage 1 | epoch 6 | step 50] loss=0.238617
+Stage 1 Epoch 6 | L1=0.083956  PSNR↑=20.3193  SSIM↑=0.8792  MS-SSIM↑=0.9057  LPIPS↓=0.1859  time=21.5s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 7 | step 25] loss=0.239627
+[stage 1 | epoch 7 | step 50] loss=0.239191
+Stage 1 Epoch 7 | L1=0.083373  PSNR↑=20.4335  SSIM↑=0.8788  MS-SSIM↑=0.9057  LPIPS↓=0.1800  time=21.6s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 8 | step 25] loss=0.238367
+[stage 1 | epoch 8 | step 50] loss=0.238719
+Stage 1 Epoch 8 | L1=0.083355  PSNR↑=20.4944  SSIM↑=0.8769  MS-SSIM↑=0.9046  LPIPS↓=0.1760  time=21.6s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 9 | step 25] loss=0.251248
+[stage 1 | epoch 9 | step 50] loss=0.241121
+Stage 1 Epoch 9 | L1=0.083077  PSNR↑=20.5041  SSIM↑=0.8774  MS-SSIM↑=0.9069  LPIPS↓=0.1762  time=20.2s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 10 | step 25] loss=0.234494
+[stage 1 | epoch 10 | step 50] loss=0.242565
+Stage 1 Epoch 10 | L1=0.084676  PSNR↑=20.3387  SSIM↑=0.8755  MS-SSIM↑=0.9016  LPIPS↓=0.1764  time=20.2s
+[stage 1 | epoch 11 | step 25] loss=0.236953
+[stage 1 | epoch 11 | step 50] loss=0.236641
+Stage 1 Epoch 11 | L1=0.083673  PSNR↑=20.4388  SSIM↑=0.8763  MS-SSIM↑=0.9033  LPIPS↓=0.1760  time=20.0s
+[stage 1 | epoch 12 | step 25] loss=0.246839
+[stage 1 | epoch 12 | step 50] loss=0.246680
+Stage 1 Epoch 12 | L1=0.084401  PSNR↑=20.2769  SSIM↑=0.8759  MS-SSIM↑=0.9030  LPIPS↓=0.1789  time=21.9s
+[stage 1 | epoch 13 | step 25] loss=0.239289
+[stage 1 | epoch 13 | step 50] loss=0.240574
+Stage 1 Epoch 13 | L1=0.085002  PSNR↑=20.2986  SSIM↑=0.8730  MS-SSIM↑=0.9003  LPIPS↓=0.1752  time=20.1s
+[stage 1 | epoch 14 | step 25] loss=0.239573
+[stage 1 | epoch 14 | step 50] loss=0.244574
+Stage 1 Epoch 14 | L1=0.083814  PSNR↑=20.3937  SSIM↑=0.8766  MS-SSIM↑=0.9039  LPIPS↓=0.1743  time=20.8s
+[stage 1 | epoch 15 | step 25] loss=0.233490
+[stage 1 | epoch 15 | step 50] loss=0.232755
+Stage 1 Epoch 15 | L1=0.083794  PSNR↑=20.4468  SSIM↑=0.8748  MS-SSIM↑=0.9025  LPIPS↓=0.1739  time=26.2s
+[stage 1 | epoch 16 | step 25] loss=0.247250
+[stage 1 | epoch 16 | step 50] loss=0.243125
+Stage 1 Epoch 16 | L1=0.083312  PSNR↑=20.5103  SSIM↑=0.8765  MS-SSIM↑=0.9035  LPIPS↓=0.1698  time=23.8s
+[stage 1 | epoch 17 | step 25] loss=0.233963
+[stage 1 | epoch 17 | step 50] loss=0.240595
+Stage 1 Epoch 17 | L1=0.083162  PSNR↑=20.5073  SSIM↑=0.8768  MS-SSIM↑=0.9048  LPIPS↓=0.1687  time=20.0s
+[stage 1 | epoch 18 | step 25] loss=0.235813
+[stage 1 | epoch 18 | step 50] loss=0.238426
+Stage 1 Epoch 18 | L1=0.082147  PSNR↑=20.6172  SSIM↑=0.8796  MS-SSIM↑=0.9069  LPIPS↓=0.1690  time=18.9s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 19 | step 25] loss=0.252275
+[stage 1 | epoch 19 | step 50] loss=0.248202
+Stage 1 Epoch 19 | L1=0.082554  PSNR↑=20.5611  SSIM↑=0.8806  MS-SSIM↑=0.9075  LPIPS↓=0.1692  time=20.5s
+[stage 1 | epoch 20 | step 25] loss=0.239668
+[stage 1 | epoch 20 | step 50] loss=0.237839
+Stage 1 Epoch 20 | L1=0.083441  PSNR↑=20.4957  SSIM↑=0.8756  MS-SSIM↑=0.9039  LPIPS↓=0.1688  time=21.7s
+[FULL EVAL] stage=1 epoch=20 | PSNR↑=20.4957  SSIM↑=0.8756  MS-SSIM↑=0.9039  LPIPS↓=0.1688  NIQE↓=4.4971  UIQM↑=302.4909  UCIQE↑=inf
+[stage 1 | epoch 21 | step 25] loss=0.242119
+[stage 1 | epoch 21 | step 50] loss=0.244051
+Stage 1 Epoch 21 | L1=0.084161  PSNR↑=20.3809  SSIM↑=0.8749  MS-SSIM↑=0.9011  LPIPS↓=0.1720  time=19.3s
+[stage 1 | epoch 22 | step 25] loss=0.227238
+[stage 1 | epoch 22 | step 50] loss=0.234173
+Stage 1 Epoch 22 | L1=0.082327  PSNR↑=20.5972  SSIM↑=0.8789  MS-SSIM↑=0.9068  LPIPS↓=0.1669  time=20.3s
+[stage 1 | epoch 23 | step 25] loss=0.235624
+[stage 1 | epoch 23 | step 50] loss=0.237187
+Stage 1 Epoch 23 | L1=0.083323  PSNR↑=20.4692  SSIM↑=0.8770  MS-SSIM↑=0.9041  LPIPS↓=0.1700  time=19.4s
+[stage 1 | epoch 24 | step 25] loss=0.248608
+[stage 1 | epoch 24 | step 50] loss=0.239285
+Stage 1 Epoch 24 | L1=0.082003  PSNR↑=20.6277  SSIM↑=0.8789  MS-SSIM↑=0.9071  LPIPS↓=0.1696  time=19.3s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 25 | step 25] loss=0.241819
+[stage 1 | epoch 25 | step 50] loss=0.236565
+Stage 1 Epoch 25 | L1=0.082401  PSNR↑=20.5712  SSIM↑=0.8803  MS-SSIM↑=0.9068  LPIPS↓=0.1665  time=19.8s
+[stage 1 | epoch 26 | step 25] loss=0.239591
+[stage 1 | epoch 26 | step 50] loss=0.242711
+Stage 1 Epoch 26 | L1=0.082880  PSNR↑=20.5352  SSIM↑=0.8771  MS-SSIM↑=0.9045  LPIPS↓=0.1688  time=19.8s
+[stage 1 | epoch 27 | step 25] loss=0.239776
+[stage 1 | epoch 27 | step 50] loss=0.234095
+Stage 1 Epoch 27 | L1=0.081858  PSNR↑=20.6888  SSIM↑=0.8798  MS-SSIM↑=0.9088  LPIPS↓=0.1672  time=19.2s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 28 | step 25] loss=0.236815
+[stage 1 | epoch 28 | step 50] loss=0.238867
+Stage 1 Epoch 28 | L1=0.082779  PSNR↑=20.5984  SSIM↑=0.8814  MS-SSIM↑=0.9080  LPIPS↓=0.1650  time=21.7s
+[stage 1 | epoch 29 | step 25] loss=0.232035
+[stage 1 | epoch 29 | step 50] loss=0.231218
+Stage 1 Epoch 29 | L1=0.081539  PSNR↑=20.7042  SSIM↑=0.8811  MS-SSIM↑=0.9076  LPIPS↓=0.1644  time=19.1s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 30 | step 25] loss=0.250229
+[stage 1 | epoch 30 | step 50] loss=0.241615
+Stage 1 Epoch 30 | L1=0.081333  PSNR↑=20.7259  SSIM↑=0.8806  MS-SSIM↑=0.9088  LPIPS↓=0.1647  time=19.5s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 31 | step 25] loss=0.228281
+[stage 1 | epoch 31 | step 50] loss=0.233820
+Stage 1 Epoch 31 | L1=0.080627  PSNR↑=20.7804  SSIM↑=0.8853  MS-SSIM↑=0.9133  LPIPS↓=0.1618  time=20.0s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 32 | step 25] loss=0.233164
+[stage 1 | epoch 32 | step 50] loss=0.237770
+Stage 1 Epoch 32 | L1=0.081752  PSNR↑=20.6012  SSIM↑=0.8803  MS-SSIM↑=0.9080  LPIPS↓=0.1666  time=20.5s
+[stage 1 | epoch 33 | step 25] loss=0.233203
+[stage 1 | epoch 33 | step 50] loss=0.228584
+Stage 1 Epoch 33 | L1=0.081448  PSNR↑=20.7238  SSIM↑=0.8804  MS-SSIM↑=0.9103  LPIPS↓=0.1624  time=22.3s
+[stage 1 | epoch 34 | step 25] loss=0.225851
+[stage 1 | epoch 34 | step 50] loss=0.234457
+Stage 1 Epoch 34 | L1=0.080126  PSNR↑=20.7940  SSIM↑=0.8884  MS-SSIM↑=0.9148  LPIPS↓=0.1609  time=20.5s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 35 | step 25] loss=0.233582
+[stage 1 | epoch 35 | step 50] loss=0.232928
+Stage 1 Epoch 35 | L1=0.080495  PSNR↑=20.7416  SSIM↑=0.8871  MS-SSIM↑=0.9131  LPIPS↓=0.1620  time=24.4s
+[stage 1 | epoch 36 | step 25] loss=0.241913
+[stage 1 | epoch 36 | step 50] loss=0.237473
+Stage 1 Epoch 36 | L1=0.080762  PSNR↑=20.7925  SSIM↑=0.8844  MS-SSIM↑=0.9119  LPIPS↓=0.1623  time=20.0s
+[stage 1 | epoch 37 | step 25] loss=0.234456
+[stage 1 | epoch 37 | step 50] loss=0.233753
+Stage 1 Epoch 37 | L1=0.079493  PSNR↑=20.8863  SSIM↑=0.8858  MS-SSIM↑=0.9139  LPIPS↓=0.1614  time=35.9s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 38 | step 25] loss=0.242366
+[stage 1 | epoch 38 | step 50] loss=0.237827
+Stage 1 Epoch 38 | L1=0.079795  PSNR↑=20.8405  SSIM↑=0.8875  MS-SSIM↑=0.9143  LPIPS↓=0.1590  time=20.8s
+[stage 1 | epoch 39 | step 25] loss=0.212597
+[stage 1 | epoch 39 | step 50] loss=0.224981
+Stage 1 Epoch 39 | L1=0.080807  PSNR↑=20.7358  SSIM↑=0.8838  MS-SSIM↑=0.9125  LPIPS↓=0.1633  time=35.7s
+[stage 1 | epoch 40 | step 25] loss=0.221857
+[stage 1 | epoch 40 | step 50] loss=0.232338
+Stage 1 Epoch 40 | L1=0.079359  PSNR↑=20.8209  SSIM↑=0.8879  MS-SSIM↑=0.9151  LPIPS↓=0.1626  time=26.0s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[FULL EVAL] stage=1 epoch=40 | PSNR↑=20.8209  SSIM↑=0.8879  MS-SSIM↑=0.9151  LPIPS↓=0.1626  NIQE↓=4.4898  UIQM↑=318.0331  UCIQE↑=inf
+[stage 1 | epoch 41 | step 25] loss=0.232580
+[stage 1 | epoch 41 | step 50] loss=0.238087
+Stage 1 Epoch 41 | L1=0.079502  PSNR↑=20.8972  SSIM↑=0.8857  MS-SSIM↑=0.9165  LPIPS↓=0.1595  time=19.5s
+[stage 1 | epoch 42 | step 25] loss=0.219572
+[stage 1 | epoch 42 | step 50] loss=0.236079
+Stage 1 Epoch 42 | L1=0.079611  PSNR↑=20.7972  SSIM↑=0.8862  MS-SSIM↑=0.9132  LPIPS↓=0.1621  time=37.1s
+[stage 1 | epoch 43 | step 25] loss=0.233181
+[stage 1 | epoch 43 | step 50] loss=0.230994
+Stage 1 Epoch 43 | L1=0.079286  PSNR↑=20.8589  SSIM↑=0.8865  MS-SSIM↑=0.9143  LPIPS↓=0.1614  time=24.7s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 44 | step 25] loss=0.234127
+[stage 1 | epoch 44 | step 50] loss=0.237704
+Stage 1 Epoch 44 | L1=0.079111  PSNR↑=20.8483  SSIM↑=0.8887  MS-SSIM↑=0.9149  LPIPS↓=0.1605  time=23.8s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 45 | step 25] loss=0.220988
+[stage 1 | epoch 45 | step 50] loss=0.229780
+Stage 1 Epoch 45 | L1=0.080131  PSNR↑=20.7476  SSIM↑=0.8850  MS-SSIM↑=0.9118  LPIPS↓=0.1630  time=37.6s
+[stage 1 | epoch 46 | step 25] loss=0.235424
+[stage 1 | epoch 46 | step 50] loss=0.230414
+Stage 1 Epoch 46 | L1=0.079313  PSNR↑=20.9086  SSIM↑=0.8871  MS-SSIM↑=0.9153  LPIPS↓=0.1616  time=31.1s
+[stage 1 | epoch 47 | step 25] loss=0.234418
+[stage 1 | epoch 47 | step 50] loss=0.231012
+Stage 1 Epoch 47 | L1=0.079231  PSNR↑=20.9756  SSIM↑=0.8866  MS-SSIM↑=0.9141  LPIPS↓=0.1607  time=26.0s
+[stage 1 | epoch 48 | step 25] loss=0.222936
+[stage 1 | epoch 48 | step 50] loss=0.228558
+Stage 1 Epoch 48 | L1=0.077426  PSNR↑=21.1213  SSIM↑=0.8921  MS-SSIM↑=0.9212  LPIPS↓=0.1576  time=20.0s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 49 | step 25] loss=0.233003
+[stage 1 | epoch 49 | step 50] loss=0.231409
+Stage 1 Epoch 49 | L1=0.079583  PSNR↑=20.8263  SSIM↑=0.8863  MS-SSIM↑=0.9136  LPIPS↓=0.1626  time=19.4s
+[stage 1 | epoch 50 | step 25] loss=0.237371
+[stage 1 | epoch 50 | step 50] loss=0.233138
+Stage 1 Epoch 50 | L1=0.079672  PSNR↑=20.8714  SSIM↑=0.8838  MS-SSIM↑=0.9137  LPIPS↓=0.1588  time=22.2s
+[stage 1 | epoch 51 | step 25] loss=0.236019
+[stage 1 | epoch 51 | step 50] loss=0.234376
+Stage 1 Epoch 51 | L1=0.078914  PSNR↑=20.7659  SSIM↑=0.8871  MS-SSIM↑=0.9133  LPIPS↓=0.1608  time=19.9s
+[stage 1 | epoch 52 | step 25] loss=0.231853
+[stage 1 | epoch 52 | step 50] loss=0.234269
+Stage 1 Epoch 52 | L1=0.078645  PSNR↑=20.8703  SSIM↑=0.8870  MS-SSIM↑=0.9152  LPIPS↓=0.1609  time=19.6s
+[stage 1 | epoch 53 | step 25] loss=0.226168
+[stage 1 | epoch 53 | step 50] loss=0.227126
+Stage 1 Epoch 53 | L1=0.079507  PSNR↑=20.7720  SSIM↑=0.8887  MS-SSIM↑=0.9147  LPIPS↓=0.1608  time=20.6s
+[stage 1 | epoch 54 | step 25] loss=0.231049
+[stage 1 | epoch 54 | step 50] loss=0.233252
+Stage 1 Epoch 54 | L1=0.078328  PSNR↑=20.8635  SSIM↑=0.8885  MS-SSIM↑=0.9149  LPIPS↓=0.1629  time=19.3s
+[stage 1 | epoch 55 | step 25] loss=0.239795
+[stage 1 | epoch 55 | step 50] loss=0.232299
+Stage 1 Epoch 55 | L1=0.077290  PSNR↑=21.0817  SSIM↑=0.8891  MS-SSIM↑=0.9177  LPIPS↓=0.1571  time=20.6s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 56 | step 25] loss=0.237110
+[stage 1 | epoch 56 | step 50] loss=0.235268
+Stage 1 Epoch 56 | L1=0.079160  PSNR↑=20.7650  SSIM↑=0.8867  MS-SSIM↑=0.9128  LPIPS↓=0.1649  time=22.5s
+[stage 1 | epoch 57 | step 25] loss=0.240770
+[stage 1 | epoch 57 | step 50] loss=0.239498
+Stage 1 Epoch 57 | L1=0.078004  PSNR↑=20.9700  SSIM↑=0.8873  MS-SSIM↑=0.9143  LPIPS↓=0.1585  time=21.4s
+[stage 1 | epoch 58 | step 25] loss=0.234171
+[stage 1 | epoch 58 | step 50] loss=0.231231
+Stage 1 Epoch 58 | L1=0.077755  PSNR↑=20.9829  SSIM↑=0.8880  MS-SSIM↑=0.9151  LPIPS↓=0.1590  time=19.4s
+[stage 1 | epoch 59 | step 25] loss=0.229624
+[stage 1 | epoch 59 | step 50] loss=0.237433
+Stage 1 Epoch 59 | L1=0.079167  PSNR↑=20.8930  SSIM↑=0.8851  MS-SSIM↑=0.9121  LPIPS↓=0.1597  time=22.2s
+[stage 1 | epoch 60 | step 25] loss=0.222415
+[stage 1 | epoch 60 | step 50] loss=0.221455
+Stage 1 Epoch 60 | L1=0.077244  PSNR↑=21.0573  SSIM↑=0.8905  MS-SSIM↑=0.9181  LPIPS↓=0.1578  time=21.4s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[FULL EVAL] stage=1 epoch=60 | PSNR↑=21.0573  SSIM↑=0.8905  MS-SSIM↑=0.9181  LPIPS↓=0.1578  NIQE↓=4.4719  UIQM↑=322.1182  UCIQE↑=inf
+[stage 1 | epoch 61 | step 25] loss=0.228921
+[stage 1 | epoch 61 | step 50] loss=0.231090
+Stage 1 Epoch 61 | L1=0.077892  PSNR↑=20.9881  SSIM↑=0.8896  MS-SSIM↑=0.9179  LPIPS↓=0.1570  time=20.9s
+[stage 1 | epoch 62 | step 25] loss=0.226655
+[stage 1 | epoch 62 | step 50] loss=0.227721
+Stage 1 Epoch 62 | L1=0.078047  PSNR↑=20.9770  SSIM↑=0.8876  MS-SSIM↑=0.9149  LPIPS↓=0.1568  time=19.3s
+[stage 1 | epoch 63 | step 25] loss=0.238103
+[stage 1 | epoch 63 | step 50] loss=0.238771
+Stage 1 Epoch 63 | L1=0.078631  PSNR↑=20.9595  SSIM↑=0.8867  MS-SSIM↑=0.9141  LPIPS↓=0.1593  time=21.9s
+[stage 1 | epoch 64 | step 25] loss=0.230435
+[stage 1 | epoch 64 | step 50] loss=0.233663
+Stage 1 Epoch 64 | L1=0.079509  PSNR↑=20.7504  SSIM↑=0.8828  MS-SSIM↑=0.9093  LPIPS↓=0.1637  time=19.4s
+[stage 1 | epoch 65 | step 25] loss=0.225310
+[stage 1 | epoch 65 | step 50] loss=0.220098
+Stage 1 Epoch 65 | L1=0.077718  PSNR↑=21.1227  SSIM↑=0.8881  MS-SSIM↑=0.9157  LPIPS↓=0.1557  time=19.2s
+[stage 1 | epoch 66 | step 25] loss=0.220785
+[stage 1 | epoch 66 | step 50] loss=0.220800
+Stage 1 Epoch 66 | L1=0.076938  PSNR↑=21.0863  SSIM↑=0.8872  MS-SSIM↑=0.9165  LPIPS↓=0.1600  time=19.2s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 67 | step 25] loss=0.237254
+[stage 1 | epoch 67 | step 50] loss=0.229922
+Stage 1 Epoch 67 | L1=0.076331  PSNR↑=21.2591  SSIM↑=0.8917  MS-SSIM↑=0.9207  LPIPS↓=0.1552  time=26.0s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 68 | step 25] loss=0.235546
+[stage 1 | epoch 68 | step 50] loss=0.233280
+Stage 1 Epoch 68 | L1=0.079090  PSNR↑=20.8921  SSIM↑=0.8875  MS-SSIM↑=0.9129  LPIPS↓=0.1585  time=25.8s
+[stage 1 | epoch 69 | step 25] loss=0.239737
+[stage 1 | epoch 69 | step 50] loss=0.231143
+Stage 1 Epoch 69 | L1=0.076485  PSNR↑=21.0762  SSIM↑=0.8897  MS-SSIM↑=0.9194  LPIPS↓=0.1589  time=35.9s
+[stage 1 | epoch 70 | step 25] loss=0.239367
+[stage 1 | epoch 70 | step 50] loss=0.235767
+Stage 1 Epoch 70 | L1=0.079913  PSNR↑=20.7010  SSIM↑=0.8842  MS-SSIM↑=0.9101  LPIPS↓=0.1597  time=25.5s
+[stage 1 | epoch 71 | step 25] loss=0.228826
+[stage 1 | epoch 71 | step 50] loss=0.228072
+Stage 1 Epoch 71 | L1=0.077078  PSNR↑=20.9598  SSIM↑=0.8877  MS-SSIM↑=0.9156  LPIPS↓=0.1608  time=35.7s
+[stage 1 | epoch 72 | step 25] loss=0.224580
+[stage 1 | epoch 72 | step 50] loss=0.229917
+Stage 1 Epoch 72 | L1=0.077234  PSNR↑=21.0625  SSIM↑=0.8890  MS-SSIM↑=0.9153  LPIPS↓=0.1569  time=29.9s
+[stage 1 | epoch 73 | step 25] loss=0.220007
+[stage 1 | epoch 73 | step 50] loss=0.221764
+Stage 1 Epoch 73 | L1=0.077172  PSNR↑=21.0194  SSIM↑=0.8880  MS-SSIM↑=0.9160  LPIPS↓=0.1584  time=26.1s
+[stage 1 | epoch 74 | step 25] loss=0.226855
+[stage 1 | epoch 74 | step 50] loss=0.225352
+Stage 1 Epoch 74 | L1=0.076008  PSNR↑=21.2488  SSIM↑=0.8898  MS-SSIM↑=0.9186  LPIPS↓=0.1544  time=25.5s
+  ✅ saved stage best: stage_01_best.pt
+[stage 1 | epoch 75 | step 25] loss=0.231393
+[stage 1 | epoch 75 | step 50] loss=0.232066
+Stage 1 Epoch 75 | L1=0.077258  PSNR↑=20.9705  SSIM↑=0.8862  MS-SSIM↑=0.9135  LPIPS↓=0.1616  time=30.8s
+[stage 1 | epoch 76 | step 25] loss=0.226045
+[stage 1 | epoch 76 | step 50] loss=0.227338
+Stage 1 Epoch 76 | L1=0.076344  PSNR↑=21.1325  SSIM↑=0.8917  MS-SSIM↑=0.9182  LPIPS↓=0.1555  time=55.5s
+[stage 1 | epoch 77 | step 25] loss=0.226882
+[stage 1 | epoch 77 | step 50] loss=0.230475
+Stage 1 Epoch 77 | L1=0.076831  PSNR↑=21.1938  SSIM↑=0.8909  MS-SSIM↑=0.9170  LPIPS↓=0.1544  time=45.7s
+[stage 1 | epoch 78 | step 25] loss=0.239116
+[stage 1 | epoch 78 | step 50] loss=0.237656
+Stage 1 Epoch 78 | L1=0.075327  PSNR↑=21.2704  SSIM↑=0.8906  MS-SSIM↑=0.9189  LPIPS↓=0.1538  time=19.4s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 79 | step 25] loss=0.244785
+[stage 1 | epoch 79 | step 50] loss=0.237695
+Stage 1 Epoch 79 | L1=0.076326  PSNR↑=21.2016  SSIM↑=0.8900  MS-SSIM↑=0.9175  LPIPS↓=0.1581  time=20.5s
+[stage 1 | epoch 80 | step 25] loss=0.207774
+[stage 1 | epoch 80 | step 50] loss=0.220767
+Stage 1 Epoch 80 | L1=0.076956  PSNR↑=21.0781  SSIM↑=0.8886  MS-SSIM↑=0.9156  LPIPS↓=0.1575  time=19.8s
+[FULL EVAL] stage=1 epoch=80 | PSNR↑=21.0781  SSIM↑=0.8886  MS-SSIM↑=0.9156  LPIPS↓=0.1575  NIQE↓=4.4669  UIQM↑=314.8614  UCIQE↑=inf
+[stage 1 | epoch 81 | step 25] loss=0.231685
+[stage 1 | epoch 81 | step 50] loss=0.225073
+Stage 1 Epoch 81 | L1=0.075329  PSNR↑=21.3194  SSIM↑=0.8925  MS-SSIM↑=0.9213  LPIPS↓=0.1538  time=21.7s
+[stage 1 | epoch 82 | step 25] loss=0.219598
+[stage 1 | epoch 82 | step 50] loss=0.222060
+Stage 1 Epoch 82 | L1=0.074652  PSNR↑=21.3454  SSIM↑=0.8951  MS-SSIM↑=0.9220  LPIPS↓=0.1542  time=20.4s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 83 | step 25] loss=0.222095
+[stage 1 | epoch 83 | step 50] loss=0.225527
+Stage 1 Epoch 83 | L1=0.077162  PSNR↑=21.1448  SSIM↑=0.8919  MS-SSIM↑=0.9177  LPIPS↓=0.1541  time=21.2s
+[stage 1 | epoch 84 | step 25] loss=0.222303
+[stage 1 | epoch 84 | step 50] loss=0.229767
+Stage 1 Epoch 84 | L1=0.075825  PSNR↑=21.2426  SSIM↑=0.8932  MS-SSIM↑=0.9195  LPIPS↓=0.1535  time=21.9s
+[stage 1 | epoch 85 | step 25] loss=0.236594
+[stage 1 | epoch 85 | step 50] loss=0.230087
+Stage 1 Epoch 85 | L1=0.075241  PSNR↑=21.2492  SSIM↑=0.8926  MS-SSIM↑=0.9207  LPIPS↓=0.1572  time=19.6s
+[stage 1 | epoch 86 | step 25] loss=0.213047
+[stage 1 | epoch 86 | step 50] loss=0.217789
+Stage 1 Epoch 86 | L1=0.076001  PSNR↑=21.2850  SSIM↑=0.8897  MS-SSIM↑=0.9199  LPIPS↓=0.1557  time=22.1s
+[stage 1 | epoch 87 | step 25] loss=0.229105
+[stage 1 | epoch 87 | step 50] loss=0.225554
+Stage 1 Epoch 87 | L1=0.075246  PSNR↑=21.1990  SSIM↑=0.8920  MS-SSIM↑=0.9190  LPIPS↓=0.1562  time=21.1s
+[stage 1 | epoch 88 | step 25] loss=0.239953
+[stage 1 | epoch 88 | step 50] loss=0.230931
+Stage 1 Epoch 88 | L1=0.075313  PSNR↑=21.2636  SSIM↑=0.8904  MS-SSIM↑=0.9178  LPIPS↓=0.1539  time=19.7s
+[stage 1 | epoch 89 | step 25] loss=0.230691
+[stage 1 | epoch 89 | step 50] loss=0.230115
+Stage 1 Epoch 89 | L1=0.075041  PSNR↑=21.3525  SSIM↑=0.8915  MS-SSIM↑=0.9207  LPIPS↓=0.1544  time=19.9s
+[stage 1 | epoch 90 | step 25] loss=0.234470
+[stage 1 | epoch 90 | step 50] loss=0.237105
+Stage 1 Epoch 90 | L1=0.075784  PSNR↑=21.1668  SSIM↑=0.8883  MS-SSIM↑=0.9146  LPIPS↓=0.1571  time=22.2s
+[stage 1 | epoch 91 | step 25] loss=0.225079
+[stage 1 | epoch 91 | step 50] loss=0.230177
+Stage 1 Epoch 91 | L1=0.077207  PSNR↑=21.1134  SSIM↑=0.8886  MS-SSIM↑=0.9150  LPIPS↓=0.1562  time=19.1s
+[stage 1 | epoch 92 | step 25] loss=0.213294
+[stage 1 | epoch 92 | step 50] loss=0.217383
+Stage 1 Epoch 92 | L1=0.076305  PSNR↑=21.1753  SSIM↑=0.8912  MS-SSIM↑=0.9180  LPIPS↓=0.1563  time=22.0s
+[stage 1 | epoch 93 | step 25] loss=0.239674
+[stage 1 | epoch 93 | step 50] loss=0.229681
+Stage 1 Epoch 93 | L1=0.075672  PSNR↑=21.2336  SSIM↑=0.8893  MS-SSIM↑=0.9166  LPIPS↓=0.1561  time=19.2s
+[stage 1 | epoch 94 | step 25] loss=0.228750
+[stage 1 | epoch 94 | step 50] loss=0.234530
+Stage 1 Epoch 94 | L1=0.076354  PSNR↑=21.1187  SSIM↑=0.8881  MS-SSIM↑=0.9151  LPIPS↓=0.1561  time=20.6s
+[stage 1 | epoch 95 | step 25] loss=0.223806
+[stage 1 | epoch 95 | step 50] loss=0.225690
+Stage 1 Epoch 95 | L1=0.075469  PSNR↑=21.2457  SSIM↑=0.8894  MS-SSIM↑=0.9175  LPIPS↓=0.1551  time=20.4s
+[stage 1 | epoch 96 | step 25] loss=0.234737
+[stage 1 | epoch 96 | step 50] loss=0.228883
+Stage 1 Epoch 96 | L1=0.075159  PSNR↑=21.2588  SSIM↑=0.8929  MS-SSIM↑=0.9188  LPIPS↓=0.1550  time=21.0s
+[stage 1 | epoch 97 | step 25] loss=0.230269
+[stage 1 | epoch 97 | step 50] loss=0.233182
+Stage 1 Epoch 97 | L1=0.076161  PSNR↑=21.1584  SSIM↑=0.8900  MS-SSIM↑=0.9167  LPIPS↓=0.1558  time=19.9s
+[stage 1 | epoch 98 | step 25] loss=0.215477
+[stage 1 | epoch 98 | step 50] loss=0.228815
+Stage 1 Epoch 98 | L1=0.074679  PSNR↑=21.2814  SSIM↑=0.8921  MS-SSIM↑=0.9196  LPIPS↓=0.1544  time=43.1s
+[stage 1 | epoch 99 | step 25] loss=0.233418
+[stage 1 | epoch 99 | step 50] loss=0.231543
+Stage 1 Epoch 99 | L1=0.075546  PSNR↑=21.2815  SSIM↑=0.8902  MS-SSIM↑=0.9184  LPIPS↓=0.1536  time=31.3s
+[stage 1 | epoch 100 | step 25] loss=0.232471
+[stage 1 | epoch 100 | step 50] loss=0.229893
+Stage 1 Epoch 100 | L1=0.074851  PSNR↑=21.3357  SSIM↑=0.8937  MS-SSIM↑=0.9206  LPIPS↓=0.1543  time=25.5s
+[FULL EVAL] stage=1 epoch=100 | PSNR↑=21.3357  SSIM↑=0.8937  MS-SSIM↑=0.9206  LPIPS↓=0.1543  NIQE↓=4.4692  UIQM↑=325.7312  UCIQE↑=inf
+[stage 1 | epoch 101 | step 25] loss=0.240006
+[stage 1 | epoch 101 | step 50] loss=0.235271
+Stage 1 Epoch 101 | L1=0.075479  PSNR↑=21.2307  SSIM↑=0.8902  MS-SSIM↑=0.9169  LPIPS↓=0.1560  time=30.9s
+[stage 1 | epoch 102 | step 25] loss=0.230628
+[stage 1 | epoch 102 | step 50] loss=0.230995
+Stage 1 Epoch 102 | L1=0.075036  PSNR↑=21.2224  SSIM↑=0.8935  MS-SSIM↑=0.9215  LPIPS↓=0.1586  time=19.2s
+[stage 1 | epoch 103 | step 25] loss=0.239565
+[stage 1 | epoch 103 | step 50] loss=0.235719
+Stage 1 Epoch 103 | L1=0.077199  PSNR↑=21.0360  SSIM↑=0.8853  MS-SSIM↑=0.9137  LPIPS↓=0.1587  time=20.5s
+[stage 1 | epoch 104 | step 25] loss=0.226035
+[stage 1 | epoch 104 | step 50] loss=0.224153
+Stage 1 Epoch 104 | L1=0.075390  PSNR↑=21.1412  SSIM↑=0.8925  MS-SSIM↑=0.9203  LPIPS↓=0.1565  time=19.8s
+[stage 1 | epoch 105 | step 25] loss=0.224687
+[stage 1 | epoch 105 | step 50] loss=0.221933
+Stage 1 Epoch 105 | L1=0.074928  PSNR↑=21.3685  SSIM↑=0.8923  MS-SSIM↑=0.9205  LPIPS↓=0.1551  time=21.4s
+[stage 1 | epoch 106 | step 25] loss=0.221938
+[stage 1 | epoch 106 | step 50] loss=0.229598
+Stage 1 Epoch 106 | L1=0.075302  PSNR↑=21.2559  SSIM↑=0.8967  MS-SSIM↑=0.9233  LPIPS↓=0.1567  time=19.2s
+[stage 1 | epoch 107 | step 25] loss=0.224060
+[stage 1 | epoch 107 | step 50] loss=0.223755
+Stage 1 Epoch 107 | L1=0.074485  PSNR↑=21.3964  SSIM↑=0.8946  MS-SSIM↑=0.9228  LPIPS↓=0.1551  time=19.4s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 108 | step 25] loss=0.214664
+[stage 1 | epoch 108 | step 50] loss=0.223183
+Stage 1 Epoch 108 | L1=0.076407  PSNR↑=21.1498  SSIM↑=0.8941  MS-SSIM↑=0.9195  LPIPS↓=0.1550  time=19.4s
+[stage 1 | epoch 109 | step 25] loss=0.229244
+[stage 1 | epoch 109 | step 50] loss=0.229954
+Stage 1 Epoch 109 | L1=0.075132  PSNR↑=21.3103  SSIM↑=0.8904  MS-SSIM↑=0.9188  LPIPS↓=0.1541  time=21.6s
+[stage 1 | epoch 110 | step 25] loss=0.223550
+[stage 1 | epoch 110 | step 50] loss=0.223837
+Stage 1 Epoch 110 | L1=0.075160  PSNR↑=21.2328  SSIM↑=0.8906  MS-SSIM↑=0.9199  LPIPS↓=0.1574  time=21.0s
+[stage 1 | epoch 111 | step 25] loss=0.232180
+[stage 1 | epoch 111 | step 50] loss=0.230769
+Stage 1 Epoch 111 | L1=0.076093  PSNR↑=21.1364  SSIM↑=0.8889  MS-SSIM↑=0.9158  LPIPS↓=0.1548  time=20.0s
+[stage 1 | epoch 112 | step 25] loss=0.230860
+[stage 1 | epoch 112 | step 50] loss=0.224751
+Stage 1 Epoch 112 | L1=0.075153  PSNR↑=21.2752  SSIM↑=0.8914  MS-SSIM↑=0.9187  LPIPS↓=0.1550  time=21.1s
+[stage 1 | epoch 113 | step 25] loss=0.235979
+[stage 1 | epoch 113 | step 50] loss=0.231423
+Stage 1 Epoch 113 | L1=0.074090  PSNR↑=21.3316  SSIM↑=0.8932  MS-SSIM↑=0.9189  LPIPS↓=0.1537  time=19.5s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[stage 1 | epoch 114 | step 25] loss=0.227847
+[stage 1 | epoch 114 | step 50] loss=0.227494
+Stage 1 Epoch 114 | L1=0.075299  PSNR↑=21.2748  SSIM↑=0.8932  MS-SSIM↑=0.9198  LPIPS↓=0.1528  time=22.2s
+[stage 1 | epoch 115 | step 25] loss=0.214587
+[stage 1 | epoch 115 | step 50] loss=0.223187
+Stage 1 Epoch 115 | L1=0.074780  PSNR↑=21.3647  SSIM↑=0.8911  MS-SSIM↑=0.9198  LPIPS↓=0.1537  time=20.9s
+[stage 1 | epoch 116 | step 25] loss=0.215665
+[stage 1 | epoch 116 | step 50] loss=0.219965
+Stage 1 Epoch 116 | L1=0.076070  PSNR↑=21.1364  SSIM↑=0.8898  MS-SSIM↑=0.9163  LPIPS↓=0.1570  time=19.9s
+[stage 1 | epoch 117 | step 25] loss=0.218703
+[stage 1 | epoch 117 | step 50] loss=0.220282
+Stage 1 Epoch 117 | L1=0.075750  PSNR↑=21.1620  SSIM↑=0.8922  MS-SSIM↑=0.9181  LPIPS↓=0.1547  time=21.6s
+[stage 1 | epoch 118 | step 25] loss=0.231457
+[stage 1 | epoch 118 | step 50] loss=0.230511
+Stage 1 Epoch 118 | L1=0.074789  PSNR↑=21.2430  SSIM↑=0.8909  MS-SSIM↑=0.9199  LPIPS↓=0.1578  time=19.1s
+[stage 1 | epoch 119 | step 25] loss=0.231060
+[stage 1 | epoch 119 | step 50] loss=0.232861
+Stage 1 Epoch 119 | L1=0.075627  PSNR↑=21.2099  SSIM↑=0.8900  MS-SSIM↑=0.9172  LPIPS↓=0.1550  time=19.5s
+[stage 1 | epoch 120 | step 25] loss=0.220340
+[stage 1 | epoch 120 | step 50] loss=0.218051
+Stage 1 Epoch 120 | L1=0.073919  PSNR↑=21.3763  SSIM↑=0.8929  MS-SSIM↑=0.9221  LPIPS↓=0.1555  time=21.5s
+  ✅ saved stage best: stage_01_best.pt
+  ✅ saved global_best.pt
+[FULL EVAL] stage=1 epoch=120 | PSNR↑=21.3763  SSIM↑=0.8929  MS-SSIM↑=0.9221  LPIPS↓=0.1555  NIQE↓=4.4423  UIQM↑=325.7759  UCIQE↑=inf
+
+========== STAGE 2/5 | crop=320 | batch=12 | lr=0.00025 ==========
+
+[stage 2 | epoch 1 | step 25] loss=0.212426
+[stage 2 | epoch 1 | step 50] loss=0.218677
+Stage 2 Epoch 1 | L1=0.075153  PSNR↑=21.3755  SSIM↑=0.8959  MS-SSIM↑=0.9223  LPIPS↓=0.1574  time=20.0s
+  ✅ saved stage best: stage_02_best.pt
+[stage 2 | epoch 2 | step 25] loss=0.233990
+[stage 2 | epoch 2 | step 50] loss=0.235356
+Stage 2 Epoch 2 | L1=0.074737  PSNR↑=21.2987  SSIM↑=0.8942  MS-SSIM↑=0.9200  LPIPS↓=0.1553  time=20.1s
+  ✅ saved stage best: stage_02_best.pt
+[stage 2 | epoch 3 | step 25] loss=0.222593
+[stage 2 | epoch 3 | step 50] loss=0.226952
+Stage 2 Epoch 3 | L1=0.074792  PSNR↑=21.3249  SSIM↑=0.8942  MS-SSIM↑=0.9213  LPIPS↓=0.1566  time=20.5s
+[stage 2 | epoch 4 | step 25] loss=0.234560
+[stage 2 | epoch 4 | step 50] loss=0.231240
+Stage 2 Epoch 4 | L1=0.076745  PSNR↑=21.0681  SSIM↑=0.8905  MS-SSIM↑=0.9170  LPIPS↓=0.1582  time=24.9s
+[stage 2 | epoch 5 | step 25] loss=0.239055
+[stage 2 | epoch 5 | step 50] loss=0.230979
+Stage 2 Epoch 5 | L1=0.076270  PSNR↑=21.0736  SSIM↑=0.8898  MS-SSIM↑=0.9185  LPIPS↓=0.1599  time=21.5s
+[stage 2 | epoch 6 | step 25] loss=0.230408
+[stage 2 | epoch 6 | step 50] loss=0.231506
+Stage 2 Epoch 6 | L1=0.076526  PSNR↑=21.2229  SSIM↑=0.8929  MS-SSIM↑=0.9197  LPIPS↓=0.1561  time=26.1s
+[stage 2 | epoch 7 | step 25] loss=0.230307
+[stage 2 | epoch 7 | step 50] loss=0.232249
+Stage 2 Epoch 7 | L1=0.075564  PSNR↑=21.2180  SSIM↑=0.8905  MS-SSIM↑=0.9174  LPIPS↓=0.1598  time=31.8s
+[stage 2 | epoch 8 | step 25] loss=0.235380
+[stage 2 | epoch 8 | step 50] loss=0.237616
+Stage 2 Epoch 8 | L1=0.074634  PSNR↑=21.3313  SSIM↑=0.8960  MS-SSIM↑=0.9212  LPIPS↓=0.1566  time=26.6s
+  ✅ saved stage best: stage_02_best.pt
+[stage 2 | epoch 9 | step 25] loss=0.229156
+[stage 2 | epoch 9 | step 50] loss=0.224069
+Stage 2 Epoch 9 | L1=0.074562  PSNR↑=21.2512  SSIM↑=0.8938  MS-SSIM↑=0.9220  LPIPS↓=0.1571  time=35.8s
+  ✅ saved stage best: stage_02_best.pt
+[stage 2 | epoch 10 | step 25] loss=0.220570
+[stage 2 | epoch 10 | step 50] loss=0.224138
+Stage 2 Epoch 10 | L1=0.075604  PSNR↑=21.2326  SSIM↑=0.8930  MS-SSIM↑=0.9184  LPIPS↓=0.1588  time=56.3s
+[stage 2 | epoch 11 | step 25] loss=0.219631
+[stage 2 | epoch 11 | step 50] loss=0.233862
+Stage 2 Epoch 11 | L1=0.075053  PSNR↑=21.2702  SSIM↑=0.8908  MS-SSIM↑=0.9181  LPIPS↓=0.1580  time=20.4s
+[stage 2 | epoch 12 | step 25] loss=0.220805
+[stage 2 | epoch 12 | step 50] loss=0.229909
+Stage 2 Epoch 12 | L1=0.076244  PSNR↑=21.0448  SSIM↑=0.8921  MS-SSIM↑=0.9191  LPIPS↓=0.1639  time=19.7s
+[stage 2 | epoch 13 | step 25] loss=0.242251
+[stage 2 | epoch 13 | step 50] loss=0.232189
+Stage 2 Epoch 13 | L1=0.077558  PSNR↑=21.0265  SSIM↑=0.8886  MS-SSIM↑=0.9164  LPIPS↓=0.1608  time=22.0s
+[stage 2 | epoch 14 | step 25] loss=0.228534
+[stage 2 | epoch 14 | step 50] loss=0.225289
+Stage 2 Epoch 14 | L1=0.077198  PSNR↑=21.0434  SSIM↑=0.8877  MS-SSIM↑=0.9146  LPIPS↓=0.1610  time=21.7s
+[stage 2 | epoch 15 | step 25] loss=0.226295
+[stage 2 | epoch 15 | step 50] loss=0.223349
+Stage 2 Epoch 15 | L1=0.075280  PSNR↑=21.2728  SSIM↑=0.8946  MS-SSIM↑=0.9192  LPIPS↓=0.1583  time=18.9s
+[stage 2 | epoch 16 | step 25] loss=0.226878
+[stage 2 | epoch 16 | step 50] loss=0.230494
+Stage 2 Epoch 16 | L1=0.074994  PSNR↑=21.2705  SSIM↑=0.8962  MS-SSIM↑=0.9213  LPIPS↓=0.1567  time=20.9s
+[stage 2 | epoch 17 | step 25] loss=0.231858
+[stage 2 | epoch 17 | step 50] loss=0.235284
+Stage 2 Epoch 17 | L1=0.074712  PSNR↑=21.2909  SSIM↑=0.8935  MS-SSIM↑=0.9204  LPIPS↓=0.1589  time=20.4s
+[stage 2 | epoch 18 | step 25] loss=0.224187
+[stage 2 | epoch 18 | step 50] loss=0.221814
+Stage 2 Epoch 18 | L1=0.075470  PSNR↑=21.2646  SSIM↑=0.8911  MS-SSIM↑=0.9176  LPIPS↓=0.1580  time=19.4s
+[stage 2 | epoch 19 | step 25] loss=0.218323
+[stage 2 | epoch 19 | step 50] loss=0.224551
+Stage 2 Epoch 19 | L1=0.073771  PSNR↑=21.4045  SSIM↑=0.8956  MS-SSIM↑=0.9213  LPIPS↓=0.1578  time=20.9s
+  ✅ saved stage best: stage_02_best.pt
+  ✅ saved global_best.pt
+[stage 2 | epoch 20 | step 25] loss=0.230640
+[stage 2 | epoch 20 | step 50] loss=0.229422
+Stage 2 Epoch 20 | L1=0.075721  PSNR↑=21.2076  SSIM↑=0.8904  MS-SSIM↑=0.9173  LPIPS↓=0.1586  time=20.1s
+[FULL EVAL] stage=2 epoch=20 | PSNR↑=21.2076  SSIM↑=0.8904  MS-SSIM↑=0.9173  LPIPS↓=0.1586  NIQE↓=3.8370  UIQM↑=298.9634  UCIQE↑=inf
+[stage 2 | epoch 21 | step 25] loss=0.237202
+[stage 2 | epoch 21 | step 50] loss=0.232458
+Stage 2 Epoch 21 | L1=0.075038  PSNR↑=21.3158  SSIM↑=0.8927  MS-SSIM↑=0.9201  LPIPS↓=0.1562  time=18.2s
+[stage 2 | epoch 22 | step 25] loss=0.214615
+[stage 2 | epoch 22 | step 50] loss=0.223450
+Stage 2 Epoch 22 | L1=0.074251  PSNR↑=21.3253  SSIM↑=0.8939  MS-SSIM↑=0.9199  LPIPS↓=0.1576  time=19.1s
+[stage 2 | epoch 23 | step 25] loss=0.219592
+[stage 2 | epoch 23 | step 50] loss=0.228688
+Stage 2 Epoch 23 | L1=0.074832  PSNR↑=21.3167  SSIM↑=0.8936  MS-SSIM↑=0.9205  LPIPS↓=0.1566  time=19.7s
+[stage 2 | epoch 24 | step 25] loss=0.218878
+[stage 2 | epoch 24 | step 50] loss=0.226543
+Stage 2 Epoch 24 | L1=0.075559  PSNR↑=21.2794  SSIM↑=0.8918  MS-SSIM↑=0.9177  LPIPS↓=0.1573  time=18.7s
+[stage 2 | epoch 25 | step 25] loss=0.238233
+[stage 2 | epoch 25 | step 50] loss=0.230526
+Stage 2 Epoch 25 | L1=0.074898  PSNR↑=21.2681  SSIM↑=0.8901  MS-SSIM↑=0.9176  LPIPS↓=0.1583  time=18.3s
+[stage 2 | epoch 26 | step 25] loss=0.215143
+[stage 2 | epoch 26 | step 50] loss=0.224361
+Stage 2 Epoch 26 | L1=0.075830  PSNR↑=21.2529  SSIM↑=0.8928  MS-SSIM↑=0.9187  LPIPS↓=0.1572  time=19.2s
+[stage 2 | epoch 27 | step 25] loss=0.220129
+[stage 2 | epoch 27 | step 50] loss=0.232121
+Stage 2 Epoch 27 | L1=0.075784  PSNR↑=21.1394  SSIM↑=0.8910  MS-SSIM↑=0.9185  LPIPS↓=0.1617  time=20.7s
+[stage 2 | epoch 28 | step 25] loss=0.233352
+[stage 2 | epoch 28 | step 50] loss=0.224414
+Stage 2 Epoch 28 | L1=0.074382  PSNR↑=21.3576  SSIM↑=0.8927  MS-SSIM↑=0.9209  LPIPS↓=0.1557  time=19.6s
+[stage 2 | epoch 29 | step 25] loss=0.215037
+[stage 2 | epoch 29 | step 50] loss=0.220250
+Stage 2 Epoch 29 | L1=0.076921  PSNR↑=21.1363  SSIM↑=0.8903  MS-SSIM↑=0.9156  LPIPS↓=0.1595  time=19.9s
+[stage 2 | epoch 30 | step 25] loss=0.234331
+[stage 2 | epoch 30 | step 50] loss=0.227916
+Stage 2 Epoch 30 | L1=0.075566  PSNR↑=21.2469  SSIM↑=0.8935  MS-SSIM↑=0.9208  LPIPS↓=0.1582  time=19.6s
+[stage 2 | epoch 31 | step 25] loss=0.225971
+[stage 2 | epoch 31 | step 50] loss=0.224062
+Stage 2 Epoch 31 | L1=0.075226  PSNR↑=21.2473  SSIM↑=0.8927  MS-SSIM↑=0.9195  LPIPS↓=0.1604  time=20.2s
+[stage 2 | epoch 32 | step 25] loss=0.237701
+[stage 2 | epoch 32 | step 50] loss=0.232002
+Stage 2 Epoch 32 | L1=0.075218  PSNR↑=21.2700  SSIM↑=0.8951  MS-SSIM↑=0.9200  LPIPS↓=0.1569  time=25.8s
+[stage 2 | epoch 33 | step 25] loss=0.212912
+[stage 2 | epoch 33 | step 50] loss=0.218176
+Stage 2 Epoch 33 | L1=0.075456  PSNR↑=21.2198  SSIM↑=0.8941  MS-SSIM↑=0.9191  LPIPS↓=0.1569  time=30.7s
+[stage 2 | epoch 34 | step 25] loss=0.224506
+[stage 2 | epoch 34 | step 50] loss=0.225036
+Stage 2 Epoch 34 | L1=0.076838  PSNR↑=21.0473  SSIM↑=0.8932  MS-SSIM↑=0.9169  LPIPS↓=0.1578  time=72.2s
+[stage 2 | epoch 35 | step 25] loss=0.241628
+[stage 2 | epoch 35 | step 50] loss=0.236771
+Stage 2 Epoch 35 | L1=0.074300  PSNR↑=21.3589  SSIM↑=0.8960  MS-SSIM↑=0.9218  LPIPS↓=0.1567  time=46.8s
+[stage 2 | epoch 36 | step 25] loss=0.229381
+[stage 2 | epoch 36 | step 50] loss=0.239373
+Stage 2 Epoch 36 | L1=0.075975  PSNR↑=21.1328  SSIM↑=0.8892  MS-SSIM↑=0.9149  LPIPS↓=0.1625  time=19.6s
+[stage 2 | epoch 37 | step 25] loss=0.221510
+[stage 2 | epoch 37 | step 50] loss=0.226683
+Stage 2 Epoch 37 | L1=0.074996  PSNR↑=21.3651  SSIM↑=0.8938  MS-SSIM↑=0.9202  LPIPS↓=0.1585  time=26.3s
+[stage 2 | epoch 38 | step 25] loss=0.230802
+[stage 2 | epoch 38 | step 50] loss=0.232077
+Stage 2 Epoch 38 | L1=0.075644  PSNR↑=21.1518  SSIM↑=0.8918  MS-SSIM↑=0.9186  LPIPS↓=0.1594  time=57.8s
+[stage 2 | epoch 39 | step 25] loss=0.224482
+[stage 2 | epoch 39 | step 50] loss=0.232753
+Stage 2 Epoch 39 | L1=0.075672  PSNR↑=21.2107  SSIM↑=0.8897  MS-SSIM↑=0.9172  LPIPS↓=0.1586  time=84.1s
+[stage 2 | epoch 40 | step 25] loss=0.221827
+[stage 2 | epoch 40 | step 50] loss=0.220384
+Stage 2 Epoch 40 | L1=0.074430  PSNR↑=21.3298  SSIM↑=0.8942  MS-SSIM↑=0.9207  LPIPS↓=0.1567  time=28.5s
+[FULL EVAL] stage=2 epoch=40 | PSNR↑=21.3298  SSIM↑=0.8942  MS-SSIM↑=0.9207  LPIPS↓=0.1567  NIQE↓=3.8447  UIQM↑=301.7066  UCIQE↑=inf
+[stage 2 | epoch 41 | step 25] loss=0.225047
+[stage 2 | epoch 41 | step 50] loss=0.223247
+Stage 2 Epoch 41 | L1=0.074505  PSNR↑=21.2688  SSIM↑=0.8955  MS-SSIM↑=0.9216  LPIPS↓=0.1571  time=22.0s
+[stage 2 | epoch 42 | step 25] loss=0.226932
+[stage 2 | epoch 42 | step 50] loss=0.225045
+Stage 2 Epoch 42 | L1=0.075523  PSNR↑=21.2363  SSIM↑=0.8944  MS-SSIM↑=0.9190  LPIPS↓=0.1580  time=23.7s
+[stage 2 | epoch 43 | step 25] loss=0.240659
+[stage 2 | epoch 43 | step 50] loss=0.239711
+Stage 2 Epoch 43 | L1=0.075093  PSNR↑=21.2621  SSIM↑=0.8916  MS-SSIM↑=0.9179  LPIPS↓=0.1577  time=46.5s
+[stage 2 | epoch 44 | step 25] loss=0.237789
+[stage 2 | epoch 44 | step 50] loss=0.236425
+Stage 2 Epoch 44 | L1=0.075780  PSNR↑=21.1524  SSIM↑=0.8913  MS-SSIM↑=0.9172  LPIPS↓=0.1596  time=19.3s
+[stage 2 | epoch 45 | step 25] loss=0.235609
+[stage 2 | epoch 45 | step 50] loss=0.231662
+Stage 2 Epoch 45 | L1=0.074938  PSNR↑=21.3213  SSIM↑=0.8924  MS-SSIM↑=0.9186  LPIPS↓=0.1566  time=22.4s
+[stage 2 | epoch 46 | step 25] loss=0.232034
+[stage 2 | epoch 46 | step 50] loss=0.233017
+Stage 2 Epoch 46 | L1=0.075454  PSNR↑=21.2479  SSIM↑=0.8929  MS-SSIM↑=0.9189  LPIPS↓=0.1569  time=19.1s
+[stage 2 | epoch 47 | step 25] loss=0.222980
+[stage 2 | epoch 47 | step 50] loss=0.226813
+Stage 2 Epoch 47 | L1=0.075229  PSNR↑=21.2641  SSIM↑=0.8926  MS-SSIM↑=0.9184  LPIPS↓=0.1572  time=21.6s
+[stage 2 | epoch 48 | step 25] loss=0.216641
+[stage 2 | epoch 48 | step 50] loss=0.227463
+Stage 2 Epoch 48 | L1=0.076065  PSNR↑=21.1884  SSIM↑=0.8888  MS-SSIM↑=0.9152  LPIPS↓=0.1578  time=18.5s
+[stage 2 | epoch 49 | step 25] loss=0.228718
+[stage 2 | epoch 49 | step 50] loss=0.224541
+Stage 2 Epoch 49 | L1=0.076138  PSNR↑=21.1583  SSIM↑=0.8879  MS-SSIM↑=0.9155  LPIPS↓=0.1575  time=19.1s
+[stage 2 | epoch 50 | step 25] loss=0.231418
+[stage 2 | epoch 50 | step 50] loss=0.234139
+Stage 2 Epoch 50 | L1=0.074920  PSNR↑=21.2230  SSIM↑=0.8941  MS-SSIM↑=0.9197  LPIPS↓=0.1602  time=34.4s
+[stage 2 | epoch 51 | step 25] loss=0.230566
+[stage 2 | epoch 51 | step 50] loss=0.227528
+Stage 2 Epoch 51 | L1=0.075573  PSNR↑=21.2828  SSIM↑=0.8929  MS-SSIM↑=0.9195  LPIPS↓=0.1578  time=25.7s
+[stage 2 | epoch 52 | step 25] loss=0.229490
+[stage 2 | epoch 52 | step 50] loss=0.237655
+Stage 2 Epoch 52 | L1=0.075979  PSNR↑=21.2240  SSIM↑=0.8921  MS-SSIM↑=0.9182  LPIPS↓=0.1602  time=19.6s
+[stage 2 | epoch 53 | step 25] loss=0.244035
+[stage 2 | epoch 53 | step 50] loss=0.232092
+Stage 2 Epoch 53 | L1=0.075360  PSNR↑=21.1777  SSIM↑=0.8920  MS-SSIM↑=0.9179  LPIPS↓=0.1611  time=46.6s
+[stage 2 | epoch 54 | step 25] loss=0.227186
+[stage 2 | epoch 54 | step 50] loss=0.228132
+Stage 2 Epoch 54 | L1=0.076341  PSNR↑=21.1989  SSIM↑=0.8912  MS-SSIM↑=0.9185  LPIPS↓=0.1634  time=19.1s
+[stage 2 | epoch 55 | step 25] loss=0.227122
+[stage 2 | epoch 55 | step 50] loss=0.227792
+Stage 2 Epoch 55 | L1=0.074479  PSNR↑=21.3901  SSIM↑=0.8946  MS-SSIM↑=0.9214  LPIPS↓=0.1571  time=19.6s
+[stage 2 | epoch 56 | step 25] loss=0.225393
+[stage 2 | epoch 56 | step 50] loss=0.229313
+Stage 2 Epoch 56 | L1=0.075009  PSNR↑=21.3614  SSIM↑=0.8946  MS-SSIM↑=0.9216  LPIPS↓=0.1571  time=18.9s
+[stage 2 | epoch 57 | step 25] loss=0.215744
+[stage 2 | epoch 57 | step 50] loss=0.219417
+Stage 2 Epoch 57 | L1=0.074493  PSNR↑=21.4210  SSIM↑=0.8974  MS-SSIM↑=0.9222  LPIPS↓=0.1553  time=19.2s
+[stage 2 | epoch 58 | step 25] loss=0.233927
+[stage 2 | epoch 58 | step 50] loss=0.232405
+Stage 2 Epoch 58 | L1=0.074614  PSNR↑=21.3161  SSIM↑=0.8924  MS-SSIM↑=0.9199  LPIPS↓=0.1586  time=20.6s
+[stage 2 | epoch 59 | step 25] loss=0.223418
+[stage 2 | epoch 59 | step 50] loss=0.226487
+Stage 2 Epoch 59 | L1=0.075155  PSNR↑=21.2796  SSIM↑=0.8924  MS-SSIM↑=0.9199  LPIPS↓=0.1567  time=21.2s
+[stage 2 | epoch 60 | step 25] loss=0.233099
+[stage 2 | epoch 60 | step 50] loss=0.224311
+Stage 2 Epoch 60 | L1=0.074148  PSNR↑=21.4086  SSIM↑=0.8939  MS-SSIM↑=0.9200  LPIPS↓=0.1568  time=19.5s
+[FULL EVAL] stage=2 epoch=60 | PSNR↑=21.4086  SSIM↑=0.8939  MS-SSIM↑=0.9200  LPIPS↓=0.1568  NIQE↓=3.8390  UIQM↑=302.6210  UCIQE↑=inf
+[stage 2 | epoch 61 | step 25] loss=0.238891
+[stage 2 | epoch 61 | step 50] loss=0.232017
+Stage 2 Epoch 61 | L1=0.073594  PSNR↑=21.4407  SSIM↑=0.8953  MS-SSIM↑=0.9218  LPIPS↓=0.1564  time=28.3s
+  ✅ saved stage best: stage_02_best.pt
+  ✅ saved global_best.pt
+[stage 2 | epoch 62 | step 25] loss=0.232631
+[stage 2 | epoch 62 | step 50] loss=0.228420
+Stage 2 Epoch 62 | L1=0.073704  PSNR↑=21.5265  SSIM↑=0.8961  MS-SSIM↑=0.9224  LPIPS↓=0.1543  time=18.9s
+[stage 2 | epoch 63 | step 25] loss=0.227787
+[stage 2 | epoch 63 | step 50] loss=0.230814
+Stage 2 Epoch 63 | L1=0.074414  PSNR↑=21.3794  SSIM↑=0.8931  MS-SSIM↑=0.9216  LPIPS↓=0.1564  time=18.8s
+[stage 2 | epoch 64 | step 25] loss=0.229771
+[stage 2 | epoch 64 | step 50] loss=0.234191
+Stage 2 Epoch 64 | L1=0.074428  PSNR↑=21.3500  SSIM↑=0.8928  MS-SSIM↑=0.9194  LPIPS↓=0.1581  time=20.6s
+[stage 2 | epoch 65 | step 25] loss=0.216537
+[stage 2 | epoch 65 | step 50] loss=0.219648
+Stage 2 Epoch 65 | L1=0.074036  PSNR↑=21.4013  SSIM↑=0.8981  MS-SSIM↑=0.9230  LPIPS↓=0.1561  time=19.7s
+[stage 2 | epoch 66 | step 25] loss=0.225394
+[stage 2 | epoch 66 | step 50] loss=0.226374
+Stage 2 Epoch 66 | L1=0.074464  PSNR↑=21.3867  SSIM↑=0.8962  MS-SSIM↑=0.9206  LPIPS↓=0.1553  time=19.9s
+[stage 2 | epoch 67 | step 25] loss=0.228296
+[stage 2 | epoch 67 | step 50] loss=0.228816
+Stage 2 Epoch 67 | L1=0.073111  PSNR↑=21.4490  SSIM↑=0.8958  MS-SSIM↑=0.9227  LPIPS↓=0.1562  time=20.1s
+  ✅ saved stage best: stage_02_best.pt
+  ✅ saved global_best.pt
+[stage 2 | epoch 68 | step 25] loss=0.224316
+[stage 2 | epoch 68 | step 50] loss=0.225537
+Stage 2 Epoch 68 | L1=0.075369  PSNR↑=21.1555  SSIM↑=0.8933  MS-SSIM↑=0.9205  LPIPS↓=0.1572  time=19.0s
+[stage 2 | epoch 69 | step 25] loss=0.237536
+[stage 2 | epoch 69 | step 50] loss=0.238591
+Stage 2 Epoch 69 | L1=0.074713  PSNR↑=21.3071  SSIM↑=0.8938  MS-SSIM↑=0.9206  LPIPS↓=0.1572  time=20.0s
+[stage 2 | epoch 70 | step 25] loss=0.224412
+[stage 2 | epoch 70 | step 50] loss=0.230763
+Stage 2 Epoch 70 | L1=0.074407  PSNR↑=21.2816  SSIM↑=0.8932  MS-SSIM↑=0.9213  LPIPS↓=0.1567  time=18.1s
+[stage 2 | epoch 71 | step 25] loss=0.235431
+[stage 2 | epoch 71 | step 50] loss=0.224159
+Stage 2 Epoch 71 | L1=0.074797  PSNR↑=21.2296  SSIM↑=0.8951  MS-SSIM↑=0.9207  LPIPS↓=0.1581  time=20.2s
+[stage 2 | epoch 72 | step 25] loss=0.213891
+[stage 2 | epoch 72 | step 50] loss=0.213640
+Stage 2 Epoch 72 | L1=0.072492  PSNR↑=21.5806  SSIM↑=0.8985  MS-SSIM↑=0.9251  LPIPS↓=0.1524  time=19.2s
+  ✅ saved stage best: stage_02_best.pt
+  ✅ saved global_best.pt
+[stage 2 | epoch 73 | step 25] loss=0.209669
+[stage 2 | epoch 73 | step 50] loss=0.223573
+Stage 2 Epoch 73 | L1=0.073488  PSNR↑=21.4754  SSIM↑=0.8973  MS-SSIM↑=0.9235  LPIPS↓=0.1532  time=21.0s
+[stage 2 | epoch 74 | step 25] loss=0.230129
+[stage 2 | epoch 74 | step 50] loss=0.227731
+Stage 2 Epoch 74 | L1=0.074004  PSNR↑=21.3331  SSIM↑=0.8946  MS-SSIM↑=0.9220  LPIPS↓=0.1579  time=18.6s
+[stage 2 | epoch 75 | step 25] loss=0.231117
+[stage 2 | epoch 75 | step 50] loss=0.224872
+Stage 2 Epoch 75 | L1=0.075142  PSNR↑=21.2143  SSIM↑=0.8953  MS-SSIM↑=0.9199  LPIPS↓=0.1581  time=21.3s
+[stage 2 | epoch 76 | step 25] loss=0.217680
+[stage 2 | epoch 76 | step 50] loss=0.229675
+Stage 2 Epoch 76 | L1=0.075405  PSNR↑=21.2180  SSIM↑=0.8936  MS-SSIM↑=0.9186  LPIPS↓=0.1596  time=20.2s
+[stage 2 | epoch 77 | step 25] loss=0.226305
+[stage 2 | epoch 77 | step 50] loss=0.229755
+Stage 2 Epoch 77 | L1=0.075781  PSNR↑=21.1660  SSIM↑=0.8923  MS-SSIM↑=0.9199  LPIPS↓=0.1621  time=19.5s
+[stage 2 | epoch 78 | step 25] loss=0.220288
+[stage 2 | epoch 78 | step 50] loss=0.220482
+Stage 2 Epoch 78 | L1=0.074873  PSNR↑=21.2366  SSIM↑=0.8946  MS-SSIM↑=0.9222  LPIPS↓=0.1581  time=24.2s
+[stage 2 | epoch 79 | step 25] loss=0.227693
+[stage 2 | epoch 79 | step 50] loss=0.222413
+Stage 2 Epoch 79 | L1=0.072819  PSNR↑=21.5086  SSIM↑=0.8995  MS-SSIM↑=0.9265  LPIPS↓=0.1557  time=53.6s
+[stage 2 | epoch 80 | step 25] loss=0.226565
+[stage 2 | epoch 80 | step 50] loss=0.234945
+Stage 2 Epoch 80 | L1=0.074780  PSNR↑=21.3484  SSIM↑=0.8946  MS-SSIM↑=0.9213  LPIPS↓=0.1576  time=37.1s
+[FULL EVAL] stage=2 epoch=80 | PSNR↑=21.3484  SSIM↑=0.8946  MS-SSIM↑=0.9213  LPIPS↓=0.1576  NIQE↓=3.8207  UIQM↑=303.9916  UCIQE↑=inf
+[stage 2 | epoch 81 | step 25] loss=0.248555
+[stage 2 | epoch 81 | step 50] loss=0.240993
+Stage 2 Epoch 81 | L1=0.075350  PSNR↑=21.2713  SSIM↑=0.8936  MS-SSIM↑=0.9204  LPIPS↓=0.1575  time=20.6s
+[stage 2 | epoch 82 | step 25] loss=0.231155
+[stage 2 | epoch 82 | step 50] loss=0.233414
+Stage 2 Epoch 82 | L1=0.077875  PSNR↑=20.9396  SSIM↑=0.8918  MS-SSIM↑=0.9167  LPIPS↓=0.1605  time=19.2s
+[stage 2 | epoch 83 | step 25] loss=0.214314
+[stage 2 | epoch 83 | step 50] loss=0.225097
+Stage 2 Epoch 83 | L1=0.076771  PSNR↑=21.1312  SSIM↑=0.8949  MS-SSIM↑=0.9203  LPIPS↓=0.1577  time=20.7s
+[stage 2 | epoch 84 | step 25] loss=0.228126
+[stage 2 | epoch 84 | step 50] loss=0.223111
+Stage 2 Epoch 84 | L1=0.073021  PSNR↑=21.5610  SSIM↑=0.8986  MS-SSIM↑=0.9252  LPIPS↓=0.1538  time=20.4s
+[stage 2 | epoch 85 | step 25] loss=0.218001
+[stage 2 | epoch 85 | step 50] loss=0.221903
+Stage 2 Epoch 85 | L1=0.073927  PSNR↑=21.4072  SSIM↑=0.8958  MS-SSIM↑=0.9229  LPIPS↓=0.1556  time=19.7s
+[stage 2 | epoch 86 | step 25] loss=0.213685
+[stage 2 | epoch 86 | step 50] loss=0.221411
+Stage 2 Epoch 86 | L1=0.075636  PSNR↑=21.1974  SSIM↑=0.8932  MS-SSIM↑=0.9213  LPIPS↓=0.1557  time=18.6s
+[stage 2 | epoch 87 | step 25] loss=0.233133
+[stage 2 | epoch 87 | step 50] loss=0.227863
+Stage 2 Epoch 87 | L1=0.073844  PSNR↑=21.4290  SSIM↑=0.8973  MS-SSIM↑=0.9238  LPIPS↓=0.1555  time=20.2s
+[stage 2 | epoch 88 | step 25] loss=0.217699
+[stage 2 | epoch 88 | step 50] loss=0.217227
+Stage 2 Epoch 88 | L1=0.074326  PSNR↑=21.4130  SSIM↑=0.8957  MS-SSIM↑=0.9215  LPIPS↓=0.1553  time=18.3s
+[stage 2 | epoch 89 | step 25] loss=0.225870
+[stage 2 | epoch 89 | step 50] loss=0.229901
+Stage 2 Epoch 89 | L1=0.073415  PSNR↑=21.4907  SSIM↑=0.8979  MS-SSIM↑=0.9250  LPIPS↓=0.1547  time=18.9s
+[stage 2 | epoch 90 | step 25] loss=0.224376
+[stage 2 | epoch 90 | step 50] loss=0.226421
+Stage 2 Epoch 90 | L1=0.074530  PSNR↑=21.4039  SSIM↑=0.8945  MS-SSIM↑=0.9225  LPIPS↓=0.1545  time=18.9s
+[stage 2 | epoch 91 | step 25] loss=0.228238
+[stage 2 | epoch 91 | step 50] loss=0.224025
+Stage 2 Epoch 91 | L1=0.074204  PSNR↑=21.3060  SSIM↑=0.8945  MS-SSIM↑=0.9212  LPIPS↓=0.1574  time=19.9s
+[stage 2 | epoch 92 | step 25] loss=0.235845
+[stage 2 | epoch 92 | step 50] loss=0.231550
+Stage 2 Epoch 92 | L1=0.072709  PSNR↑=21.5461  SSIM↑=0.9001  MS-SSIM↑=0.9279  LPIPS↓=0.1545  time=21.0s
+[stage 2 | epoch 93 | step 25] loss=0.237257
+[stage 2 | epoch 93 | step 50] loss=0.221071
+Stage 2 Epoch 93 | L1=0.074071  PSNR↑=21.4745  SSIM↑=0.8953  MS-SSIM↑=0.9235  LPIPS↓=0.1537  time=20.4s
+[stage 2 | epoch 94 | step 25] loss=0.217226
+[stage 2 | epoch 94 | step 50] loss=0.219100
+Stage 2 Epoch 94 | L1=0.074143  PSNR↑=21.4071  SSIM↑=0.8977  MS-SSIM↑=0.9227  LPIPS↓=0.1553  time=21.0s
+[stage 2 | epoch 95 | step 25] loss=0.230987
+[stage 2 | epoch 95 | step 50] loss=0.235885
+Stage 2 Epoch 95 | L1=0.074355  PSNR↑=21.3094  SSIM↑=0.8959  MS-SSIM↑=0.9240  LPIPS↓=0.1551  time=19.3s
+[stage 2 | epoch 96 | step 25] loss=0.214472
+[stage 2 | epoch 96 | step 50] loss=0.222897
+Stage 2 Epoch 96 | L1=0.074725  PSNR↑=21.2661  SSIM↑=0.8945  MS-SSIM↑=0.9217  LPIPS↓=0.1562  time=19.3s
+[stage 2 | epoch 97 | step 25] loss=0.229992
+[stage 2 | epoch 97 | step 50] loss=0.226415
+Stage 2 Epoch 97 | L1=0.072965  PSNR↑=21.4706  SSIM↑=0.9000  MS-SSIM↑=0.9262  LPIPS↓=0.1545  time=19.4s
+[stage 2 | epoch 98 | step 25] loss=0.218391
+[stage 2 | epoch 98 | step 50] loss=0.220177
+Stage 2 Epoch 98 | L1=0.074670  PSNR↑=21.3018  SSIM↑=0.8949  MS-SSIM↑=0.9236  LPIPS↓=0.1579  time=19.7s
+[stage 2 | epoch 99 | step 25] loss=0.224324
+[stage 2 | epoch 99 | step 50] loss=0.222836
+Stage 2 Epoch 99 | L1=0.072216  PSNR↑=21.6138  SSIM↑=0.9034  MS-SSIM↑=0.9286  LPIPS↓=0.1519  time=19.8s
+  ✅ saved stage best: stage_02_best.pt
+  ✅ saved global_best.pt
+[stage 2 | epoch 100 | step 25] loss=0.218044
+[stage 2 | epoch 100 | step 50] loss=0.223257
+Stage 2 Epoch 100 | L1=0.073450  PSNR↑=21.4898  SSIM↑=0.8974  MS-SSIM↑=0.9246  LPIPS↓=0.1552  time=19.3s
+[FULL EVAL] stage=2 epoch=100 | PSNR↑=21.4898  SSIM↑=0.8974  MS-SSIM↑=0.9246  LPIPS↓=0.1552  NIQE↓=3.8336  UIQM↑=309.1257  UCIQE↑=inf
+[stage 2 | epoch 101 | step 25] loss=0.233508
+[stage 2 | epoch 101 | step 50] loss=0.230288
+Stage 2 Epoch 101 | L1=0.074159  PSNR↑=21.4350  SSIM↑=0.8971  MS-SSIM↑=0.9230  LPIPS↓=0.1567  time=20.0s
+[stage 2 | epoch 102 | step 25] loss=0.228961
+[stage 2 | epoch 102 | step 50] loss=0.224407
+Stage 2 Epoch 102 | L1=0.073163  PSNR↑=21.4862  SSIM↑=0.8970  MS-SSIM↑=0.9240  LPIPS↓=0.1556  time=19.4s
+[stage 2 | epoch 103 | step 25] loss=0.223739
+[stage 2 | epoch 103 | step 50] loss=0.230695
+Stage 2 Epoch 103 | L1=0.074448  PSNR↑=21.2975  SSIM↑=0.8940  MS-SSIM↑=0.9221  LPIPS↓=0.1577  time=20.1s
+[stage 2 | epoch 104 | step 25] loss=0.229676
+[stage 2 | epoch 104 | step 50] loss=0.228422
+Stage 2 Epoch 104 | L1=0.073855  PSNR↑=21.3598  SSIM↑=0.8963  MS-SSIM↑=0.9229  LPIPS↓=0.1559  time=26.3s
+[stage 2 | epoch 105 | step 25] loss=0.218721
+[stage 2 | epoch 105 | step 50] loss=0.224749
+Stage 2 Epoch 105 | L1=0.074186  PSNR↑=21.3539  SSIM↑=0.8953  MS-SSIM↑=0.9217  LPIPS↓=0.1558  time=55.5s
+[stage 2 | epoch 106 | step 25] loss=0.218101
+[stage 2 | epoch 106 | step 50] loss=0.223673
+Stage 2 Epoch 106 | L1=0.072850  PSNR↑=21.6331  SSIM↑=0.8986  MS-SSIM↑=0.9251  LPIPS↓=0.1538  time=25.8s
+[stage 2 | epoch 107 | step 25] loss=0.227787
+[stage 2 | epoch 107 | step 50] loss=0.224471
+Stage 2 Epoch 107 | L1=0.073935  PSNR↑=21.4277  SSIM↑=0.8978  MS-SSIM↑=0.9233  LPIPS↓=0.1545  time=35.9s
+[stage 2 | epoch 108 | step 25] loss=0.232940
+[stage 2 | epoch 108 | step 50] loss=0.233853
+Stage 2 Epoch 108 | L1=0.074649  PSNR↑=21.3133  SSIM↑=0.8929  MS-SSIM↑=0.9194  LPIPS↓=0.1557  time=19.4s
+[stage 2 | epoch 109 | step 25] loss=0.240399
+[stage 2 | epoch 109 | step 50] loss=0.230869
+Stage 2 Epoch 109 | L1=0.074581  PSNR↑=21.3729  SSIM↑=0.8923  MS-SSIM↑=0.9195  LPIPS↓=0.1555  time=21.7s
+[stage 2 | epoch 110 | step 25] loss=0.233570
+[stage 2 | epoch 110 | step 50] loss=0.235325
+Stage 2 Epoch 110 | L1=0.074605  PSNR↑=21.3417  SSIM↑=0.8944  MS-SSIM↑=0.9210  LPIPS↓=0.1559  time=20.5s
+[stage 2 | epoch 111 | step 25] loss=0.235534
+[stage 2 | epoch 111 | step 50] loss=0.231693
+Stage 2 Epoch 111 | L1=0.074460  PSNR↑=21.3558  SSIM↑=0.8966  MS-SSIM↑=0.9217  LPIPS↓=0.1555  time=19.0s
+[stage 2 | epoch 112 | step 25] loss=0.227507
+[stage 2 | epoch 112 | step 50] loss=0.227885
+Stage 2 Epoch 112 | L1=0.074628  PSNR↑=21.4403  SSIM↑=0.8962  MS-SSIM↑=0.9229  LPIPS↓=0.1528  time=19.9s
+[stage 2 | epoch 113 | step 25] loss=0.219598
+[stage 2 | epoch 113 | step 50] loss=0.225283
+Stage 2 Epoch 113 | L1=0.077088  PSNR↑=21.1261  SSIM↑=0.8904  MS-SSIM↑=0.9192  LPIPS↓=0.1589  time=20.9s
+[stage 2 | epoch 114 | step 25] loss=0.234570
+[stage 2 | epoch 114 | step 50] loss=0.236681
+Stage 2 Epoch 114 | L1=0.075682  PSNR↑=21.2122  SSIM↑=0.8918  MS-SSIM↑=0.9184  LPIPS↓=0.1582  time=18.6s
+[stage 2 | epoch 115 | step 25] loss=0.222445
+[stage 2 | epoch 115 | step 50] loss=0.220616
+Stage 2 Epoch 115 | L1=0.075378  PSNR↑=21.2883  SSIM↑=0.8934  MS-SSIM↑=0.9207  LPIPS↓=0.1562  time=20.2s
+[stage 2 | epoch 116 | step 25] loss=0.212577
+[stage 2 | epoch 116 | step 50] loss=0.221314
+Stage 2 Epoch 116 | L1=0.074497  PSNR↑=21.4374  SSIM↑=0.8970  MS-SSIM↑=0.9226  LPIPS↓=0.1572  time=20.8s
+[stage 2 | epoch 117 | step 25] loss=0.216041
+[stage 2 | epoch 117 | step 50] loss=0.223871
+Stage 2 Epoch 117 | L1=0.075280  PSNR↑=21.3031  SSIM↑=0.8947  MS-SSIM↑=0.9204  LPIPS↓=0.1564  time=21.3s
+[stage 2 | epoch 118 | step 25] loss=0.223187
+[stage 2 | epoch 118 | step 50] loss=0.221988
+Stage 2 Epoch 118 | L1=0.073964  PSNR↑=21.3967  SSIM↑=0.8971  MS-SSIM↑=0.9244  LPIPS↓=0.1549  time=20.4s
+[stage 2 | epoch 119 | step 25] loss=0.221940
+[stage 2 | epoch 119 | step 50] loss=0.217833
+Stage 2 Epoch 119 | L1=0.075349  PSNR↑=21.2635  SSIM↑=0.8942  MS-SSIM↑=0.9242  LPIPS↓=0.1565  time=20.3s
+[stage 2 | epoch 120 | step 25] loss=0.218934
+[stage 2 | epoch 120 | step 50] loss=0.219488
+Stage 2 Epoch 120 | L1=0.073870  PSNR↑=21.3827  SSIM↑=0.8958  MS-SSIM↑=0.9241  LPIPS↓=0.1557  time=21.2s
+[FULL EVAL] stage=2 epoch=120 | PSNR↑=21.3827  SSIM↑=0.8958  MS-SSIM↑=0.9241  LPIPS↓=0.1557  NIQE↓=3.8117  UIQM↑=308.0676  UCIQE↑=inf
+
+========== STAGE 3/5 | crop=384 | batch=8 | lr=0.0002 ==========
+
+[stage[stage 3 | epoch 1 | step 50] loss=0.237372
+[stage 3 | epoch 1 | step 75] loss=0.228619
+[stage 3 | epoch 1 | step 100] loss=0.226612
+Stage 3 Epoch 1 | L1=0.074112  PSNR↑=21.3176  SSIM↑=0.8979  MS-SSIM↑=0.9285  LPIPS↓=0.1540  time=21.7s
+  ✅ saved stage best: stage_03_best.pt
+[stage 3 | epoch 2 | step 25] loss=0.231221
+[stage 3 | epoch 2 | step 50] loss=0.223465
+[stage 3 | epoch 2 | step 75] loss=0.227454
+[stage 3 | epoch 2 | step 100] loss=0.229570
+Stage 3 Epoch 2 | L1=0.073197  PSNR↑=21.5124  SSIM↑=0.8990  MS-SSIM↑=0.9312  LPIPS↓=0.1523  time=23.8s
+  ✅ saved stage best: stage_03_best.pt
+[stage 3 | epoch 3 | step 25] loss=0.249067
+[stage 3 | epoch 3 | step 50] loss=0.241893
+[stage 3 | epoch 3 | step 75] loss=0.240932
+[stage 3 | epoch 3 | step 100] loss=0.238838
+Stage 3 Epoch 3 | L1=0.076438  PSNR↑=21.0447  SSIM↑=0.8936  MS-SSIM↑=0.9240  LPIPS↓=0.1577  time=46.1s
+[stage 3 | epoch 4 | step 25] loss=0.227078
+[stage 3 | epoch 4 | step 50] loss=0.226589
+[stage 3 | epoch 4 | step 75] loss=0.230265
+[stage 3 | epoch 4 | step 100] loss=0.232276
+Stage 3 Epoch 4 | L1=0.073378  PSNR↑=21.2779  SSIM↑=0.8990  MS-SSIM↑=0.9305  LPIPS↓=0.1570  time=62.4s
+[stage 3 | epoch 5 | step 25] loss=0.223508
+[stage 3 | epoch 5 | step 50] loss=0.228084
+[stage 3 | epoch 5 | step 75] loss=0.230682
+[stage 3 | epoch 5 | step 100] loss=0.229904
+Stage 3 Epoch 5 | L1=0.074979  PSNR↑=21.3117  SSIM↑=0.8960  MS-SSIM↑=0.9288  LPIPS↓=0.1548  time=20.7s
+[stage 3 | epoch 6 | step 25] loss=0.224351
+[stage 3 | epoch 6 | step 50] loss=0.230043
+[stage 3 | epoch 6 | step 75] loss=0.226790
+[stage 3 | epoch 6 | step 100] loss=0.225296
+Stage 3 Epoch 6 | L1=0.073988  PSNR↑=21.4140  SSIM↑=0.8995  MS-SSIM↑=0.9292  LPIPS↓=0.1526  time=20.6s
+[stage 3 | epoch 7 | step 25] loss=0.245695
+[stage 3 | epoch 7 | step 50] loss=0.243245
+[stage 3 | epoch 7 | step 75] loss=0.233843
+[stage 3 | epoch 7 | step 100] loss=0.232760
+Stage 3 Epoch 7 | L1=0.075606  PSNR↑=21.2388  SSIM↑=0.8929  MS-SSIM↑=0.9241  LPIPS↓=0.1547  time=27.8s
+[stage 3 | epoch 8 | step 25] loss=0.240404
+[stage 3 | epoch 8 | step 50] loss=0.241858
+[stage 3 | epoch 8 | step 75] loss=0.237511
+[stage 3 | epoch 8 | step 100] loss=0.231985
+Stage 3 Epoch 8 | L1=0.073530  PSNR↑=21.4180  SSIM↑=0.8986  MS-SSIM↑=0.9287  LPIPS↓=0.1540  time=33.2s
+[stage 3 | epoch 9 | step 25] loss=0.238003
+[stage 3 | epoch 9 | step 50] loss=0.233590
+[stage 3 | epoch 9 | step 75] loss=0.229687
+[stage 3 | epoch 9 | step 100] loss=0.233221
+Stage 3 Epoch 9 | L1=0.074667  PSNR↑=21.2902  SSIM↑=0.8990  MS-SSIM↑=0.9280  LPIPS↓=0.1523  time=21.0s
+[stage 3 | epoch 10 | step 25] loss=0.211948
+[stage 3 | epoch 10 | step 50] loss=0.214378
+[stage 3 | epoch 10 | step 75] loss=0.218034
+[stage 3 | epoch 10 | step 100] loss=0.219943
+Stage 3 Epoch 10 | L1=0.075585  PSNR↑=21.1736  SSIM↑=0.8952  MS-SSIM↑=0.9250  LPIPS↓=0.1554  time=21.1s
+[stage 3 | epoch 11 | step 25] loss=0.215659
+[stage 3 | epoch 11 | step 50] loss=0.220408
+[stage 3 | epoch 11 | step 75] loss=0.218127
+[stage 3 | epoch 11 | step 100] loss=0.221322
+Stage 3 Epoch 11 | L1=0.075034  PSNR↑=21.2892  SSIM↑=0.8957  MS-SSIM↑=0.9290  LPIPS↓=0.1536  time=21.4s
+[stage 3 | epoch 12 | step 25] loss=0.237803
+[stage 3 | epoch 12 | step 50] loss=0.234732
+[stage 3 | epoch 12 | step 75] loss=0.236937
+[stage 3 | epoch 12 | step 100] loss=0.236214
+Stage 3 Epoch 12 | L1=0.074279  PSNR↑=21.3824  SSIM↑=0.8991  MS-SSIM↑=0.9283  LPIPS↓=0.1511  time=21.6s
+[stage 3 | epoch 13 | step 25] loss=0.215010
+[stage 3 | epoch 13 | step 50] loss=0.221206
+[stage 3 | epoch 13 | step 75] loss=0.226591
+[stage 3 | epoch 13 | step 100] loss=0.225272
+Stage 3 Epoch 13 | L1=0.074053  PSNR↑=21.3594  SSIM↑=0.8989  MS-SSIM↑=0.9275  LPIPS↓=0.1525  time=22.9s
+[stage 3 | epoch 14 | step 25] loss=0.233417
+[stage 3 | epoch 14 | step 50] loss=0.237136
+[stage 3 | epoch 14 | step 75] loss=0.230325
+[stage 3 | epoch 14 | step 100] loss=0.232168
+Stage 3 Epoch 14 | L1=0.075621  PSNR↑=21.1315  SSIM↑=0.8970  MS-SSIM↑=0.9253  LPIPS↓=0.1588  time=22.3s
+[[stage 3 | epoch 15 | step 75] loss=0.221717
+[stage 3 | epoch 15 | step 100] loss=0.223532
+Stage 3 Epoch 15 | L1=0.071449  PSNR↑=21.7252  SSIM↑=0.9037  MS-SSIM↑=0.9325  LPIPS↓=0.1494  time=20.0s
+  ✅ saved stage best: stage_03_best.pt
+  ✅ saved global_best.pt
+[stage 3 | epoch 16 | step 25] loss=0.228094
+[stage 3 | epoch 16 | step 50] loss=0.224338
+[stage 3 | epoch 16 | step 75] loss=0.222132
+[stage 3 | epoch 16 | step 100] loss=0.225180
+Stage 3 Epoch 16 | L1=0.073168  PSNR↑=21.5727  SSIM↑=0.9001  MS-SSIM↑=0.9295  LPIPS↓=0.1506  time=22.2s
+[stage 3 | epoch 17 | step 25] loss=0.222033
+[stage 3 | epoch 17 | step 50] loss=0.226484
+[stage 3 | epoch 17 | step 75] loss=0.226268
+[stage 3 | epoch 17 | step 100] loss=0.229230
+Stage 3 Epoch 17 | L1=0.075135  PSNR↑=21.1794  SSIM↑=0.8985  MS-SSIM↑=0.9269  LPIPS↓=0.1546  time=20.1s
+[stage 3 | epoch 18 | step 25] loss=0.217058
+[stage 3 | epoch 18 | step 50] loss=0.219559
+[stage 3 | epoch 18 | step 75] loss=0.227855
+[stage 3 | epoch 18 | step 100] loss=0.225321
+Stage 3 Epoch 18 | L1=0.074000  PSNR↑=21.4390  SSIM↑=0.8968  MS-SSIM↑=0.9291  LPIPS↓=0.1517  time=22.0s
+[stage 3 | epoch 19 | step 25] loss=0.235944
+[stage 3 | epoch 19 | step 50] loss=0.238319
+[stage 3 | epoch 19 | step 75] loss=0.234961
+[stage 3 | epoch 19 | step 100] loss=0.230629
+Stage 3 Epoch 19 | L1=0.073955  PSNR↑=21.4298  SSIM↑=0.8973  MS-SSIM↑=0.9277  LPIPS↓=0.1525  time=20.8s
+[stage 3 | epoch 20 | step 25] loss=0.221550
+[stage 3 | epoch 20 | step 50] loss=0.220672
+[stage 3 | epoch 20 | step 75] loss=0.225130
+[stage 3 | epoch 20 | step 100] loss=0.218609
+Stage 3 Epoch 20 | L1=0.074441  PSNR↑=21.3667  SSIM↑=0.8958  MS-SSIM↑=0.9262  LPIPS↓=0.1539  time=21.7s
+[FULL EVAL] stage=3 epoch=20 | PSNR↑=21.3667  SSIM↑=0.8958  MS-SSIM↑=0.9262  LPIPS↓=0.1539  NIQE↓=3.7553  UIQM↑=301.7677  UCIQE↑=inf
+[stage 3 | epoch 21 | step 25] loss=0.224745
+[stage 3 | epoch 21 | step 50] loss=0.225469
+[stage 3 | epoch 21 | step 75] loss=0.225041
+[stage 3 | epoch 21 | step 100] loss=0.224359
+Stage 3 Epoch 21 | L1=0.074446  PSNR↑=21.3997  SSIM↑=0.8967  MS-SSIM↑=0.9301  LPIPS↓=0.1542  time=22.1s
+[stage 3 | epoch 22 | step 25] loss=0.235777
+[stage 3 | epoch 22 | step 50] loss=0.226198
+[stage 3 | epoch 22 | step 75] loss=0.226839
+[stage 3 | epoch 22 | step 100] loss=0.223368
+Stage 3 Epoch 22 | L1=0.074348  PSNR↑=21.2821  SSIM↑=0.8979  MS-SSIM↑=0.9295  LPIPS↓=0.1558  time=21.9s
+[stage 3 | epoch 23 | step 25] loss=0.229350
+[stage 3 | epoch 23 | step 50] loss=0.227218
+[stage 3 | epoch 23 | step 75] loss=0.228253
+[stage 3 | epoch 23 | step 100] loss=0.230631
+Stage 3 Epoch 23 | L1=0.073882  PSNR↑=21.4099  SSIM↑=0.8982  MS-SSIM↑=0.9302  LPIPS↓=0.1517  time=21.0s
+[stage 3 | epoch 24 | step 25] loss=0.211744
+[stage 3 | epoch 24 | step 50] loss=0.216196
+[stage 3 | epoch 24 | step 75] loss=0.218996
+[stage 3 | epoch 24 | step 100] loss=0.220802
+Stage 3 Epoch 24 | L1=0.075508  PSNR↑=21.1661  SSIM↑=0.8958  MS-SSIM↑=0.9255  LPIPS↓=0.1583  time=20.8s
+[stage 3 | epoch 25 | step 25] loss=0.237287
+[stage 3 | epoch 25 | step 50] loss=0.237399
+[stage 3 | epoch 25 | step 75] loss=0.229974
+[stage 3 | epoch 25 | step 100] loss=0.227693
+Stage 3 Epoch 25 | L1=0.072897  PSNR↑=21.4960  SSIM↑=0.8988  MS-SSIM↑=0.9305  LPIPS↓=0.1525  time=21.9s
+[stage 3 | epoch 26 | step 25] loss=0.233921
+[stage 3 | epoch 26 | step 50] loss=0.224987
+[stage 3 | epoch 26 | step 75] loss=0.226288
+[stage 3 | epoch 26 | step 100] loss=0.225504
+Stage 3 Epoch 26 | L1=0.074738  PSNR↑=21.4573  SSIM↑=0.8984  MS-SSIM↑=0.9279  LPIPS↓=0.1528  time=20.5s
+[stage 3 | epoch 27 | step 25] loss=0.240997
+[stage 3 | epoch 27 | step 50] loss=0.225508
+[stage 3 | epoch 27 | step 75] loss=0.226523
+[stage 3 | epoch 27 | step 100] loss=0.228069
+Stage 3 Epoch 27 | L1=0.074615  PSNR↑=21.2678  SSIM↑=0.8973  MS-SSIM↑=0.9265  LPIPS↓=0.1569  time=23.4s
+[stage 3 | epoch 28 | step 25] loss=0.230031
+[stage 3 | epoch 28 | step 50] loss=0.225698
+[stage 3 | epoch 28 | step 75] loss=0.231618
+[stage 3 | epoch 28 | step 100] loss=0.230525
+Stage 3 Epoch 28 | L1=0.073700  PSNR↑=21.4783  SSIM↑=0.8972  MS-SSIM↑=0.9265  LPIPS↓=0.1525  time=22.5s
+[stage 3 | epoch 29 | step 25] loss=0.226235
+[stage 3 | epoch 29 | step 50] loss=0.223824
+[stage 3 | epoch 29 | step 75] loss=0.226496
+[stage 3 | epoch 29 | step 100] loss=0.224451
+Stage 3 Epoch 29 | L1=0.074467  PSNR↑=21.2898  SSIM↑=0.8966  MS-SSIM↑=0.9286  LPIPS↓=0.1544  time=22.0s
+[stage 3 | epoch 30 | step 25] loss=0.222696
+[stage 3 | epoch 30 | step 50] loss=0.220221
+[stage 3 | epoch 30 | step 75] loss=0.219194
+[stage 3 | epoch 30 | step 100] loss=0.223642
+Stage 3 Epoch 30 | L1=0.072325  PSNR↑=21.6459  SSIM↑=0.8999  MS-SSIM↑=0.9302  LPIPS↓=0.1503  time=21.7s
+[stage 3 | epoch 31 | step 25] loss=0.226752
+[stage 3 | epoch 31 | step 50] loss=0.230581
+[stage 3 | epoch 31 | step 75] loss=0.237836
+[stage 3 | epoch 31 | step 100] loss=0.235218
+Stage 3 Epoch 31 | L1=0.071987  PSNR↑=21.6212  SSIM↑=0.9033  MS-SSIM↑=0.9317  LPIPS↓=0.1506  time=22.9s
+[stage 3 | epoch 32 | step 25] loss=0.225145
+[stage 3 | epoch 32 | step 50] loss=0.226606
+[stage 3 | epoch 32 | step 75] loss=0.223362
+[stage 3 | epoch 32 | step 100] loss=0.220237
+Stage 3 Epoch 32 | L1=0.076413  PSNR↑=21.2206  SSIM↑=0.8923  MS-SSIM↑=0.9264  LPIPS↓=0.1557  time=20.3s
+[stage 3 | epoch 33 | step 25] loss=0.230744
+[stage 3 | epoch 33 | step 50] loss=0.214747
+[stage 3 | epoch 33 | step 75] loss=0.214964
+[stage 3 | epoch 33 | step 100] loss=0.220403
+Stage 3 Epoch 33 | L1=0.073711  PSNR↑=21.4091  SSIM↑=0.8999  MS-SSIM↑=0.9289  LPIPS↓=0.1534  time=22.8s
+[stage 3 | epoch 34 | step 25] loss=0.215987
+[stage 3 | epoch 34 | step 50] loss=0.226163
+[stage 3 | epoch 34 | step 75] loss=0.233882
+[stage 3 | epoch 34 | step 100] loss=0.236986
+Stage 3 Epoch 34 | L1=0.073873  PSNR↑=21.4776  SSIM↑=0.8977  MS-SSIM↑=0.9277  LPIPS↓=0.1508  time=20.8s
+[stage 3 | epoch 35 | step 25] loss=0.252748
+[stage 3 | epoch 35 | step 50] loss=0.245231
+[stage 3 | epoch 35 | step 75] loss=0.245046
+[stage 3 | epoch 35 | step 100] loss=0.241302
+Stage 3 Epoch 35 | L1=0.075856  PSNR↑=21.2191  SSIM↑=0.8950  MS-SSIM↑=0.9267  LPIPS↓=0.1564  time=22.3s
+[stage 3 | epoch 36 | step 25] loss=0.228753
+[stage 3 | epoch 36 | step 50] loss=0.227167
+[stage 3 | epoch 36 | step 75] loss=0.224112
+[stage 3 | epoch 36 | step 100] loss=0.222898
+Stage 3 Epoch 36 | L1=0.075928  PSNR↑=21.1575  SSIM↑=0.8943  MS-SSIM↑=0.9255  LPIPS↓=0.1549  time=20.7s
+[stage 3 | epoch 37 | step 25] loss=0.227210
+[stage 3 | epoch 37 | step 50] loss=0.225132
+[stage 3 | epoch 37 | step 75] loss=0.228052
+[stage 3 | epoch 37 | step 100] loss=0.231922
+Stage 3 Epoch 37 | L1=0.073870  PSNR↑=21.4486  SSIM↑=0.8978  MS-SSIM↑=0.9279  LPIPS↓=0.1544  time=20.1s
+[stage 3 | epoch 38 | step 25] loss=0.220677
+[stage 3 | epoch 38 | step 50] loss=0.225381
+[stage 3 | epoch 38 | step 75] loss=0.221098
+[stage 3 | epoch 38 | step 100] loss=0.215939
+Stage 3 Epoch 38 | L1=0.073354  PSNR↑=21.5396  SSIM↑=0.8968  MS-SSIM↑=0.9297  LPIPS↓=0.1512  time=20.0s
+[stage 3 | epoch 39 | step 25] loss=0.224656
+[stage 3 | epoch 39 | step 50] loss=0.233570
+[stage 3 | epoch 39 | step 75] loss=0.234714
+[stage 3 | epoch 39 | step 100] loss=0.232189
+Stage 3 Epoch 39 | L1=0.071821  PSNR↑=21.5926  SSIM↑=0.9016  MS-SSIM↑=0.9303  LPIPS↓=0.1513  time=20.5s
+[stage 3 | epoch 40 | step 25] loss=0.206646
+[stage 3 | epoch 40 | step 50] loss=0.217317
+[stage 3 | epoch 40 | step 75] loss=0.218806
+[stage 3 | epoch 40 | step 100] loss=0.226892
+Stage 3 Epoch 40 | L1=0.074757  PSNR↑=21.2524  SSIM↑=0.8982  MS-SSIM↑=0.9274  LPIPS↓=0.1541  time=21.1s
+[FULL EVAL] stage=3 epoch=40 | PSNR↑=21.2524  SSIM↑=0.8982  MS-SSIM↑=0.9274  LPIPS↓=0.1541  NIQE↓=3.7633  UIQM↑=304.0312  UCIQE↑=inf
+[stage 3 | epoch 41 | step 25] loss=0.233275
+[stage 3 | epoch 41 | step 50] loss=0.232083
+[stage 3 | epoch 41 | step 75] loss=0.233067
+[stage 3 | epoch 41 | step 100] loss=0.235037
+Stage 3 Epoch 41 | L1=0.073163  PSNR↑=21.3593  SSIM↑=0.8987  MS-SSIM↑=0.9301  LPIPS↓=0.1535  time=20.2s
+[stage 3 [stage 3 | epoch 42 | step 50] loss=0.221876
+[stage 3 | epoch 42 | step 75] loss=0.218852
+[stage 3 | epoch 42 | step 100] loss=0.218790
+Stage 3 Epoch 42 | L1=0.074448  PSNR↑=21.3553  SSIM↑=0.8981  MS-SSIM↑=0.9288  LPIPS↓=0.1534  time=22.2s
+[stage 3 | epoch 43 | step 25] loss=0.228282
+[stage 3 | epoch 43 | step 50] loss=0.231293
+[stage 3 | epoch 43 | step 75] loss=0.226655
+[stage 3 | epoch 43 | step 100] loss=0.226369
+Stage 3 Epoch 43 | L1=0.073463  PSNR↑=21.4750  SSIM↑=0.8993  MS-SSIM↑=0.9292  LPIPS↓=0.1507  time=20.7s
+[stage 3 | epoch 44 | step 25] loss=0.231103
+[stage 3 | epoch 44 | step 50] loss=0.228186
+[stage 3 | epoch 44 | step 75] loss=0.227541
+[stage 3 | epoch 44 | step 100] loss=0.225628
+Stage 3 Epoch 44 | L1=0.073381  PSNR↑=21.3750  SSIM↑=0.9005  MS-SSIM↑=0.9304  LPIPS↓=0.1556  time=21.7s
+[stage 3 | epoch 45 | step 25] loss=0.222887
+[stage 3 | epoch 45 | step 50] loss=0.224573
+[stage 3 | epoch 45 | step 75] loss=0.226151
+[stage 3 | epoch 45 | step 100] loss=0.225220
+Stage 3 Epoch 45 | L1=0.074206  PSNR↑=21.3325  SSIM↑=0.8981  MS-SSIM↑=0.9294  LPIPS↓=0.1529  time=21.5s
+[stage 3 | epoch 46 | step 25] loss=0.227086
+[stage 3 | epoch 46 | step 50] loss=0.227813
+[stage 3 | epoch 46 | step 75] loss=0.235529
+[stage 3 | epoch 46 | step 100] loss=0.234264
+Stage 3 Epoch 46 | L1=0.074272  PSNR↑=21.3806  SSIM↑=0.8984  MS-SSIM↑=0.9296  LPIPS↓=0.1536  time=32.4s
+[stage 3 | epoch 47 | step 25] loss=0.237273
+[stage 3 | epoch 47 | step 50] loss=0.238537
+[stage 3 | epoch 47 | step 75] loss=0.229288
+[stage 3 | epoch 47 | step 100] loss=0.225974
+Stage 3 Epoch 47 | L1=0.074425  PSNR↑=21.4238  SSIM↑=0.8971  MS-SSIM↑=0.9299  LPIPS↓=0.1507  time=24.4s
+[stage 3 | epoch 48 | step 25] loss=0.225992
+[stage 3 | epoch 48 | step 50] loss=0.229339
+[stage 3 | epoch 48 | step 75] loss=0.227271
+[stage 3 | epoch 48 | step 100] loss=0.230021
+Stage 3 Epoch 48 | L1=0.075845  PSNR↑=21.1567  SSIM↑=0.8969  MS-SSIM↑=0.9272  LPIPS↓=0.1554  time=20.6s
+[stage 3 | epoch 49 | step 25] loss=0.221377
+[stage 3 | epoch 49 | step 50] loss=0.227873
+[stage 3 | epoch 49 | step 75] loss=0.229320
+[stage 3 | epoch 49 | step 100] loss=0.230064
+Stage 3 Epoch 49 | L1=0.073541  PSNR↑=21.3558  SSIM↑=0.8997  MS-SSIM↑=0.9314  LPIPS↓=0.1533  time=28.0s
+[stage 3 | epoch 50 | step 25] loss=0.218405
+[stage 3 | epoch 50 | step 50] loss=0.227158
+[stage 3 | epoch 50 | step 75] loss=0.228398
+[stage 3 | epoch 50 | step 100] loss=0.230983
+Stage 3 Epoch 50 | L1=0.076554  PSNR↑=21.0286  SSIM↑=0.8932  MS-SSIM↑=0.9231  LPIPS↓=0.1567  time=20.5s
+[stage 3 | epoch 51 | step 25] loss=0.217734
+[stage 3 | epoch 51 | step 50] loss=0.219843
+[stage 3 | epoch 51 | step 75] loss=0.220675
+[stage 3 | epoch 51 | step 100] loss=0.221351
+Stage 3 Epoch 51 | L1=0.075210  PSNR↑=21.2602  SSIM↑=0.8948  MS-SSIM↑=0.9257  LPIPS↓=0.1530  time=21.9s
+[stage 3 | epoch 52 | step 25] loss=0.214605
+[stage 3 | epoch 52 | step 50] loss=0.221808
+[stage 3 | epoch 52 | step 75] loss=0.217378
+[stage 3 | epoch 52 | step 100] loss=0.218917
+Stage 3 Epoch 52 | L1=0.073413  PSNR↑=21.4810  SSIM↑=0.8995  MS-SSIM↑=0.9304  LPIPS↓=0.1515  time=20.2s
+[stage 3 | epoch 53 | step 25] loss=0.240724
+[stage 3 | epoch 53 | step 50] loss=0.236220
+[stage 3 | epoch 53 | step 75] loss=0.231208
+[stage 3 | epoch 53 | step 100] loss=0.229660
+Stage 3 Epoch 53 | L1=0.073685  PSNR↑=21.4427  SSIM↑=0.8973  MS-SSIM↑=0.9305  LPIPS↓=0.1526  time=20.4s
+[stage 3 | epoch 54 | step 25] loss=0.262593
+[stage 3 | epoch 54 | step 50] loss=0.254752
+[stage 3 | epoch 54 | step 75] loss=0.250773
+[stage 3 | epoch 54 | step 100] loss=0.240019
+Stage 3 Epoch 54 | L1=0.074657  PSNR↑=21.2436  SSIM↑=0.8938  MS-SSIM↑=0.9255  LPIPS↓=0.1542  time=21.0s
+[stage 3 | epoch 55 | step 25] loss=0.228032
+[stage 3 | epoch 55 | step 50] loss=0.231675
+[stage 3 | epoch 55 | step 75] loss=0.235224
+[stage 3 | epoch 55 | step 100] loss=0.231451
+Stage 3 Epoch 55 | L1=0.075910  PSNR↑=21.1150  SSIM↑=0.8925  MS-SSIM↑=0.9247  LPIPS↓=0.1566  time=19.6s
+[stage 3 | epoch 56 | step 25] loss=0.233482
+[stage 3 | epoch 56 | step 50] loss=0.222720
+[stage 3 | epoch 56 | step 75] loss=0.226994
+[stage 3 | epoch 56 | step 100] loss=0.230965
+Stage 3 Epoch 56 | L1=0.073548  PSNR↑=21.4355  SSIM↑=0.8965  MS-SSIM↑=0.9281  LPIPS↓=0.1533  time=20.4s
+[stage 3 | epoch 57 | step 25] loss=0.227979
+[stage 3 | epoch 57 | step 50] loss=0.223752
+[stage 3 | epoch 57 | step 75] loss=0.225262
+[stage 3 | epoch 57 | step 100] loss=0.228006
+Stage 3 Epoch 57 | L1=0.077059  PSNR↑=21.0826  SSIM↑=0.8901  MS-SSIM↑=0.9237  LPIPS↓=0.1571  time=20.1s
+[stage 3 | epoch 58 | step 25] loss=0.227369
+[stage 3 | epoch 58 | step 50] loss=0.231409
+[stage 3 | epoch 58 | step 75] loss=0.229867
+[stage 3 | epoch 58 | step 100] loss=0.233951
+Stage 3 Epoch 58 | L1=0.075706  PSNR↑=21.1834  SSIM↑=0.8933  MS-SSIM↑=0.9237  LPIPS↓=0.1575  time=22.1s
+[stage 3 | epoch 59 | step 25] loss=0.232359
+[stage 3 | epoch 59 | step 50] loss=0.235374
+[stage 3 | epoch 59 | step 75] loss=0.231301
+[stage 3 | epoch 59 | step 100] loss=0.229153
+Stage 3 Epoch 59 | L1=0.074996  PSNR↑=21.2523  SSIM↑=0.8974  MS-SSIM↑=0.9280  LPIPS↓=0.1550  time=21.9s
+[stage 3 | epoch 60 | step 25] loss=0.236044
+[stage 3 | epoch 60 | step 50] loss=0.228378
+[stage 3 | epoch 60 | step 75] loss=0.224106
+[stage 3 | epoch 60 | step 100] loss=0.222936
+Stage 3 Epoch 60 | L1=0.072392  PSNR↑=21.4721  SSIM↑=0.9008  MS-SSIM↑=0.9313  LPIPS↓=0.1532  time=20.3s
+[FULL EVAL] stage=3 epoch=60 | PSNR↑=21.4721  SSIM↑=0.9008  MS-SSIM↑=0.9313  LPIPS↓=0.1532  NIQE↓=3.7603  UIQM↑=309.8333  UCIQE↑=inf
+[stage 3 | epoch 61 | step 25] loss=0.239638
+[stage 3 | epoch 61 | step 50] loss=0.227110
+[stage 3 | epoch 61 | step 75] loss=0.228274
+[stage 3 | epoch 61 | step 100] loss=0.226446
+Stage 3 Epoch 61 | L1=0.074271  PSNR↑=21.2996  SSIM↑=0.9014  MS-SSIM↑=0.9296  LPIPS↓=0.1523  time=21.4s
+[stage 3 | epoch 62 | step 25] loss=0.203374
+[stage 3 | epoch 62 | step 50] loss=0.216687
+[stage 3 | epoch 62 | step 75] loss=0.221369
+[stage 3 | epoch 62 | step 100] loss=0.221674
+Stage 3 Epoch 62 | L1=0.073991  PSNR↑=21.3764  SSIM↑=0.8990  MS-SSIM↑=0.9296  LPIPS↓=0.1528  time=20.5s
+[stage 3 | epoch 63 | step 25] loss=0.218656
+[stage 3 | epoch 63 | step 50] loss=0.220388
+[stage 3 | epoch 63 | step 75] loss=0.224787
+[stage 3 | epoch 63 | step 100] loss=0.225261
+Stage 3 Epoch 63 | L1=0.073515  PSNR↑=21.3994  SSIM↑=0.8978  MS-SSIM↑=0.9293  LPIPS↓=0.1541  time=20.3s
+[stage 3 | epoch 64 | step 25] loss=0.237476
+[stage 3 | epoch 64 | step 50] loss=0.232269
+[stage 3 | epoch 64 | step 75] loss=0.228793
+[stage 3 | epoch 64 | step 100] loss=0.232683
+Stage 3 Epoch 64 | L1=0.073215  PSNR↑=21.5314  SSIM↑=0.8994  MS-SSIM↑=0.9297  LPIPS↓=0.1517  time=20.3s
+[stage 3 | epoch 65 | step 25] loss=0.218713
+[stage 3 | epoch 65 | step 50] loss=0.225121
+[stage 3 | epoch 65 | step 75] loss=0.223790
+[stage 3 | epoch 65 | step 100] loss=0.227943
+Stage 3 Epoch 65 | L1=0.073846  PSNR↑=21.3826  SSIM↑=0.8973  MS-SSIM↑=0.9298  LPIPS↓=0.1527  time=20.5s
+[stage 3 | epoch 66 | step 25] loss=0.209264
+[stage 3 | epoch 66 | step 50] loss=0.221739
+[stage 3 | epoch 66 | step 75] loss=0.222913
+[stage 3 | epoch 66 | step 100] loss=0.221965
+Stage 3 Epoch 66 | L1=0.074759  PSNR↑=21.2766  SSIM↑=0.8965  MS-SSIM↑=0.9293  LPIPS↓=0.1549  time=21.3s
+[stage 3 | epoch 67 | step 25] loss=0.237577
+[stage 3 | epoch 67 | step 50] loss=0.233059
+[stage 3 | epoch 67 | step 75] loss=0.226172
+[stage 3 | epoch 67 | step 100] loss=0.227086
+Stage 3 Epoch 67 | L1=0.073969  PSNR↑=21.3758  SSIM↑=0.8999  MS-SSIM↑=0.9288  LPIPS↓=0.1515  time=20.1s
+[stage 3 | epoch 68 | step 25] loss=0.218776
+[stage 3 | epoch 68 | step 50] loss=0.220901
+[stage 3 | epoch 68 | step 75] loss=0.222270
+[stage 3 | epoch 68 | step 100] loss=0.223713
+Stage 3 Epoch 68 | L1=0.073582  PSNR↑=21.4652  SSIM↑=0.9008  MS-SSIM↑=0.9332  LPIPS↓=0.1533  time=21.9s
+[stage 3 | epoch 69 | step 25] loss=0.224196
+[stage 3 | epoch 69 | step 50] loss=0.225268
+[stage 3 | epoch 69 | step 75] loss=0.226426
+[stage 3 | epoch 69 | step 100] loss=0.220566
+Stage 3 Epoch 69 | L1=0.075275  PSNR↑=21.2799  SSIM↑=0.8966  MS-SSIM↑=0.9296  LPIPS↓=0.1522  time=28.0s
+[stage 3 | epoch 70 | step 25] loss=0.226717
+[stage 3 | epoch 70 | step 50] loss=0.226988
+[stage 3 | epoch 70 | step 75] loss=0.232130
+[stage 3 | epoch 70 | step 100] loss=0.232269
+Stage 3 Epoch 70 | L1=0.075408  PSNR↑=21.2108  SSIM↑=0.8968  MS-SSIM↑=0.9276  LPIPS↓=0.1542  time=20.3s
+[stage 3 | epoch 71 | step 25] loss=0.208214
+[stage 3 | epoch 71 | step 50] loss=0.216189
+[stage 3 | epoch 71 | step 75] loss=0.223889
+[stage 3 | epoch 71 | step 100] loss=0.221537
+Stage 3 Epoch 71 | L1=0.072693  PSNR↑=21.4831  SSIM↑=0.8994  MS-SSIM↑=0.9311  LPIPS↓=0.1520  time=21.3s
+[stage 3 | epoch 72 | step 25] loss=0.239641
+[stage 3 | epoch 72 | step 50] loss=0.234539
+[stage 3 | epoch 72 | step 75] loss=0.225415
+[stage 3 | epoch 72 | step 100] loss=0.226833
+Stage 3 Epoch 72 | L1=0.072383  PSNR↑=21.5770  SSIM↑=0.9024  MS-SSIM↑=0.9319  LPIPS↓=0.1491  time=27.9s
+[stage 3 | epoch 73 | step 25] loss=0.214895
+[stage 3 | epoch 73 | step 50] loss=0.224805
+[stage 3 | epoch 73 | step 75] loss=0.227401
+[stage 3 | epoch 73 | step 100] loss=0.225052
+Stage 3 Epoch 73 | L1=0.072715  PSNR↑=21.5190  SSIM↑=0.9006  MS-SSIM↑=0.9322  LPIPS↓=0.1511  time=25.9s
+[stage 3 | epoch 74 | step 25] loss=0.219360
+[stage 3 | epoch 74 | step 50] loss=0.223887
+[stage 3 | epoch 74 | step 75] loss=0.227766
+[stage 3 | epoch 74 | step 100] loss=0.229414
+Stage 3 Epoch 74 | L1=0.072476  PSNR↑=21.6027  SSIM↑=0.9013  MS-SSIM↑=0.9335  LPIPS↓=0.1495  time=19.5s
+[stage 3 | epoch 75 | step 25] loss=0.229054
+[stage 3 | epoch 75 | step 50] loss=0.223431
+[stage 3 | epoch 75 | step 75] loss=0.227716
+[stage 3 | epoch 75 | step 100] loss=0.224910
+Stage 3 Epoch 75 | L1=0.075206  PSNR↑=21.2386  SSIM↑=0.8961  MS-SSIM↑=0.9287  LPIPS↓=0.1570  time=20.6s
+[stage 3 | epoch 76 | step 25] loss=0.235205
+[stage 3 | epoch 76 | step 50] loss=0.236754
+[stage 3 | epoch 76 | step 75] loss=0.231116
+[stage 3 | epoch 76 | step 100] loss=0.231520
+Stage 3 Epoch 76 | L1=0.075743  PSNR↑=21.2648  SSIM↑=0.8945  MS-SSIM↑=0.9279  LPIPS↓=0.1542  time=30.4s
+[stage 3 | epoch 77 | step 25] loss=0.205309
+[stage 3 | epoch 77 | step 50] loss=0.220000
+[stage 3 | epoch 77 | step 75] loss=0.217604
+[stage 3 | epoch 77 | step 100] loss=0.222538
+Stage 3 Epoch 77 | L1=0.073257  PSNR↑=21.4843  SSIM↑=0.8994  MS-SSIM↑=0.9311  LPIPS↓=0.1508  time=21.1s
+[stage 3 | epoch 78 | step 25] loss=0.224431
+[stage 3 | epoch 78 | step 50] loss=0.233548
+[stage 3 | epoch 78 | step 75] loss=0.235157
+[stage 3 | epoch 78 | step 100] loss=0.235775
+Stage 3 Epoch 78 | L1=0.075503  PSNR↑=21.1303  SSIM↑=0.8956  MS-SSIM↑=0.9268  LPIPS↓=0.1564  time=20.3s
+[stage 3 | epoch 79 | step 25] loss=0.221278
+[stage 3 | epoch 79 | step 50] loss=0.218827
+[stage 3 | epoch 79 | step 75] loss=0.219689
+[stage 3 | epoch 79 | step 100] loss=0.219754
+Stage 3 Epoch 79 | L1=0.072530  PSNR↑=21.6170  SSIM↑=0.9019  MS-SSIM↑=0.9308  LPIPS↓=0.1492  time=20.2s
+[stage 3 | epoch 80 | step 25] loss=0.227932
+[stage 3 | epoch 80 | step 50] loss=0.231617
+[stage 3 | epoch 80 | step 75] loss=0.230957
+[stage 3 | epoch 80 | step 100] loss=0.229620
+Stage 3 Epoch 80 | L1=0.077246  PSNR↑=21.0529  SSIM↑=0.8905  MS-SSIM↑=0.9277  LPIPS↓=0.1582  time=21.9s
+[FULL EVAL] stage=3 epoch=80 | PSNR↑=21.0529  SSIM↑=0.8905  MS-SSIM↑=0.9277  LPIPS↓=0.1582  NIQE↓=3.7425  UIQM↑=303.5845  UCIQE↑=inf
+[stage 3 | epoch 81 | step 25] loss=0.223212
+[stage 3 | epoch 81 | step 50] loss=0.232912
+[stage 3 | epoch 81 | step 75] loss=0.225806
+[stage 3 | epoch 81 | step 100] loss=0.224115
+Stage 3 Epoch 81 | L1=0.075138  PSNR↑=21.3750  SSIM↑=0.8968  MS-SSIM↑=0.9280  LPIPS↓=0.1523  time=21.0s
+[stage 3 | epoch 82 | step 25] loss=0.216372
+[stage 3 | epoch 82 | step 50] loss=0.222733
+[stage 3 | epoch 82 | step 75] loss=0.226575
+[stage 3 | epoch 82 | step 100] loss=0.225277
+Stage 3 Epoch 82 | L1=0.073452  PSNR↑=21.4646  SSIM↑=0.8997  MS-SSIM↑=0.9308  LPIPS↓=0.1513  time=20.4s
+[stage 3 | epoch 83 | step 25] loss=0.236973
+[stage 3 | epoch 83 | step 50] loss=0.228328
+[stage 3 | epoch 83 | step 75] loss=0.228300
+[stage 3 | epoch 83 | step 100] loss=0.225533
+Stage 3 Epoch 83 | L1=0.072948  PSNR↑=21.5918  SSIM↑=0.9003  MS-SSIM↑=0.9322  LPIPS↓=0.1490  time=22.8s
+[stage 3 | epoch 84 | step 25] loss=0.228701
+[stage 3 | epoch 84 | step 50] loss=0.229684
+[stage 3 | epoch 84 | step 75] loss=0.228685
+[stage 3 | epoch 84 | step 100] loss=0.228309
+Stage 3 Epoch 84 | L1=0.074791  PSNR↑=21.3548  SSIM↑=0.8973  MS-SSIM↑=0.9284  LPIPS↓=0.1523  time=22.4s
+[stage 3 | epoch 85 | step 25] loss=0.232381
+[stage 3 | epoch 85 | step 50] loss=0.231054
+[stage 3 | epoch 85 | step 75] loss=0.228538
+[stage 3 | epoch 85 | step 100] loss=0.231407
+Stage 3 Epoch 85 | L1=0.076059  PSNR↑=21.2129  SSIM↑=0.8938  MS-SSIM↑=0.9262  LPIPS↓=0.1539  time=20.0s
+[stage 3 | epoch 86 | step 25] loss=0.220458
+[stage 3 | epoch 86 | step 50] loss=0.232431
+[stage 3 | epoch 86 | step 75] loss=0.234280
+[stage 3 | epoch 86 | step 100] loss=0.232355
+Stage 3 Epoch 86 | L1=0.073184  PSNR↑=21.5428  SSIM↑=0.8988  MS-SSIM↑=0.9305  LPIPS↓=0.1507  time=20.9s
+[stage 3 | epoch 87 | step 25] loss=0.226241
+[stage 3 | epoch 87 | step 50] loss=0.222885
+[stage 3 | epoch 87 | step 75] loss=0.227806
+[stage 3 | epoch 87 | step 100] loss=0.228953
+Stage 3 Epoch 87 | L1=0.073468  PSNR↑=21.5127  SSIM↑=0.8987  MS-SSIM↑=0.9295  LPIPS↓=0.1513  time=21.0s
+[stage 3 | epoch 88 | step 25] loss=0.223448
+[stage 3 | epoch 88 | step 50] loss=0.231601
+[stage 3 | epoch 88 | step 75] loss=0.231936
+[stage 3 | epoch 88 | step 100] loss=0.232869
+Stage 3 Epoch 88 | L1=0.075320  PSNR↑=21.2824  SSIM↑=0.8944  MS-SSIM↑=0.9285  LPIPS↓=0.1557  time=22.5s
+[stage 3 | epoch 89 | step 25] loss=0.246266
+[stage 3 | epoch 89 | step 50] loss=0.238569
+[stage 3 | epoch 89 | step 75] loss=0.231481
+[stage 3 | epoch 89 | step 100] loss=0.229290
+Stage 3 Epoch 89 | L1=0.075145  PSNR↑=21.2192  SSIM↑=0.8952  MS-SSIM↑=0.9257  LPIPS↓=0.1563  time=20.4s
+[stage 3 | epoch 90 | step 25] loss=0.218294
+[stage 3 | epoch 90 | step 50] loss=0.221493
+[stage 3 | epoch 90 | step 75] loss=0.225223
+[stage 3 | epoch 90 | step 100] loss=0.224291
+Stage 3 Epoch 90 | L1=0.074754  PSNR↑=21.3379  SSIM↑=0.8951  MS-SSIM↑=0.9271  LPIPS↓=0.1538  time=20.6s
+[stage 3 | epoch 91 | step 25] loss=0.230205
+[stage 3 | epoch 91 | step 50] loss=0.229030
+[stage 3 | epoch 91 | step 75] loss=0.233496
+[stage 3 | epoch 91 | step 100] loss=0.229042
+Stage 3 Epoch 91 | L1=0.071293  PSNR↑=21.7290  SSIM↑=0.9001  MS-SSIM↑=0.9323  LPIPS↓=0.1483  time=20.1s
+  ✅ saved stage best: stage_03_best.pt
+  ✅ saved global_best.pt
+[stage 3 | epoch 92 | step 25] loss=0.218398
+[stage 3 | epoch 92 | step 50] loss=0.227102
+[stage 3 | epoch 92 | step 75] loss=0.228106
+[stage 3 | epoch 92 | step 100] loss=0.227146
+Stage 3 Epoch 92 | L1=0.075501  PSNR↑=21.2690  SSIM↑=0.8947  MS-SSIM↑=0.9245  LPIPS↓=0.1536  time=22.2s
+[stage 3 | epoch 93 | step 25] loss=0.223438
+[stage 3 | epoch 93 | step 50] loss=0.217425
+[stage 3 | epoch 93 | step 75] loss=0.221850
+[stage 3 | epoch 93 | step 100] loss=0.220615
+Stage 3 Epoch 93 | L1=0.075838  PSNR↑=21.1819  SSIM↑=0.8976  MS-SSIM↑=0.9262  LPIPS↓=0.1550  time=20.0s
+[stage 3 | epoch 94 | step 25] loss=0.229972
+[stage 3 | epoch 94 | step 50] loss=0.228217
+[stage 3 | epoch 94 | step 75] loss=0.228689
+[stage 3 | epoch 94 | step 100] loss=0.230186
+Stage 3 Epoch 94 | L1=0.073667  PSNR↑=21.4107  SSIM↑=0.9011  MS-SSIM↑=0.9307  LPIPS↓=0.1526  time=36.0s
+[stage 3 | epoch 95 | step 25] loss=0.227458
+[stage 3 | epoch 95 | step 50] loss=0.218355
+[stage 3 | epoch 95 | step 75] loss=0.223543
+[stage 3 | epoch 95 | step 100] loss=0.226579
+Stage 3 Epoch 95 | L1=0.072769  PSNR↑=21.5473  SSIM↑=0.8984  MS-SSIM↑=0.9299  LPIPS↓=0.1504  time=29.7s
+[stage 3 | epoch 96 | step 25] loss=0.227800
+[stage 3 | epoch 96 | step 50] loss=0.229567
+[stage 3 | epoch 96 | step 75] loss=0.227643
+[stage 3 | epoch 96 | step 100] loss=0.230494
+Stage 3 Epoch 96 | L1=0.072406  PSNR↑=21.6244  SSIM↑=0.9032  MS-SSIM↑=0.9323  LPIPS↓=0.1484  time=20.7s
+[stage 3 | epoch 97 | step 25] loss=0.236285
+[stage 3 | epoch 97 | step 50] loss=0.234842
+[stage 3 | epoch 97 | step 75] loss=0.231432
+[stage 3 | epoch 97 | step 100] loss=0.229347
+Stage 3 Epoch 97 | L1=0.073378  PSNR↑=21.4602  SSIM↑=0.9006  MS-SSIM↑=0.9308  LPIPS↓=0.1514  time=45.8s
+[stage 3 | epoch 98 | step 25] loss=0.219501
+[stage 3 | epoch 98 | step 50] loss=0.222166
+[stage 3 | epoch 98 | step 75] loss=0.218162
+[stage 3 | epoch 98 | step 100] loss=0.220597
+Stage 3 Epoch 98 | L1=0.072594  PSNR↑=21.5920  SSIM↑=0.9020  MS-SSIM↑=0.9329  LPIPS↓=0.1493  time=41.8s
+[stage 3 | epoch 99 | step 25] loss=0.213488
+[stage 3 | epoch 99 | step 50] loss=0.227453
+[stage 3 | epoch 99 | step 75] loss=0.230049
+[stage 3 | epoch 99 | step 100] loss=0.233130
+Stage 3 Epoch 99 | L1=0.077180  PSNR↑=21.0397  SSIM↑=0.8940  MS-SSIM↑=0.9265  LPIPS↓=0.1574  time=22.5s
+[stage 3 | epoch 100 | step 25] loss=0.225065
+[stage 3 | epoch 100 | step 50] loss=0.226036
+[stage 3 | epoch 100 | step 75] loss=0.219851
+[stage 3 | epoch 100 | step 100] loss=0.221904
+Stage 3 Epoch 100 | L1=0.075377  PSNR↑=21.2817  SSIM↑=0.8946  MS-SSIM↑=0.9283  LPIPS↓=0.1525  time=19.8s
+[FULL EVAL] stage=3 epoch=100 | PSNR↑=21.2817  SSIM↑=0.8946  MS-SSIM↑=0.9283  LPIPS↓=0.1525  NIQE↓=3.7544  UIQM↑=302.7189  UCIQE↑=inf
+[stage 3 | epoch 101 | step 25] loss=0.232002
+[stage 3 | epoch 101 | step 50] loss=0.236058
+[stage 3 | epoch 101 | step 75] loss=0.233499
+[stage 3 | epoch 101 | step 100] loss=0.231753
+Stage 3 Epoch 101 | L1=0.075862  PSNR↑=21.1324  SSIM↑=0.8955  MS-SSIM↑=0.9281  LPIPS↓=0.1579  time=21.0s
+[stage 3 | epoch 102 | step 25] loss=0.235254
+[stage 3 | epoch 102 | step 50] loss=0.235843
+[stage 3 | epoch 102 | step 75] loss=0.233566
+[stage 3 | epoch 102 | step 100] loss=0.230908
+Stage 3 Epoch 102 | L1=0.074982  PSNR↑=21.1940  SSIM↑=0.8947  MS-SSIM↑=0.9271  LPIPS↓=0.1545  time=22.0s
+[stage 3 | epoch 103 | step 25] loss=0.231802
+[stage 3 | epoch 103 | step 50] loss=0.232916
+[stage 3 | epoch 103 | step 75] loss=0.228437
+[stage 3 | epoch 103 | step 100] loss=0.226341
+Stage 3 Epoch 103 | L1=0.076121  PSNR↑=21.0952  SSIM↑=0.8932  MS-SSIM↑=0.9236  LPIPS↓=0.1573  time=20.1s
+[stage 3 | epoch 104 | step 25] loss=0.219969
+[stage 3 | epoch 104 | step 50] loss=0.224873
+[stage 3 | epoch 104 | step 75] loss=0.225484
+[stage 3 | epoch 104 | step 100] loss=0.223970
+Stage 3 Epoch 104 | L1=0.073019  PSNR↑=21.5629  SSIM↑=0.8986  MS-SSIM↑=0.9295  LPIPS↓=0.1493  time=20.1s
+[stage 3 | epoch 105 | step 25] loss=0.233160
+[stage 3 | epoch 105 | step 50] loss=0.226655
+[stage 3 | epoch 105 | step 75] loss=0.229151
+[stage 3 | epoch 105 | step 100] loss=0.227260
+Stage 3 Epoch 105 | L1=0.074219  PSNR↑=21.3209  SSIM↑=0.8966  MS-SSIM↑=0.9281  LPIPS↓=0.1542  time=21.4s
+[stage 3 | epoch 106 | step 25] loss=0.220202
+[stage 3 | epoch 106 | step 50] loss=0.219934
+[stage 3 | epoch 106 | step 75] loss=0.219912
+[stage 3 | epoch 106 | step 100] loss=0.220397
+Stage 3 Epoch 106 | L1=0.073356  PSNR↑=21.5114  SSIM↑=0.9003  MS-SSIM↑=0.9305  LPIPS↓=0.1494  time=22.3s
+[stage 3 | epoch 107 | step 25] loss=0.230829
+[stage 3 | epoch 107 | step 50] loss=0.221686
+[stage 3 | epoch 107 | step 75] loss=0.221863
+[stage 3 | epoch 107 | step 100] loss=0.227898
+Stage 3 Epoch 107 | L1=0.074514  PSNR↑=21.3287  SSIM↑=0.8989  MS-SSIM↑=0.9298  LPIPS↓=0.1518  time=20.6s
+[stage 3 | epoch 108 | step 25] loss=0.220813
+[stage 3 | epoch 108 | step 50] loss=0.229234
+[stage 3 | epoch 108 | step 75] loss=0.228622
+[stage 3 | epoch 108 | step 100] loss=0.225382
+Stage 3 Epoch 108 | L1=0.074117  PSNR↑=21.4148  SSIM↑=0.8982  MS-SSIM↑=0.9291  LPIPS↓=0.1499  time=20.4s
+[stage 3 | epoch 109 | step 25] loss=0.224908
+[stage 3 | epoch 109 | step 50] loss=0.221083
+[stage 3 | epoch 109 | step 75] loss=0.221651
+[stage 3 | epoch 109 | step 100] loss=0.227996
+Stage 3 Epoch 109 | L1=0.072661  PSNR↑=21.5543  SSIM↑=0.9017  MS-SSIM↑=0.9323  LPIPS↓=0.1516  time=21.1s
+[stage 3 | epoch 110 | step 25] loss=0.217790
+[stage 3 | epoch 110 | step 50] loss=0.222174
+[stage 3 | epoch 110 | step 75] loss=0.223012
+[stage 3 | epoch 110 | step 100] loss=0.222135
+Stage 3 Epoch 110 | L1=0.072520  PSNR↑=21.7013  SSIM↑=0.9040  MS-SSIM↑=0.9349  LPIPS↓=0.1485  time=20.8s
+[stage 3 | epoch 111 | step 25] loss=0.245038
+[stage 3 | epoch 111 | step 50] loss=0.235956
+[stage 3 | epoch 111 | step 75] loss=0.230954
+[stage 3 | epoch 111 | step 100] loss=0.227026
+Stage 3 Epoch 111 | L1=0.071766  PSNR↑=21.6782  SSIM↑=0.9026  MS-SSIM↑=0.9332  LPIPS↓=0.1486  time=20.6s
+[stage 3 | epoch 112 | step 25] loss=0.229885
+[stage 3 | epoch 112 | step 50] loss=0.224226
+[stage 3 | epoch 112 | step 75] loss=0.225786
+[stage 3 | epoch 112 | step 100] loss=0.226929
+Stage 3 Epoch 112 | L1=0.074058  PSNR↑=21.3740  SSIM↑=0.8980  MS-SSIM↑=0.9305  LPIPS↓=0.1545  time=20.5s
+[stage 3 | epoch 113 | step 25] loss=0.219338
+[stage 3 | epoch 113 | step 50] loss=0.223405
+[stage 3 | epoch 113 | step 75] loss=0.222430
+[stage 3 | epoch 113 | step 100] loss=0.225209
+Stage 3 Epoch 113 | L1=0.074920  PSNR↑=21.3041  SSIM↑=0.8960  MS-SSIM↑=0.9283  LPIPS↓=0.1541  time=20.8s
+[stage 3 | epoch 114 | step 25] loss=0.234221
+[stage 3 | epoch 114 | step 50] loss=0.234107
+[stage 3 | epoch 114 | step 75] loss=0.231118
+[stage 3 | epoch 114 | step 100] loss=0.226915
+Stage 3 Epoch 114 | L1=0.077626  PSNR↑=21.0652  SSIM↑=0.8926  MS-SSIM↑=0.9245  LPIPS↓=0.1551  time=22.6s
+[stage 3 | epoch 115 | step 25] loss=0.208099
+[stage 3 | epoch 115 | step 50] loss=0.216958
+[stage 3 | epoch 115 | step 75] loss=0.215758
+[stage 3 | epoch 115 | step 100] loss=0.220895
+Stage 3 Epoch 115 | L1=0.073103  PSNR↑=21.5909  SSIM↑=0.9022  MS-SSIM↑=0.9330  LPIPS↓=0.1485  time=20.6s
+[stage 3 | epoch 116 | step 25] loss=0.230812
+[stage 3 | epoch 116 | step 50] loss=0.233134
+[stage 3 | epoch 116 | step 75] loss=0.228712
+[stage 3 | epoch 116 | step 100] loss=0.223664
+Stage 3 Epoch 116 | L1=0.073469  PSNR↑=21.4728  SSIM↑=0.9002  MS-SSIM↑=0.9303  LPIPS↓=0.1539  time=21.8s
+[stage 3 | epoch 117 | step 25] loss=0.222417
+[stage 3 | epoch 117 | step 50] loss=0.218176
+[stage 3 | epoch 117 | step 75] loss=0.223764
+[stage 3 | epoch 117 | step 100] loss=0.227239
+Stage 3 Epoch 117 | L1=0.074004  PSNR↑=21.4275  SSIM↑=0.9016  MS-SSIM↑=0.9295  LPIPS↓=0.1506  time=21.8s
+[stage 3 | epoch 118 | step 25] loss=0.208194
+[stage 3 | epoch 118 | step 50] loss=0.221051
+[stage 3 | epoch 118 | step 75] loss=0.222773
+[stage 3 | epoch 118 | step 100] loss=0.223138
+Stage 3 Epoch 118 | L1=0.075123  PSNR↑=21.3225  SSIM↑=0.8975  MS-SSIM↑=0.9289  LPIPS↓=0.1520  time=21.3s
+[stage 3 | epoch 119 | step 25] loss=0.236914
+[stage 3 | epoch 119 | step 50] loss=0.234988
+[stage 3 | epoch 119 | step 75] loss=0.234487
+[stage 3 | epoch 119 | step 100] loss=0.231293
+Stage 3 Epoch 119 | L1=0.073613  PSNR↑=21.6099  SSIM↑=0.8994  MS-SSIM↑=0.9314  LPIPS↓=0.1490  time=23.6s
+[stage 3 | epoch 120 | step 25] loss=0.229775
+[stage 3 | epoch 120 | step 50] loss=0.227233
+[stage 3 | epoch 120 | step 75] loss=0.228282
+[stage 3 | epoch 120 | step 100] loss=0.227056
+Stage 3 Epoch 120 | L1=0.073028  PSNR↑=21.5987  SSIM↑=0.9003  MS-SSIM↑=0.9314  LPIPS↓=0.1530  time=33.1s
+[FULL EVAL] stage=3 epoch=120 | PSNR↑=21.5987  SSIM↑=0.9003  MS-SSIM↑=0.9314  LPIPS↓=0.1530  NIQE↓=3.7452  UIQM↑=315.9052  UCIQE↑=inf
+
+========== STAGE 4/5 | crop=448 | batch=6 | lr=0.00015 ==========
+
+[stage 4 | epoch 1 | step 25] loss=0.211204
+[stage 4 | epoch 1 | step 50] loss=0.220605
+[stage 4 | epoch 1 | step 75] loss=0.225082
+[stage 4 | epoch 1 | step 100] loss=0.224774
+[stage 4 | epoch 1 | step 125] loss=0.226718
+Stage 4 Epoch 1 | L1=0.076539  PSNR↑=21.0995  SSIM↑=0.8944  MS-SSIM↑=0.9218  LPIPS↓=0.1652  time=33.6s
+  ✅ saved stage best: stage_04_best.pt
+[stage 4 | epoch 2 | step 25] loss=0.227296
+[stage 4 | epoch 2 | step 50] loss=0.237990
+[stage 4 | epoch 2 | step 75] loss=0.232271
+[stage 4 | epoch 2 | step 100] loss=0.227214
+[stage 4 | epoch 2 | step 125] loss=0.225530
+Stage 4 Epoch 2 | L1=0.077239  PSNR↑=21.0767 [stage 4 | epoch 3 | step 50] loss=0.232117
+[stage 4 | epoch 3 | step 75] loss=0.227985
+[stage 4 | epoch 3 | step 100] loss=0.228704
+[stage 4 | epoch 3 | step 125] loss=0.226301
+Stage 4 Epoch 3 | L1=0.076412  PSNR↑=21.2034  SSIM↑=0.8959  MS-SSIM↑=0.9262  LPIPS↓=0.1614  time=21.8s
+  ✅ saved stage best: stage_04_best.pt
+[stage 4 | epoch 4 | step 25] loss=0.215625
+[stage 4 | epoch 4 | step 50] loss=0.232039
+[stage 4 | epoch 4 | step 75] loss=0.229034
+[stage 4 | epoch 4 | step 100] loss=0.228880
+[stage 4 | epoch 4 | step 125] loss=0.227376
+Stage 4 Epoch 4 | L1=0.076096  PSNR↑=21.1738  SSIM↑=0.8977  MS-SSIM↑=0.9244  LPIPS↓=0.1624  time=22.2s
+  ✅ saved stage best: stage_04_best.pt
+[stage 4 | epoch 5 | step 25] loss=0.196706
+[stage 4 | epoch 5 | step 50] loss=0.213410
+[stage 4 | epoch 5 | step 75] loss=0.213848
+[stage 4 | epoch 5 | step 100] loss=0.217623
+[stage 4 | epoch 5 | step 125] loss=0.219201
+Stage 4 Epoch 5 | L1=0.077151  PSNR↑=21.0903  SSIM↑=0.8949  MS-SSIM↑=0.9226  LPIPS↓=0.1657  time=23.7s
+[stage 4 | epoch 6 | step 25] loss=0.247985
+[stage 4 | epoch 6 | step 50] loss=0.235353
+[stage 4 | epoch 6 | step 75] loss=0.232594
+[stage 4 | epoch 6 | step 100] loss=0.227395
+[stage 4 | epoch 6 | step 125] loss=0.224331
+Stage 4 Epoch 6 | L1=0.076997  PSNR↑=21.1499  SSIM↑=0.8966  MS-SSIM↑=0.9235  LPIPS↓=0.1618  time=22.5s
+[stage 4 | epoch 7 | step 25] loss=0.226575
+[stage 4 | epoch 7 | step 50] loss=0.227401
+[stage 4 | epoch 7 | step 75] loss=0.234862
+[stage 4 | epoch 7 | step 100] loss=0.231368
+[stage 4 | epoch 7 | step 125] loss=0.231605
+Stage 4 Epoch 7 | L1=0.076290  PSNR↑=21.1913  SSIM↑=0.8970  MS-SSIM↑=0.9256  LPIPS↓=0.1629  time=22.2s
+[stage 4 | epoch 8 | step 25] loss=0.224467
+[stage 4 | epoch 8 | step 50] loss=0.229913
+[stage 4 | epoch 8 | step 75] loss=0.226499
+[stage 4 | epoch 8 | step 100] loss=0.227127
+[stage 4 | epoch 8 | step 125] loss=0.224815
+Stage 4 Epoch 8 | L1=0.075969  PSNR↑=21.2564  SSIM↑=0.8965  MS-SSIM↑=0.9251  LPIPS↓=0.1651  time=23.1s
+  ✅ saved stage best: stage_04_best.pt
+[stage 4 | epoch 9 | step 25] loss=0.218195
+[stage 4 | epoch 9 | step 50] loss=0.218621
+[stage 4 | epoch 9 | step 75] loss=0.218672
+[stage 4 | epoch 9 | step 100] loss=0.223568
+[stage 4 | epoch 9 | step 125] loss=0.221308
+Stage 4 Epoch 9 | L1=0.076666  PSNR↑=21.1146  SSIM↑=0.8952  MS-SSIM↑=0.9255  LPIPS↓=0.1654  time=21.2s
+[stage 4 | epoch 10 | step 25] loss=0.235373
+[stage 4 | epoch 10 | step 50] loss=0.221245
+[stage 4 | epoch 10 | step 75] loss=0.231771
+[stage 4 | epoch 10 | step 100] loss=0.233636
+[stage 4 | epoch 10 | step 125] loss=0.232526
+Stage 4 Epoch 10 | L1=0.076162  PSNR↑=21.2649  SSIM↑=0.8981  MS-SSIM↑=0.9271  LPIPS↓=0.1608  time=21.6s
+[stage 4 | epoch 11 | step 25] loss=0.229201
+[stage 4 | epoch 11 | step 50] loss=0.226577
+[stage 4 | epoch 11 | step 75] loss=0.219880
+[stage 4 | epoch 11 | step 100] loss=0.224503
+[stage 4 | epoch 11 | step 125] loss=0.223486
+Stage 4 Epoch 11 | L1=0.077782  PSNR↑=20.9917  SSIM↑=0.8954  MS-SSIM↑=0.9238  LPIPS↓=0.1675  time=22.1s
+[stage 4 | epoch 12 | step 25] loss=0.237624
+[stage 4 | epoch 12 | step 50] loss=0.237279
+[stage 4 | epoch 12 | step 75] loss=0.232386
+[stage 4 | epoch 12 | step 100] loss=0.228472
+[stage 4 | epoch 12 | step 125] loss=0.225688
+Stage 4 Epoch 12 | L1=0.077379  PSNR↑=20.9650  SSIM↑=0.8937  MS-SSIM↑=0.9196  LPIPS↓=0.1656  time=20.7s
+[stage 4 | epoch 13 | step 25] loss=0.228263
+[stage 4 | epoch 13 | step 50] loss=0.219598
+[stage 4 | epoch 13 | step 75] loss=0.219354
+[stage 4 | epoch 13 | step 100] loss=0.220549
+[stage 4 | epoch 13 | step 125] loss=0.224257
+Stage 4 Epoch 13 | L1=0.076847  PSNR↑=21.0897  SSIM↑=0.8966  MS-SSIM↑=0.9227  LPIPS↓=0.1642  time=21.0s
+[stage 4 | epoch 14 | step 25] loss=0.225277
+[stage 4 | epoch 14 | step 50] loss=0.220371
+[stage 4 | epoch 14 | step 75] loss=0.227376
+[stage 4 | epoch 14 | step 100] loss=0.218401
+[stage 4 | epoch 14 | step 125] loss=0.223573
+Stage 4 Epoch 14 | L1=0.075967  PSNR↑=21.2334  SSIM↑=0.8948  MS-SSIM↑=0.9220  LPIPS↓=0.1647  time=23.0s
+  ✅ saved stage best: stage_04_best.pt
+[stage 4 | epoch 15 | step 25] loss=0.199790
+[stage 4 | epoch 15 | step 50] loss=0.212012
+[stage 4 | epoch 15 | step 75] loss=0.220253
+[stage 4 | epoch 15 | step 100] loss=0.224970
+[stage 4 | epoch 15 | step 125] loss=0.226614
+Stage 4 Epoch 15 | L1=0.078682  PSNR↑=20.8921  SSIM↑=0.8945  MS-SSIM↑=0.9214  LPIPS↓=0.1664  time=21.5s
+[stage 4 | epoch 16 | step 25] loss=0.223170
+[stage 4 | epoch 16 | step 50] loss=0.216331
+[stage 4 | epoch 16 | step 75] loss=0.219835
+[stage 4 | epoch 16 | step 100] loss=0.220051
+[stage 4 | epoch 16 | step 125] loss=0.223827
+Stage 4 Epoch 16 | L1=0.075323  PSNR↑=21.2133  SSIM↑=0.8990  MS-SSIM↑=0.9277  LPIPS↓=0.1630  time=22.1s
+  ✅ saved stage best: stage_04_best.pt
+[stage 4 | epoch 17 | step 25] loss=0.208148
+[stage 4 | epoch 17 | step 50] loss=0.206212
+[stage 4 | epoch 17 | step 75] loss=0.221407
+[stage 4 | epoch 17 | step 100] loss=0.225800
+[stage 4 | epoch 17 | step 125] loss=0.226312
+Stage 4 Epoch 17 | L1=0.072945  PSNR↑=21.5404  SSIM↑=0.9036  MS-SSIM↑=0.9307  LPIPS↓=0.1578  time=22.8s
+  ✅ saved stage best: stage_04_best.pt
+[stage 4 | epoch 18 | step 25] loss=0.213985
+[stage 4 | epoch 18 | step 50] loss=0.213002
+[stage 4 | epoch 18 | step 75] loss=0.219149
+[stage 4 | epoch 18 | step 100] loss=0.216823
+[stage 4 | epoch 18 | step 125] loss=0.217739
+Stage 4 Epoch 18 | L1=0.075964  PSNR↑=21.1326  SSIM↑=0.8982  MS-SSIM↑=0.9259  LPIPS↓=0.1626  time=21.9s
+[stage 4 | epoch 19 | step 25] loss=0.225690
+[stage 4 | epoch 19 | step 50] loss=0.222615
+[stage 4 | epoch 19 | step 75] loss=0.226013
+[stage 4 | epoch 19 | step 100] loss=0.225713
+[stage 4 | epoch 19 | step 125] loss=0.227737
+Stage 4 Epoch 19 | L1=0.075734  PSNR↑=21.2214  SSIM↑=0.8998  MS-SSIM↑=0.9267  LPIPS↓=0.1622  time=21.3s
+[stage 4 | epoch 20 | step 25] loss=0.226509
+[stage 4 | epoch 20 | step 50] loss=0.227218
+[stage 4 | epoch 20 | step 75] loss=0.228699
+[stage 4 | epoch 20 | step 100] loss=0.225827
+[stage 4 | epoch 20 | step 125] loss=0.228349
+Stage 4 Epoch 20 | L1=0.074901  PSNR↑=21.3534  SSIM↑=0.8995  MS-SSIM↑=0.9285  LPIPS↓=0.1618  time=43.1s
+[FULL EVAL] stage=4 epoch=20 | PSNR↑=21.3534  SSIM↑=0.8995  MS-SSIM↑=0.9285  LPIPS↓=0.1618  NIQE↓=4.0288  UIQM↑=289.3322  UCIQE↑=inf
+[stage 4 | epoch 21 | step 25] loss=0.220723
+[stage 4 | epoch 21 | step 50] loss=0.224152
+[stage 4 | epoch 21 | step 75] loss=0.227093
+[stage 4 | epoch 21 | step 100] loss=0.226367
+[stage 4 | epoch 21 | step 125] loss=0.228273
+Stage 4 Epoch 21 | L1=0.076168  PSNR↑=21.2145  SSIM↑=0.8983  MS-SSIM↑=0.9259  LPIPS↓=0.1626  time=47.5s
+[stage 4 | epoch 22 | step 25] loss=0.240173
+[stage 4 | epoch 22 | step 50] loss=0.228452
+[stage 4 | epoch 22 | step 75] loss=0.221196
+[stage 4 | epoch 22 | step 100] loss=0.224091
+[stage 4 | epoch 22 | step 125] loss=0.227363
+Stage 4 Epoch 22 | L1=0.075339  PSNR↑=21.2225  SSIM↑=0.8979  MS-SSIM↑=0.9275  LPIPS↓=0.1647  time=51.7s
+[stage 4 | epoch 23 | step 25] loss=0.243102
+[stage 4 | epoch 23 | step 50] loss=0.243415
+[stage 4 | epoch 23 | step 75] loss=0.239790
+[stage 4 | epoch 23 | step 100] loss=0.241393
+[stage 4 | epoch 23 | step 125] loss=0.239271
+Stage 4 Epoch 23 | L1=0.076659  PSNR↑=21.0977  SSIM↑=0.8967  MS-SSIM↑=0.9247  LPIPS↓=0.1636  time=53.4s
+[stage 4 | epoch 24 | step 25] loss=0.232044
+[stage 4 | epoch 24 | step 50] loss=0.226089
+[stage 4 | epoch 24 | step 75] loss=0.224054
+[stage 4 | epoch 24 | step 100] loss=0.223839
+[stage 4 | epoch 24 | step 125] loss=0.223608
+Stage 4 Epoch 24 | L1=0.076081  PSNR↑=21.1598  SSIM↑=0.8974  MS-SSIM↑=0.9246  LPIPS↓=0.1627  time=32.4s
+[stage 4 | epoch 25 | step 25] loss=0.246574
+[stage 4 | epoch 25 | step 50] loss=0.234050
+[stage 4 | epoch 25 | step 75] loss=0.226246
+[stage 4 | epoch 25 | step 100] loss=0.224961
+[stage 4 | epoch 25 | step 125] loss=0.227090
+Stage 4 Epoch 25 | L1=0.076276  PSNR↑=21.1772  SSIM↑=0.8959  MS-SSIM↑=0.9229  LPIPS↓=0.1642  time=29.2s
+[stage 4 | epoch 26 | step 25] loss=0.234983
+[stage 4 | epoch 26 | step 50] loss=0.233689
+[stage 4 | epoch 26 | step 75] loss=0.233810
+[stage 4 | epoch 26 | step 100] loss=0.232447
+[stage 4 | epoch 26 | step 125] loss=0.233770
+Stage 4 Epoch 26 | L1=0.077143  PSNR↑=21.1058  SSIM↑=0.8951  MS-SSIM↑=0.9240  LPIPS↓=0.1629  time=52.1s
+[stage 4 | epoch 27 | step 25] loss=0.227575
+[stage 4 | epoch 27 | step 50] loss=0.221310
+[stage 4 | epoch 27 | step 75] loss=0.228269
+[stage 4 | epoch 27 | step 100] loss=0.227543
+[stage 4 | epoch 27 | step 125] loss=0.227822
+Stage 4 Epoch 27 | L1=0.078300  PSNR↑=20.9036  SSIM↑=0.8949  MS-SSIM↑=0.9197  LPIPS↓=0.1667  time=32.2s
+[stage 4 | epoch 28 | step 25] loss=0.219981
+[stage 4 | epoch 28 | step 50] loss=0.230425
+[stage 4 | epoch 28 | step 75] loss=0.227521
+[stage 4 | epoch 28 | step 100] loss=0.231357
+[stage 4 | epoch 28 | step 125] loss=0.230714
+Stage 4 Epoch 28 | L1=0.076654  PSNR↑=21.0910  SSIM↑=0.8945  MS-SSIM↑=0.9245  LPIPS↓=0.1654  time=23.0s
+[stage 4 | epoch 29 | step 25] loss=0.218435
+[stage 4 | epoch 29 | step 50] loss=0.220635
+[stage 4 | epoch 29 | step 75] loss=0.219983
+[stage 4 | epoch 29 | step 100] loss=0.222673
+[stage 4 | epoch 29 | step 125] loss=0.223110
+Stage 4 Epoch 29 | L1=0.075949  PSNR↑=21.2752  SSIM↑=0.8982  MS-SSIM↑=0.9260  LPIPS↓=0.1606  time=61.0s
+[stage 4 | epoch 30 | step 25] loss=0.223497
+[stage 4 | epoch 30 | step 50] loss=0.222844
+[stage 4 | epoch 30 | step 75] loss=0.222795
+[stage 4 | epoch 30 | step 100] loss=0.224122
+[stage 4 | epoch 30 | step 125] loss=0.223031
+Stage 4 Epoch 30 | L1=0.077421  PSNR↑=21.0466  SSIM↑=0.8952  MS-SSIM↑=0.9252  LPIPS↓=0.1649  time=44.3s
+[stage 4 | epoch 31 | step 25] loss=0.236784
+[stage 4 | epoch 31 | step 50] loss=0.243340
+[stage 4 | epoch 31 | step 75] loss=0.237712
+[stage 4 | epoch 31 | step 100] loss=0.232404
+[stage 4 | epoch 31 | step 125] loss=0.230613
+Stage 4 Epoch 31 | L1=0.076297  PSNR↑=21.1893  SSIM↑=0.8959  MS-SSIM↑=0.9237  LPIPS↓=0.1622  time=33.1s
+[stage 4 | epoch 32 | step 25] loss=0.225048
+[stage 4 | epoch 32 | step 50] loss=0.228072
+[stage 4 | epoch 32 | step 75] loss=0.224374
+[stage 4 | epoch 32 | step 100] loss=0.227653
+[stage 4 | epoch 32 | step 125] loss=0.224574
+Stage 4 Epoch 32 | L1=0.075117  PSNR↑=21.2488  SSIM↑=0.8993  MS-SSIM↑=0.9257  LPIPS↓=0.1610  time=26.3s
+[stage 4 | epoch 33 | step 25] loss=0.245929
+[stage 4 | epoch 33 | step 50] loss=0.237983
+[stage 4 | epoch 33 | step 75] loss=0.232187
+[stage 4 | epoch 33 | step 100] loss=0.229963
+[stage 4 | epoch 33 | step 125] loss=0.231311
+Stage 4 Epoch 33 | L1=0.077030  PSNR↑=21.0125  SSIM↑=0.8925  MS-SSIM↑=0.9224  LPIPS↓=0.1646  time=27.2s
+[stage 4 | epoch 34 | step 25] loss=0.213141
+[stage 4 | epoch 34 | step 50] loss=0.217988
+[stage 4 | epoch 34 | step 75] loss=0.221876
+[stage 4 | epoch 34 | step 100] loss=0.222451
+[stage 4 | epoch 34 | step 125] loss=0.216526
+Stage 4 Epoch 34 | L1=0.078222  PSNR↑=20.9068  SSIM↑=0.8940  MS-SSIM↑=0.9264  LPIPS↓=0.1651  time=42.2s
+[stage 4 | epoch 35 | step 25] loss=0.232439
+[stage 4 | epoch 35 | step 50] loss=0.232824
+[stage 4 | epoch 35 | step 75] loss=0.226785
+[stage 4 | epoch 35 | step 100] loss=0.228722
+[stage 4 | epoch 35 | step 125] loss=0.233578
+Stage 4 Epoch 35 | L1=0.077359  PSNR↑=21.0210  SSIM↑=0.8958  MS-SSIM↑=0.9253  LPIPS↓=0.1639  time=26.3s
+[stage 4 | epoch 36 | step 25] loss=0.235888
+[stage 4 | epoch 36 | step 50] loss=0.230096
+[stage 4 | epoch 36 | step 75] loss=0.232799
+[stage 4 | epoch 36 | step 100] loss=0.233820
+[stage 4 | epoch 36 | step 125] loss=0.232828
+Stage 4 Epoch 36 | L1=0.074820  PSNR↑=21.2420  SSIM↑=0.8998  MS-SSIM↑=0.9262  LPIPS↓=0.1625  time=29.1s
+[stage 4 | epoch 37 | step 25] loss=0.226744
+[stage 4 | epoch 37 | step 50] loss=0.224966
+[stage 4 | epoch 37 | step 75] loss=0.224832
+[stage 4 | epoch 37 | step 100] loss=0.224479
+[stage 4 | epoch 37 | step 125] loss=0.224535
+Stage 4 Epoch 37 | L1=0.077278  PSNR↑=20.9953  SSIM↑=0.8940  MS-SSIM↑=0.9221  LPIPS↓=0.1631  time=23.4s
+[stage 4 | epoch 38 | step 25] loss=0.223350
+[stage 4 | epoch 38 | step 50] loss=0.227628
+[stage 4 | epoch 38 | step 75] loss=0.225083
+[stage 4 | epoch 38 | step 100] loss=0.223986
+[stage 4 | epoch 38 | step 125] loss=0.222486
+Stage 4 Epoch 38 | L1=0.075955  PSNR↑=21.1853  SSIM↑=0.8986  MS-SSIM↑=0.9249  LPIPS↓=0.1627  time=23.1s
+[stage 4 | epoch 39 | step 25] loss=0.223631
+[stage 4 | epoch 39 | step 50] loss=0.224026
+[stage 4 | epoch 39 | step 75] loss=0.223174
+[stage 4 | epoch 39 | step 100] loss=0.227951
+[stage 4 | epoch 39 | step 125] loss=0.222827
+Stage 4 Epoch 39 | L1=0.075406  PSNR↑=21.2519  SSIM↑=0.8987  MS-SSIM↑=0.9262  LPIPS↓=0.1627  time=21.8s
+[stage 4 | epoch 40 | step 25] loss=0.204039
+[stage 4 | epoch 40 | step 50] loss=0.215560
+[stage 4 | epoch 40 | step 75] loss=0.222597
+[stage 4 | epoch 40 | step 100] loss=0.224383
+[stage 4 | epoch 40 | step 125] loss=0.227136
+Stage 4 Epoch 40 | L1=0.078123  PSNR↑=20.9650  SSIM↑=0.8927  MS-SSIM↑=0.9216  LPIPS↓=0.1656  time=21.0s
+[FULL EVAL] stage=4 epoch=40 | PSNR↑=20.9650  SSIM↑=0.8927  MS-SSIM↑=0.9216  LPIPS↓=0.1656  NIQE↓=4.0547  UIQM↑=274.0927  UCIQE↑=inf
+[stage 4 | epoch 41 | step 25] loss=0.215124
+[stage 4 | epoch 41 | step 50] loss=0.226865
+[stage 4 | epoch 41 | step 75] loss=0.232442
+[stage 4 | epoch 41 | step 100] loss=0.231245
+[stage 4 | epoch 41 | step 125] loss=0.230834
+Stage 4 Epoch 41 | L1=0.076322  PSNR↑=21.1973  SSIM↑=0.8956  MS-SSIM↑=0.9266  LPIPS↓=0.1620  time=20.6s
+[stage 4 | epoch 42 | step 25] loss=0.225046
+[stage 4 | epoch 42 | step 50] loss=0.221035
+[stage 4 | epoch 42 | step 75] loss=0.220080
+[stage 4 | epoch 42 | step 100] loss=0.223141
+[stage 4 | epoch 42 | step 125] loss=0.224761
+Stage 4 Epoch 42 | L1=0.077317  PSNR↑=21.0140  SSIM↑=0.8981  MS-SSIM↑=0.9237  LPIPS↓=0.1638  time=21.7s
+[stage 4 | epoch 43 | step 25] loss=0.228645
+[stage 4 | epoch 43 | step 50] loss=0.232286
+[stage 4 | epoch 43 | step 75] loss=0.231837
+[stage 4 | epoch 43 | step 100] loss=0.225757
+[stage 4 | epoch 43 | step 125] loss=0.226553
+Stage 4 Epoch 43 | L1=0.075619  PSNR↑=21.1575  SSIM↑=0.8977  MS-SSIM↑=0.9253  LPIPS↓=0.1638  time=21.8s
+[stage 4 | epoch 44 | step 25] loss=0.250905
+[stage 4 | epoch 44 | step 50] loss=0.245932
+[stage 4 | epoch 44 | step 75] loss=0.236347
+[stage 4 | epoch 44 | step 100] loss=0.234516
+[stage 4 | epoch 44 | step 125] loss=0.231913
+Stage 4 Epoch 44 | L1=0.075217  PSNR↑=21.2487  SSIM↑=0.8995  MS-SSIM↑=0.9259  LPIPS↓=0.1652  time=23.3s
+[stage 4 | epoch 45 | step 25] loss=0.212771
+[stage 4 | epoch 45 | step 50] loss=0.220223
+[stage 4 | epoch 45 | step 75] loss=0.216000
+[stage 4 | epoch 45 | step 100] loss=0.217987
+[stage 4 | epoch 45 | step 125] loss=0.221538
+Stage 4 Epoch 45 | L1=0.077953  PSNR↑=20.9493  SSIM↑=0.8940  MS-SSIM↑=0.9220  LPIPS↓=0.1681  time=21.9s
+[stage 4 | epoch 46 | step 25] loss=0.217922
+[stage 4 | epoch 46 | step 50] loss=0.220126
+[stage 4 | epoch 46 | step 75] loss=0.225926
+[stage 4 | epoch 46 | step 100] loss=0.221742
+[stage 4 | epoch 46 | step 125] loss=0.220741
+Stage 4 Epoch 46 | L1=0.076413  PSNR↑=21.0966  SSIM↑=0.8984  MS-SSIM↑=0.9271  LPIPS↓=0.1673  time=22.0s
+[stage 4 | epoch 47 | step 25] loss=0.211964
+[stage 4 | epoch 47 | step 50] loss=0.205944
+[stage 4 | epoch 47 | step 75] loss=0.220674
+[stage 4 | epoch 47 | step 100] loss=0.222359
+[stage 4 | epoch 47 | step 125] loss=0.225296
+Stage 4 Epoch 47 | L1=0.075976  PSNR↑=21.1551  SSIM↑=0.8952  MS-SSIM↑=0.9250  LPIPS↓=0.1630  time=21.8s
+[stage 4 | epoch 48 | step 25] loss=0.226856
+[stage 4 | epoch 48 | step 50] loss=0.226720
+[stage 4 | epoch 48 | step 75] loss=0.219792
+[stage 4 | epoch 48 | step 100] loss=0.218871
+[stage 4 | epoch 48 | step 125] loss=0.222571
+Stage 4 Epoch 48 | L1=0.076711  PSNR↑=21.0747  SSIM↑=0.8947  MS-SSIM↑=0.9240  LPIPS↓=0.1648  time=24.1s
+[stage 4 | epoch 49 | step 25] loss=0.227621
+[stage 4 | epoch 49 | step 50] loss=0.224442
+[stage 4 | epoch 49 | step 75] loss=0.222953
+[stage 4 | epoch 49 | step 100] loss=0.223141
+[stage 4 | epoch 49 | step 125] loss=0.225620
+Stage 4 Epoch 49 | L1=0.075963  PSNR↑=21.1427  SSIM↑=0.8959  MS-SSIM↑=0.9247  LPIPS↓=0.1668  time=21.6s
+[stage 4 | epoch 50 | step 25] loss=0.248662
+[stage 4 | epoch 50 | step 50] loss=0.229134
+[stage 4 | epoch 50 | step 75] loss=0.226136
+[stage 4 | epoch 50 | step 100] loss=0.232648
+[stage 4 | epoch 50 | step 125] loss=0.233011
+Stage 4 Epoch 50 | L1=0.075341  PSNR↑=21.1561  SSIM↑=0.8958  MS-SSIM↑=0.9230  LPIPS↓=0.1650  time=23.1s
+[stage 4 | epoch 51 | step 25] loss=0.225126
+[stage 4 | epoch 51 | step 50] loss=0.224803
+[stage 4 | epoch 51 | step 75] loss=0.223918
+[stage 4 | epoch 51 | step 100] loss=0.225304
+[stage 4 | epoch 51 | step 125] loss=0.224426
+Stage 4 Epoch 51 | L1=0.075691  PSNR↑=21.2021  SSIM↑=0.9002  MS-SSIM↑=0.9271  LPIPS↓=0.1636  time=21.3s
+[stage 4 | epoch 52 | step 25] loss=0.234061
+[stage 4 | epoch 52 | step 50] loss=0.232363
+[stage 4 | epoch 52 | step 75] loss=0.229773
+[stage 4 | epoch 52 | step 100] loss=0.230130
+[stage 4 | epoch 52 | step 125] loss=0.226722
+Stage 4 Epoch 52 | L1=0.074781  PSNR↑=21.2487  SSIM↑=0.9007  MS-SSIM↑=0.9293  LPIPS↓=0.1672  time=21.8s
+[stage 4 | epoch 53 | step 25] loss=0.221064
+[stage 4 | epoch 53 | step 50] loss=0.236728
+[stage 4 | epoch 53 | step 75] loss=0.232551
+[stage 4 | epoch 53 | step 100] loss=0.230941
+[stage 4 | epoch 53 | step 125] loss=0.229272
+Stage 4 Epoch 53 | L1=0.078996  PSNR↑=20.8286  SSIM↑=0.8890  MS-SSIM↑=0.9207  LPIPS↓=0.1690  time=21.8s
+[stage 4 | epoch 54 | step 25] loss=0.223492
+[stage 4 | epoch 54 | step 50] loss=0.226469
+[stage 4 | epoch 54 | step 75] loss=0.225187
+[stage 4 | epoch 54 | step 100] loss=0.230208
+[stage 4 | epoch 54 | step 125] loss=0.230289
+Stage 4 Epoch 54 | L1=0.077903  PSNR↑=20.8994  SSIM↑=0.8920  MS-SSIM↑=0.9231  LPIPS↓=0.1687  time=22.3s
+[stage 4 | epoch 55 | step 25] loss=0.218220
+[stage 4 | epoch 55 | step 50] loss=0.220763
+[stage 4 | epoch 55 | step 75] loss=0.226305
+[stage 4 | epoch 55 | step 100] loss=0.225761
+[stage 4 | epoch 55 | step 125] loss=0.226209
+Stage 4 Epoch 55 | L1=0.074750  PSNR↑=21.3730  SSIM↑=0.9000  MS-SSIM↑=0.9278  LPIPS↓=0.1609  time=21.5s
+[stage 4 | epoch 56 | step 25] loss=0.232758
+[stage 4 | epoch 56 | step 50] loss=0.230578
+[stage 4 | epoch 56 | step 75] loss=0.222461
+[stage 4 | epoch 56 | step 100] loss=0.219767
+[stage 4 | epoch 56 | step 125] loss=0.221783
+Stage 4 Epoch 56 | L1=0.075934  PSNR↑=21.2064  SSIM↑=0.8996  MS-SSIM↑=0.9265  LPIPS↓=0.1616  time=23.0s
+[stage 4 | epoch 57 | step 25] loss=0.230544
+[stage 4 | epoch 57 | step 50] loss=0.228521
+[stage 4 | epoch 57 | step 75] loss=0.228763
+[stage 4 | epoch 57 | step 100] loss=0.226041
+[stage 4 | epoch 57 | step 125] loss=0.226928
+Stage 4 Epoch 57 | L1=0.076334  PSNR↑=21.1095  SSIM↑=0.8972  MS-SSIM↑=0.9248  LPIPS↓=0.1626  time=20.6s
+[stage 4 | epoch 58 | step 25] loss=0.212095
+[stage 4 | epoch 58 | step 50] loss=0.226158
+[stage 4 | epoch 58 | step 75] loss=0.224915
+[stage 4 | epoch 58 | step 100] loss=0.221368
+[stage 4 | epoch 58 | step 125] loss=0.219755
+Stage 4 Epoch 58 | L1=0.074849  PSNR↑=21.2981  SSIM↑=0.9001  MS-SSIM↑=0.9287  LPIPS↓=0.1613  time=39.7s
+[stage 4 | epoch 59 | step 25] loss=0.225455
+[stage 4 | epoch 59 | step 50] loss=0.225211
+[stage 4 | epoch 59 | step 75] loss=0.223217
+[stage 4 | epoch 59 | step 100] loss=0.218452
+[stage 4 | epoch 59 | step 125] loss=0.218476
+Stage 4 Epoch 59 | L1=0.074955  PSNR↑=21.3401  SSIM↑=0.9010  MS-SSIM↑=0.9287  LPIPS↓=0.1607  time=42.1s
+[stage 4 | epoch 60 | step 25] loss=0.239239
+[stage 4 | epoch 60 | step 50] loss=0.228658
+[stage 4 | epoch 60 | step 75] loss=0.236122
+[stage 4 | epoch 60 | step 100] loss=0.236216
+[stage 4 | epoch 60 | step 125] loss=0.234356
+Stage 4 Epoch 60 | L1=0.077935  PSNR↑=20.9532  SSIM↑=0.8942  MS-SSIM↑=0.9252  LPIPS↓=0.1674  time=37.7s
+[FULL EVAL] stage=4 epoch=60 | PSNR↑=20.9532  SSIM↑=0.8942  MS-SSIM↑=0.9252  LPIPS↓=0.1674  NIQE↓=4.0458  UIQM↑=280.8645  UCIQE↑=inf
+[stage 4 | epoch 61 | step 25] loss=0.224944
+[stage 4 | epoch 61 | step 50] loss=0.227856
+[stage 4 | epoch 61 | step 75] loss=0.227267
+[stage 4 | epoch 61 | step 100] loss=0.234466
+[stage 4 | epoch 61 | step 125] loss=0.234074
+Stage 4 Epoch 61 | L1=0.078004  PSNR↑=20.9336  SSIM↑=0.8941  MS-SSIM↑=0.9227  LPIPS↓=0.1650  time=26.8s
+[stage 4 | epoch 62 | step 25] loss=0.228054
+[stage 4 | epoch 62 | step 50] loss=0.226732
+[stage 4 | epoch 62 | step 75] loss=0.229385
+[stage 4 | epoch 62 | step 100] loss=0.233543
+[stage 4 | epoch 62 | step 125] loss=0.232149
+Stage 4 Epoch 62 | L1=0.075584  PSNR↑=21.1812  SSIM↑=0.8955  MS-SSIM↑=0.9220  LPIPS↓=0.1622  time=27.2s
+[stage 4 | epoch 63 | step 25] loss=0.228640
+[stage 4 | epoch 63 | step 50] loss=0.218833
+[stage 4 | epoch 63 | step 75] loss=0.220339
+[stage 4 | epoch 63 | step 100] loss=0.220941
+[stage 4 | epoch 63 | step 125] loss=0.225955
+Stage 4 Epoch 63 | L1=0.076791  PSNR↑=21.0771  SSIM↑=0.8939  MS-SSIM↑=0.9208  LPIPS↓=0.1634  time=34.7s
+[stage 4 | epoch 64 | step 25] loss=0.228075
+[stage 4 | epoch 64 | step 50] loss=0.229272
+[stage 4 | epoch 64 | step 75] loss=0.226680
+[stage 4 | epoch 64 | step 100] loss=0.224204
+[stage 4 | epoch 64 | step 125] loss=0.227764
+Stage 4 Epoch 64 | L1=0.077253  PSNR↑=21.0532  SSIM↑=0.8961  MS-SSIM↑=0.9251  LPIPS↓=0.1626  time=27.5s
+[stage 4 | epoch 65 | step 25] loss=0.226550
+[stage 4 | epoch 65 | step 50] loss=0.227222
+[stage 4 | epoch 65 | step 75] loss=0.233327
+[stage 4 | epoch 65 | step 100] loss=0.229384
+[stage 4 | epoch 65 | step 125] loss=0.229321
+Stage 4 Epoch 65 | L1=0.075944  PSNR↑=21.1999  SSIM↑=0.9033  MS-SSIM↑=0.9315  LPIPS↓=0.1613  time=30.9s
+[stage 4 | epoch 66 | step 25] loss=0.217905
+[stage 4 | epoch 66 | step 50] loss=0.231695
+[stage 4 | epoch 66 | step 75] loss=0.222810
+[stage 4 | epoch 66 | step 100] loss=0.218630
+[stage 4 | epoch 66 | step 125] loss=0.217850
+Stage 4 Epoch 66 | L1=0.075206  PSNR↑=21.3244  SSIM↑=0.8996  MS-SSIM↑=0.9310  LPIPS↓=0.1608  time=21.5s
+[stage 4 | epoch 67 | step 25] loss=0.239827
+[stage 4 | epoch 67 | step 50] loss=0.231633
+[stage 4 | epoch 67 | step 75] loss=0.226710
+[stage 4 | epoch 67 | step 100] loss=0.235003
+[stage 4 | epoch 67 | step 125] loss=0.234033
+Stage 4 Epoch 67 | L1=0.077478  PSNR↑=21.0321  SSIM↑=0.8945  MS-SSIM↑=0.9247  LPIPS↓=0.1629  time=38.1s
+[stage 4 | epoch 68 | step 25] loss=0.232677
+[stage 4 | epoch 68 | step 50] loss=0.227292
+[stage 4 | epoch 68 | step 75] loss=0.229468
+[stage 4 | epoch 68 | step 100] loss=0.230234
+[stage 4 | epoch 68 | step 125] loss=0.227478
+Stage 4 Epoch 68 | L1=0.076120  PSNR↑=21.1676  SSIM↑=0.8973  MS-SSIM↑=0.9256  LPIPS↓=0.1633  time=21.3s
+[stage 4 | epoch 69 | step 25] loss=0.234778
+[stage 4 | epoch 69 | step 50] loss=0.224192
+[stage 4 | epoch 69 | step 75] loss=0.223358
+[stage 4 | epoch 69 | step 100] loss=0.224186
+[stage 4 | epoch 69 | step 125] loss=0.226406
+Stage 4 Epoch 69 | L1=0.076045  PSNR↑=21.1769  SSIM↑=0.8983  MS-SSIM↑=0.9271  LPIPS↓=0.1624  time=25.5s
+[stage 4 | epoch 70 | step 25] loss=0.222227
+[stage 4 | epoch 70 | step 50] loss=0.226385
+[stage 4 | epoch 70 | step 75] loss=0.227949
+[stage 4 | epoch 70 | step 100] loss=0.224750
+[stage 4 | epoch 70 | step 125] loss=0.222212
+Stage 4 Epoch 70 | L1=0.075356  PSNR↑=21.3880  SSIM↑=0.8991  MS-SSIM↑=0.9284  LPIPS↓=0.1593  time=24.9s
+[stage 4 | epoch 71 | step 25] loss=0.239718
+[stage 4 | epoch 71 | step 50] loss=0.231004
+[stage 4 | epoch 71 | step 75] loss=0.226214
+[stage 4 | epoch 71 | step 100] loss=0.221822
+[stage 4 | epoch 71 | step 125] loss=0.226693
+Stage 4 Epoch 71 | L1=0.074691  PSNR↑=21.2748  SSIM↑=0.9013  MS-SSIM↑=0.9288  LPIPS↓=0.1628  time=34.9s
+[stage 4 | epoch 72 | step 25] loss=0.209044
+[stage 4 | epoch 72 | step 50] loss=0.208138
+[stage 4 | epoch 72 | step 75] loss=0.214582
+[stage 4 | epoch 72 | step 100] loss=0.211016
+[stage 4 | epoch 72 | step 125] loss=0.215321
+Stage 4 Epoch 72 | L1=0.074166  PSNR↑=21.4948  SSIM↑=0.9018  MS-SSIM↑=0.9315  LPIPS↓=0.1582  time=34.2s
+[stage 4 | epoch 73 | step 25] loss=0.218810
+[stage 4 | epoch 73 | step 50] loss=0.213291
+[stage 4 | epoch 73 | step 75] loss=0.220267
+[stage 4 | epoch 73 | step 100] loss=0.215769
+[stage 4 | epoch 73 | step 125] loss=0.220896
+Stage 4 Epoch 73 | L1=0.076706  PSNR↑=21.0774  SSIM↑=0.8955  MS-SSIM↑=0.9224  LPIPS↓=0.1658  time=26.1s
+[stage 4 | epoch 74 | step 25] loss=0.226385
+[stage 4 | epoch 74 | step 50] loss=0.217572
+[stage 4 | epoch 74 | step 75] loss=0.216794
+[stage 4 | epoch 74 | step 100] loss=0.218967
+[stage 4 | epoch 74 | step 125] loss=0.218651
+Stage 4 Epoch 74 | L1=0.075273  PSNR↑=21.2578  SSIM↑=0.9020  MS-SSIM↑=0.9299  LPIPS↓=0.1630  time=36.4s
+[stage 4 | epoch 75 | step 25] loss=0.249310
+[stage 4 | epoch 75 | step 50] loss=0.232886
+[stage 4 | epoch 75 | step 75] loss=0.231277
+[stage 4 | epoch 75 | step 100] loss=0.229425
+[stage 4 | epoch 75 | step 125] loss=0.225412
+Stage 4 Epoch 75 | L1=0.080107  PSNR↑=20.8668  SSIM↑=0.8919  MS-SSIM↑=0.9252  LPIPS↓=0.1658  time=46.2s
+[stage 4 | epoch 76 | step 25] loss=0.234460
+[stage 4 | epoch 76 | step 50] loss=0.229622
+[stage 4 | epoch 76 | step 75] loss=0.226762
+[stage 4 | epoch 76 | step 100] loss=0.227122
+[stage 4 | epoch 76 | step 125] loss=0.226656
+Stage 4 Epoch 76 | L1=0.076799  PSNR↑=21.0629  SSIM↑=0.8967  MS-SSIM↑=0.9263  LPIPS↓=0.1647  time=38.6s
+[stage 4 | epoch 77 | step 25] loss=0.217183
+[stage 4 | epoch 77 | step 50] loss=0.229553
+[stage 4 | epoch 77 | step 75] loss=0.226574
+[stage 4 | epoch 77 | step 100] loss=0.227316
+[stage 4 | epoch 77 | step 125] loss=0.227959
+Stage 4 Epoch 77 | L1=0.078243  PSNR↑=20.9884  SSIM↑=0.8922  MS-SSIM↑=0.9228  LPIPS↓=0.1652  time=21.5s
+[stage 4 | epoch 78 | step 25] loss=0.220616
+[stage 4 | epoch 78 | step 50] loss=0.218762
+[stage 4 | epoch 78 | step 75] loss=0.227545
+[stage 4 | epoch 78 | step 100] loss=0.229795
+[stage 4 | epoch 78 | step 125] loss=0.225492
+Stage 4 Epoch 78 | L1=0.077396  PSNR↑=21.0126  SSIM↑=0.8957  MS-SSIM↑=0.9255  LPIPS↓=0.1659  time=39.5s
+[stage 4 | epoch 79 | step 25] loss=0.208790
+[stage 4 | epoch 79 | step 50] loss=0.214396
+[stage 4 | epoch 79 | step 75] loss=0.214667
+[stage 4 | epoch 79 | step 100] loss=0.220265
+[stage 4 | epoch 79 | step 125] loss=0.218360
+Stage 4 Epoch 79 | L1=0.075074  PSNR↑=21.2494  SSIM↑=0.8997  MS-SSIM↑=0.9277  LPIPS↓=0.1622  time=37.6s
+[stage 4 | epoch 80 | step 25] loss=0.218692
+[stage 4 | epoch 80 | step 50] loss=0.221020
+[stage 4 | epoch 80 | step 75] loss=0.219147
+[stage 4 | epoch 80 | step 100] loss=0.216241
+[stage 4 | epoch 80 | step 125] loss=0.221586
+Stage 4 Epoch 80 | L1=0.075185  PSNR↑=21.2703  SSIM↑=0.9006  MS-SSIM↑=0.9273  LPIPS↓=0.1618  time=31.9s
+[FULL EVAL] stage=4 epoch=80 | PSNR↑=21.2703  SSIM↑=0.9006  MS-SSIM↑=0.9273  LPIPS↓=0.1618  NIQE↓=4.0465  UIQM↑=284.9777  UCIQE↑=inf
+[stage 4 | epoch 81 | step 25] loss=0.227687
+[stage 4 | epoch 81 | step 50] loss=0.234753
+[stage 4 | epoch 81 | step 75] loss=0.226247
+[stage 4 | epoch 81 | step 100] loss=0.224682
+[stage 4 | epoch 81 | step 125] loss=0.225755
+Stage 4 Epoch 81 | L1=0.075793  PSNR↑=21.2314  SSIM↑=0.8982  MS-SSIM↑=0.9291  LPIPS↓=0.1625  time=21.2s
+[stage 4 | epoch 82 | step 25] loss=0.216355
+[stage 4 | epoch 82 | step 50] loss=0.220746
+[stage 4 | epoch 82 | step 75] loss=0.221188
+[stage 4 | epoch 82 | step 100] loss=0.217259
+[stage 4 | epoch 82 | step 125] loss=0.222257
+Stage 4 Epoch 82 | L1=0.073761  PSNR↑=21.4167  SSIM↑=0.9009  MS-SSIM↑=0.9291  LPIPS↓=0.1603  time=22.0s
+[stage 4 | epoch 83 | step 25] loss=0.245002
+[stage 4 | epoch 83 | step 50] loss=0.234791
+[stage 4 | epoch 83 | step 75] loss=0.231310
+[stage 4 | epoch 83 | step 100] loss=0.232918
+[stage 4 | epoch 83 | step 125] loss=0.227445
+Stage 4 Epoch 83 | L1=0.075543  PSNR↑=21.1329  SSIM↑=0.8976  MS-SSIM↑=0.9271  LPIPS↓=0.1659  time=22.1s
+[stage 4 | epoch 84 | step 25] loss=0.249626
+[stage 4 | epoch 84 | step 50] loss=0.232665
+[stage 4 | epoch 84 | step 75] loss=0.225681
+[stage 4 | epoch 84 | step 100] loss=0.226674
+[stage 4 | epoch 84 | step 125] loss=0.224572
+Stage 4 Epoch 84 | L1=0.074294  PSNR↑=21.4669  SSIM↑=0.9006  MS-SSIM↑=0.9307  LPIPS↓=0.1615  time=21.8s
+[stage 4 | epoch 85 | step 25] loss=0.246012
+[stage 4 | epoch 85 | step 50] loss=0.238615
+[stage 4 | epoch 85 | step 75] loss=0.230085
+[stage 4 | epoch 85 | step 100] loss=0.227214
+[stage 4 | epoch 85 | step 125] loss=0.232049
+Stage 4 Epoch 85 | L1=0.079249  PSNR↑=20.9070  SSIM↑=0.8919  MS-SSIM↑=0.9231  LPIPS↓=0.1665  time=21.1s
+[stage 4 | epoch 86 | step 25] loss=0.236134
+[stage 4 | epoch 86 | step 50] loss=0.235126
+[stage 4 | epoch 86 | step 75] loss=0.233800
+[stage 4 | epoch 86 | step 100] loss=0.231544
+[stage 4 | epoch 86 | step 125] loss=0.228723
+Stage 4 Epoch 86 | L1=0.075882  PSNR↑=21.2278  SSIM↑=0.8981  MS-SSIM↑=0.9262  LPIPS↓=0.1615  time=23.5s
+[stage 4 | epoch 87 | step 25] loss=0.231987
+[stage 4 | epoch 87 | step 50] loss=0.222321
+[stage 4 | epoch 87 | step 75] loss=0.229305
+[stage 4 | epoch 87 | step 100] loss=0.226961
+[stage 4 | epoch 87 | step 125] loss=0.228132
+Stage 4 Epoch 87 | L1=0.073381  PSNR↑=21.5271  SSIM↑=0.9017  MS-SSIM↑=0.9302  LPIPS↓=0.1589  time=21.3s
+[stage 4 | epoch 88 | step 25] loss=0.245973
+[stage 4 | epoch 88 | step 50] loss=0.237108
+[stage 4 | epoch 88 | step 75] loss=0.237801
+[stage 4 | epoch 88 | step 100] loss=0.235222
+[stage 4 | epoch 88 | step 125] loss=0.237602
+Stage 4 Epoch 88 | L1=0.075639  PSNR↑=21.1991  SSIM↑=0.8999  MS-SSIM↑=0.9264  LPIPS↓=0.1612  time=23.3s
+[stage 4 | epoch 89 | step 25] loss=0.232017
+[stage 4 | epoch 89 | step 50] loss=0.224611
+[stage 4 | epoch 89 | step 75] loss=0.220698
+[stage 4 | epoch 89 | step 100] loss=0.224900
+[stage 4 | epoch 89 | step 125] loss=0.227512
+Stage 4 Epoch 89 | L1=0.076256  PSNR↑=21.1022  SSIM↑=0.8952  MS-SSIM↑=0.9225  LPIPS↓=0.1638  time=23.7s
+[stage 4 | epoch 90 | step 25] loss=0.224755
+[stage 4 | epoch 90 | step 50] loss=0.221956
+[stage 4 | epoch 90 | step 75] loss=0.226372
+[stage 4 | epoch 90 | step 100] loss=0.230132
+[stage 4 | epoch 90 | step 125] loss=0.230797
+Stage 4 Epoch 90 | L1=0.077574  PSNR↑=21.0417  SSIM↑=0.8958  MS-SSIM↑=0.9249  LPIPS↓=0.1631  time=21.7s
+[stage 4 | epoch 91 | step 25] loss=0.226520
+[stage 4 | epoch 91 | step 50] loss=0.233199
+[stage 4 | epoch 91 | step 75] loss=0.229154
+[stage 4 | epoch 91 | step 100] loss=0.226588
+[stage 4 | epoch 91 | step 125] loss=0.226512
+Stage 4 Epoch 91 | L1=0.075510  PSNR↑=21.2759  SSIM↑=0.8995  MS-SSIM↑=0.9292  LPIPS↓=0.1596  time=21.8s
+[stage 4 | epoch 92 | step 25] loss=0.234859
+[stage 4 | epoch 92 | step 50] loss=0.233994
+[stage 4 | epoch 92 | step 75] loss=0.233744
+[stage 4 | epoch 92 | step 100] loss=0.230040
+[stage 4 | epoch 92 | step 125] loss=0.228911
+Stage 4 Epoch 92 | L1=0.074056  PSNR↑=21.4077  SSIM↑=0.9009  MS-SSIM↑=0.9290  LPIPS↓=0.1595  time=21.0s
+[stage 4 | epoch 93 | step 25] loss=0.224628
+[stage 4 | epoch 93 | step 50] loss=0.214717
+[stage 4 | epoch 93 | step 75] loss=0.220762
+[stage 4 | epoch 93 | step 100] loss=0.219035
+[stage 4 | epoch 93 | step 125] loss=0.220839
+Stage 4 Epoch 93 | L1=0.074913  PSNR↑=21.2949  SSIM↑=0.9006  MS-SSIM↑=0.9277  LPIPS↓=0.1598  time=23.8s
+[stage 4 | epoch 94 | step 25] loss=0.247100
+[stage 4 | epoch 94 | step 50] loss=0.229591
+[stage 4 | epoch 94 | step 75] loss=0.233194
+[stage 4 | epoch 94 | step 100] loss=0.231978
+[stage 4 | epoch 94 | step 125] loss=0.229981
+Stage 4 Epoch 94 | L1=0.074605  PSNR↑=21.3284  SSIM↑=0.9013  MS-SSIM↑=0.9294  LPIPS↓=0.1609  time=21.2s
+[stage 4 | epoch 95 | step 25] loss=0.211942
+[stage 4 | epoch 95 | step 50] loss=0.213163
+[stage 4 | epoch 95 | step 75] loss=0.219011
+[stage 4 | epoch 95 | step 100] loss=0.217634
+[stage 4 | epoch 95 | step 125] loss=0.220456
+Stage 4 Epoch 95 | L1=0.074764  PSNR↑=21.3001  SSIM↑=0.9011  MS-SSIM↑=0.9295  LPIPS↓=0.1623  time=21.6s
+[stage 4 | epoch 96 | step 25] loss=0.227720
+[stage 4 | epoch 96 | step 50] loss=0.229598
+[stage 4 | epoch 96 | step 75] loss=0.225367
+[stage 4 | epoch 96 | step 100] loss=0.221919
+[stage 4 | epoch 96 | step 125] loss=0.223884
+Stage 4 Epoch 96 | L1=0.075444  PSNR↑=21.3417  SSIM↑=0.8998  MS-SSIM↑=0.9295  LPIPS↓=0.1592  time=22.0s
+[stage 4 | epoch 97 | step 25] loss=0.219094
+[stage 4 | epoch 97 | step 50] loss=0.226149
+[stage 4 | epoch 97 | step 75] loss=0.232242
+[stage 4 | epoch 97 | step 100] loss=0.234469
+[stage 4 | epoch 97 | step 125] loss=0.236162
+Stage 4 Epoch 97 | L1=0.078014  PSNR↑=20.9435  SSIM↑=0.8927  MS-SSIM↑=0.9233  LPIPS↓=0.1671  time=23.0s
+[stage 4 | epoch 98 | step 25] loss=0.221281
+[stage 4 | epoch 98 | step 50] loss=0.216358
+[stage 4 | epoch 98 | step 75] loss=0.210726
+[stage 4 | epoch 98 | step 100] loss=0.221597
+[stage 4 | epoch 98 | step 125] loss=0.219358
+Stage 4 Epoch 98 | L1=0.077056  PSNR↑=21.0319  SSIM↑=0.8960  MS-SSIM↑=0.9251  LPIPS↓=0.1656  time=21.6s
+[stage 4 | epoch 99 | step 25] loss=0.231968
+[stage 4 | epoch 99 | step 50] loss=0.218545
+[stage 4 | epoch 99 | step 75] loss=0.221357
+[stage 4 | epoch 99 | step 100] loss=0.219275
+[stage 4 | epoch 99 | step 125] loss=0.222038
+Stage 4 Epoch 99 | L1=0.075223  PSNR↑=21.3097  SSIM↑=0.9006  MS-SSIM↑=0.9286  LPIPS↓=0.1593  time=24.2s
+[stage 4 | epoch 100 | step 25] loss=0.215163
+[stage 4 | epoch 100 | step 50] loss=0.224752
+[stage 4 | epoch 100 | step 75] loss=0.229049
+[stage 4 | epoch 100 | step 100] loss=0.231269
+[stage 4 | epoch 100 | step 125] loss=0.233163
+Stage 4 Epoch 100 | L1=0.077714  PSNR↑=21.0036  SSIM↑=0.8944  MS-SSIM↑=0.9215  LPIPS↓=0.1650  time=23.7s
+[FULL EVAL] stage=4 epoch=100 | PSNR↑=21.0036  SSIM↑=0.8944  MS-SSIM↑=0.9215  LPIPS↓=0.1650  NIQE↓=4.0588  UIQM↑=272.5613  UCIQE↑=inf
+[stage 4 | epoch 101 | step 25] loss=0.222473
+[stage 4 | epoch 101 | step 50] loss=0.229612
+[stage 4 | epoch 101 | step 75] loss=0.235242
+[stage 4 | epoch 101 | step 100] loss=0.232619
+[stage 4 | epoch 101 | step 125] loss=0.234353
+Stage 4 Epoch 101 | L1=0.076417  PSNR↑=21.0726  SSIM↑=0.8972  MS-SSIM↑=0.9263  LPIPS↓=0.1636  time=42.5s
+[stage 4 | epoch 102 | step 25] loss=0.232975
+[stage 4 | epoch 102 | step 50] loss=0.231103
+[stage 4 | epoch 102 | step 75] loss=0.228596
+[stage 4 | epoch 102 | step 100] loss=0.228213
+[stage 4 | epoch 102 | step 125] loss=0.223926
+Stage 4 Epoch 102 | L1=0.077643  PSNR↑=21.1259  SSIM↑=0.8967  MS-SSIM↑=0.9270  LPIPS↓=0.1624  time=23.7s
+[stage 4 | epoch 103 | step 25] loss=0.196309
+[stage 4 | epoch 103 | step 50] loss=0.204319
+[stage 4 | epoch 103 | step 75] loss=0.209342
+[stage 4 | epoch 103 | step 100] loss=0.214814
+[stage 4 | epoch 103 | step 125] loss=0.217519
+Stage 4 Epoch 103 | L1=0.077917  PSNR↑=20.9143  SSIM↑=0.8964  MS-SSIM↑=0.9238  LPIPS↓=0.1708  time=29.1s
+[stage 4 | epoch 104 | step 25] loss=0.224559
+[stage 4 | epoch 104 | step 50] loss=0.223441
+[stage 4 | epoch 104 | step 75] loss=0.217955
+[stage 4 | epoch 104 | step 100] loss=0.225328
+[stage 4 | epoch 104 | step 125] loss=0.223182
+Stage 4 Epoch 104 | L1=0.074003  PSNR↑=21.4563  SSIM↑=0.9021  MS-SSIM↑=0.9295  LPIPS↓=0.1620  time=42.7s
+[stage 4 | epoch 105 | step 25] loss=0.203667
+[stage 4 | epoch 105 | step 50] loss=0.209256
+[stage 4 | epoch 105 | step 75] loss=0.215524
+[stage 4 | epoch 105 | step 100] loss=0.218043
+[stage 4 | epoch 105 | step 125] loss=0.215234
+Stage 4 Epoch 105 | L1=0.075398  PSNR↑=21.3454  SSIM↑=0.8998  MS-SSIM↑=0.9285  LPIPS↓=0.1586  time=27.5s
+[stage 4 | epoch 106 | step 25] loss=0.219167
+[stage 4 | epoch 106 | step 50] loss=0.221301
+[stage 4 | epoch 106 | step 75] loss=0.224398
+[stage 4 | epoch 106 | step 100] loss=0.225808
+[stage 4 | epoch 106 | step 125] loss=0.223430
+Stage 4 Epoch 106 | L1=0.076396  PSNR↑=21.1195  SSIM↑=0.8979  MS-SSIM↑=0.9267  LPIPS↓=0.1648  time=36.9s
+[stage 4 | epoch 107 | step 25] loss=0.223827
+[stage 4 | epoch 107 | step 50] loss=0.230363
+[stage 4 | epoch 107 | step 75] loss=0.230424
+[stage 4 | epoch 107 | step 100] loss=0.228537
+[stage 4 | epoch 107 | step 125] loss=0.226059
+Stage 4 Epoch 107 | L1=0.076878  PSNR↑=21.1596  SSIM↑=0.8963  MS-SSIM↑=0.9263  LPIPS↓=0.1655  time=45.3s
+[stage 4 | epoch 108 | step 25] loss=0.219662
+[stage 4 | epoch 108 | step 50] loss=0.223946
+[stage 4 | epoch 108 | step 75] loss=0.225133
+[stage 4 | epoch 108 | step 100] loss=0.230888
+[stage 4 | epoch 108 | step 125] loss=0.229916
+Stage 4 Epoch 108 | L1=0.076321  PSNR↑=21.1722  SSIM↑=0.8965  MS-SSIM↑=0.9261  LPIPS↓=0.1658  time=41.1s
+[stage 4 | epoch 109 | step 25] loss=0.240005
+[stage 4 | epoch 109 | step 50] loss=0.225074
+[stage 4 | epoch 109 | step 75] loss=0.229568
+[stage 4 | epoch 109 | step 100] loss=0.229703
+[stage 4 | epoch 109 | step 125] loss=0.230073
+Stage 4 Epoch 109 | L1=0.075801  PSNR↑=21.2073  SSIM↑=0.8982  MS-SSIM↑=0.9254  LPIPS↓=0.1644  time=21.7s
+[stage 4 | epoch 110 | step 25] loss=0.212193
+[stage 4 | epoch 110 | step 50] loss=0.230228
+[stage 4 | epoch 110 | step 75] loss=0.230035
+[stage 4 | epoch 110 | step 100] loss=0.228804
+[stage 4 | epoch 110 | step 125] loss=0.227338
+Stage 4 Epoch 110 | L1=0.076111  PSNR↑=21.1386  SSIM↑=0.8976  MS-SSIM↑=0.9256  LPIPS↓=0.1625  time=21.1s
+[stage 4 | epoch 111 | step 25] loss=0.230304
+[stage 4 | epoch 111 | step 50] loss=0.230841
+[stage 4 | epoch 111 | step 75] loss=0.232959
+[stage 4 | epoch 111 | step 100] loss=0.234623
+[stage 4 | epoch 111 | step 125] loss=0.228720
+Stage 4 Epoch 111 | L1=0.076574  PSNR↑=21.1322  SSIM↑=0.8957  MS-SSIM↑=0.9246  LPIPS↓=0.1633  time=21.7s
+[stage 4 | epoch 112 | step 25] loss=0.226082
+[stage 4 | epoch 112 | step 50] loss=0.225923
+[stage 4 | epoch 112 | step 75] loss=0.222893
+[stage 4 | epoch 112 | step 100] loss=0.223194
+[stage 4 | epoch 112 | step 125] loss=0.224419
+Stage 4 Epoch 112 | L1=0.077182  PSNR↑=21.0086  SSIM↑=0.8945  MS-SSIM↑=0.9240  LPIPS↓=0.1676  time=23.5s
+[stage 4 | epoch 113 | step 25] loss=0.241282
+[stage 4 | epoch 113 | step 50] loss=0.235036
+[stage 4 | epoch 113 | step 75] loss=0.232377
+[stage 4 | epoch 113 | step 100] loss=0.225381
+[stage 4 | epoch 113 | step 125] loss=0.227081
+Stage 4 Epoch 113 | L1=0.074568  PSNR↑=21.3640  SSIM↑=0.8995  MS-SSIM↑=0.9287  LPIPS↓=0.1603  time=22.4s
+[stage 4 | epoch 114 | step 25] loss=0.218393
+[stage 4 | epoch 114 | step 50] loss=0.223000
+[stage 4 | epoch 114 | step 75] loss=0.217762
+[stage 4 | epoch 114 | step 100] loss=0.220402
+[stage 4 | epoch 114 | step 125] loss=0.221674
+Stage 4 Epoch 114 | L1=0.076829  PSNR↑=21.1205  SSIM↑=0.8964  MS-SSIM↑=0.9256  LPIPS↓=0.1649  time=22.2s
+[stage 4 | epoch 115 | step 25] loss=0.216439
+[stage 4 | epoch 115 | step 50] loss=0.219841
+[stage 4 | epoch 115 | step 75] loss=0.225080
+[stage 4 | epoch 115 | step 100] loss=0.226035
+[stage 4 | epoch 115 | step 125] loss=0.226127
+Stage 4 Epoch 115 | L1=0.075351  PSNR↑=21.2292  SSIM↑=0.8983  MS-SSIM↑=0.9273  LPIPS↓=0.1628  time=20.7s
+[stage 4 | epoch 116 | step 25] loss=0.220501
+[stage 4 | epoch 116 | step 50] loss=0.221540
+[stage 4 | epoch 116 | step 75] loss=0.223354
+[stage 4 | epoch 116 | step 100] loss=0.223710
+[stage 4 | epoch 116 | step 125] loss=0.225064
+Stage 4 Epoch 116 | L1=0.077514  PSNR↑=21.0564  SSIM↑=0.8996  MS-SSIM↑=0.9279  LPIPS↓=0.1658  time=21.6s
+[stage 4 | epoch 117 | step 25] loss=0.245551
+[stage 4 | epoch 117 | step 50] loss=0.226628
+[stage 4 | epoch 117 | step 75] loss=0.225793
+[stage 4 | epoch 117 | step 100] loss=0.222946
+[stage 4 | epoch 117 | step 125] loss=0.223150
+Stage 4 Epoch 117 | L1=0.073787  PSNR↑=21.4306  SSIM↑=0.9059  MS-SSIM↑=0.9339  LPIPS↓=0.1604  time=23.8s
+[stage 4 | epoch 118 | step 25] loss=0.221560
+[stage 4 | epoch 118 | step 50] loss=0.218817
+[stage 4 | epoch 118 | step 75] loss=0.225851
+[stage 4 | epoch 118 | step 100] loss=0.231204
+[stage 4 | epoch 118 | step 125] loss=0.227983
+Stage 4 Epoch 118 | L1=0.076439  PSNR↑=21.0744  SSIM↑=0.8957  MS-SSIM↑=0.9244  LPIPS↓=0.1624  time=21.3s
+[stage 4 | epoch 119 | step 25] loss=0.233256
+[stage 4 | epoch 119 | step 50] loss=0.226723
+[stage 4 | epoch 119 | step 75] loss=0.223054
+[stage 4 | epoch 119 | step 100] loss=0.226953
+[stage 4 | epoch 119 | step 125] loss=0.228294
+Stage 4 Epoch 119 | L1=0.077149  PSNR↑=21.1549  SSIM↑=0.8967  MS-SSIM↑=0.9263  LPIPS↓=0.1619  time=21.4s
+[stage 4 | epoch 120 | step 25] loss=0.239071
+[stage 4 | epoch 120 | step 50] loss=0.240254
+[stage 4 | epoch 120 | step 75] loss=0.231656
+[stage 4 | epoch 120 | step 100] loss=0.228792
+[stage 4 | epoch 120 | step 125] loss=0.226881
+Stage 4 Epoch 120 | L1=0.078582  PSNR↑=20.9110  SSIM↑=0.8924  MS-SSIM↑=0.9229  LPIPS↓=0.1666  time=21.5s
+[FULL EVAL] stage=4 epoch=120 | PSNR↑=20.9110  SSIM↑=0.8924  MS-SSIM↑=0.9229  LPIPS↓=0.1666  NIQE↓=4.0427  UIQM↑=275.5731  UCIQE↑=inf
+
+========== STAGE 5/5 | crop=512 | batch=4 | lr=0.0001 ==========
+
+[stage 5 | epoch 1 | step 25] loss=0.241801
+[stage 5 | epoch 1 | step 50] loss=0.241369
+[stage 5 | epoch 1 | step 75] loss=0.232240
+[stage 5 | epoch 1 | step 100] loss=0.231587
+[stage 5 | epoch 1 | step 125] loss=0.231646
+[stage 5 | epoch 1 | step 150] loss=0.234617
+[stage 5 | epoch 1 | step 175] loss=0.235704
+[stage 5 | epoch 1 | step 200] loss=0.235670
+Stage 5 Epoch 1 | L1=0.077858  PSNR↑=20.9369  SSIM↑=0.8921  MS-SSIM↑=0.9223  LPIPS↓=0.1675  time=25.5s
+  ✅ saved stage best: stage_05_best.pt
+[stage 5 | epoch 2 | step 25] loss=0.224759
+[stage 5 | epoch 2 | step 50] loss=0.224768
+[stage 5 | epoch 2 | step 75] loss=0.229704
+[stage 5 | epoch 2 | step 100] loss=0.223841
+[stage 5 | epoch 2 | step 125] loss=0.229255
+[stage 5 | epoch 2 | step 150] loss=0.226867
+[stage 5 | epoch 2 | step 175] loss=0.225374
+[stage 5 | epoch 2 | step 200] loss=0.227513
+Stage 5 Epoch 2 | L1=0.077799  PSNR↑=21.1054  SSIM↑=0.8948  MS-SSIM↑=0.9273  LPIPS↓=0.1643  time=23.6s
+  ✅ saved stage best: stage_05_best.pt
+[stage 5 | epoch 3 | step 25] loss=0.240385
+[stage 5 | epoch 3 | step 50] loss=0.239291
+[stage 5 | epoch 3 | step 75] loss=0.228363
+[stage 5 | epoch 3 | step 100] loss=0.230904
+[stage 5 | epoch 3 | step 125] loss=0.229485
+[stage 5 | epoch 3 | step 150] loss=0.233682
+[stage 5 | epoch 3 | step 175] loss=0.233038
+[stage 5 | epoch 3 | step 200] loss=0.229276
+Stage 5 Epoch 3 | L1=0.077459  PSNR↑=20.9682  SSIM↑=0.8980  MS-SSIM↑=0.9253  LPIPS↓=0.1710  time=23.3s
+  ✅ saved stage best: stage_05_best.pt
+[stage 5 | epoch 4 | step 25] loss=0.210400
+[stage 5 | epoch 4 | step 50] loss=0.225393
+[stage 5 | epoch 4 | step 75] loss=0.219313
+[stage 5 | epoch 4 | step 100] loss=0.217221
+[stage 5 | epoch 4 | step 125] loss=0.221775
+[stage 5 | epoch 4 | step 150] loss=0.221875
+[stage 5 | epoch 4 | step 175] loss=0.223287
+[stage 5 | epoch 4 | step 200] loss=0.223323
+Stage 5 Epoch 4 | L1=0.075158  PSNR↑=21.2143  SSIM↑=0.8986  MS-SSIM↑=0.9266  LPIPS↓=0.1651  time=24.2s
+  ✅ saved stage best: stage_05_best.pt
+[stage 5 | epoch 5 | step 25] loss=0.247006
+[stage 5 | epoch 5 | step 50] loss=0.238693
+[stage 5 | epoch 5 | step 75] loss=0.234780
+[stage 5 | epoch 5 | step 100] loss=0.238541
+[stage 5 | epoch 5 | step 125] loss=0.235637
+[stage 5 | epoch 5 | step 150] loss=0.232608
+[stage 5 | epoch 5 | step 175] loss=0.233116
+[stage 5 | epoch 5 | step 200] loss=0.232736
+Stage 5 Epoch 5 | L1=0.077111  PSNR↑=21.0180  SSIM↑=0.8943  MS-SSIM↑=0.9243  LPIPS↓=0.1656  time=52.3s
+[stage 5 | epoch 6 | step 25] loss=0.208270
+[stage 5 | epoch 6 | step 50] loss=0.216156
+[stage 5 | epoch 6 | step 75] loss=0.226239
+[stage 5 | epoch 6 | step 100] loss=0.231415
+[stage 5 | epoch 6 | step 125] loss=0.230717
+[stage 5 | epoch 6 | step 150] loss=0.229670
+[stage 5 | epoch 6 | step 175] loss=0.225548
+[stage 5 | epoch 6 | step 200] loss=0.224751
+Stage 5 Epoch 6 | L1=0.080880  PSNR↑=20.5516  SSIM↑=0.8908  MS-SSIM↑=0.9207  LPIPS↓=0.1739  time=43.7s
+[stage 5 | epoch 7 | step 25] loss=0.217289
+[stage 5 | epoch 7 | step 50] loss=0.222793
+[stage 5 | epoch 7 | step 75] loss=0.228608
+[stage 5 | epoch 7 | step 100] loss=0.230101
+[stage 5 | epoch 7 | step 125] loss=0.224470
+[stage 5 | epoch 7 | step 150] loss=0.221875
+[stage 5 | epoch 7 | step 175] loss=0.223882
+[stage 5 | epoch 7 | step 200] loss=0.225811
+Stage 5 Epoch 7 | L1=0.075451  PSNR↑=21.2274  SSIM↑=0.9012  MS-SSIM↑=0.9299  LPIPS↓=0.1630  time=24.1s
+[stage 5 | epoch 8 | step 25] loss=0.225677
+[stage 5 | epoch 8 | step 50] loss=0.233784
+[stage 5 | epoch 8 | step 75] loss=0.236238
+[stage 5 | epoch 8 | step 100] loss=0.239208
+[stage 5 | epoch 8 | step 125] loss=0.237654
+[stage 5 | epoch 8 | step 150] loss=0.235767
+[stage 5 | epoch 8 | step 175] loss=0.233161
+[stage 5 | epoch 8 | step 200] loss=0.233877
+Stage 5 Epoch 8 | L1[stage 5 | epoch 9 | step 100] loss=0.240115
+[stage 5 | epoch 9 | step 125] loss=0.239725
+[stage 5 | epoch 9 | step 150] loss=0.238080
+[stage 5 | epoch 9 | step 175] loss=0.235106
+[stage 5 | epoch 9 | step 200] loss=0.231890
+e 5 | epoch 9 | step 75] loss=0.236697
+Stage 5 Epoch 9 | L1=0.076851  PSNR↑=21.0834  SSIM↑=0.8979  MS-SSIM↑=0.9262  LPIPS↓=0.1656  time=23.7s
+[stage 5 | epoch 10 | step 25] loss=0.210278
+[stage 5 | epoch 10 | step 50] loss=0.215928
+[stage 5 | epoch 10 | step 75] loss=0.225031
+[stage 5 | epoch 10 | step 100] loss=0.220101
+[stage 5 | epoch 10 | step 125] loss=0.224179
+[stage 5 | epoch 10 | step 150] loss=0.223925
+[stage 5 | epoch 10 | step 175] loss=0.224146
+[stage 5 | epoch 10 | step 200] loss=0.224941
+Stage 5 Epoch 10 | L1=0.074738  PSNR↑=21.3725  SSIM↑=0.9022  MS-SSIM↑=0.9332  LPIPS↓=0.1618  time=24.8s
+  ✅ saved stage best: stage_05_best.pt
+[stage 5 | epoch 11 | step 25] loss=0.243638
+[stage 5 | epoch 11 | step 50] loss=0.230852
+[stage 5 | epoch 11 | step 75] loss=0.226226
+[stage 5 | epoch 11 | step 100] loss=0.226784
+[stage 5 | epoch 11 | step 125] loss=0.228177
+[stage 5 | epoch 11 | step 150] loss=0.227364
+[stage 5 | epoch 11 | step 175] loss=0.224570
+[stage 5 | epoch 11 | step 200] loss=0.225209
+Stage 5 Epoch 11 | L1=0.077646  PSNR↑=20.8763  SSIM↑=0.9012  MS-SSIM↑=0.9282  LPIPS↓=0.1679  time=22.8s
+[stage 5 | epoch 12 | step 25] loss=0.231103
+[stage 5 | epoch 12 | step 50] loss=0.221325
+[stage 5 | epoch 12 | step 75] loss=0.230454
+[stage 5 | epoch 12 | step 100] loss=0.232005
+[stage 5 | epoch 12 | step 125] loss=0.234726
+[stage 5 | epoch 12 | step 150] loss=0.231073
+[stage 5 | epoch 12 | step 175] loss=0.229926
+[stage 5 | epoch 12 | step 200] loss=0.228150
+Stage 5 Epoch 12 | L1=0.079698  PSNR↑=20.7586  SSIM↑=0.8923  MS-SSIM↑=0.9236  LPIPS↓=0.1704  time=22.9s
+[stage 5 | epoch 13 | step 25] loss=0.245970
+[stage 5 | epoch 13 | step 50] loss=0.240833
+[stage 5 | epoch 13 | step 75] loss=0.242611
+[stage 5 | epoch 13 | step 100] loss=0.237872
+[stage 5 | epoch 13 | step 125] loss=0.239864
+[stage 5 | epoch 13 | step 150] loss=0.235843
+[stage 5 | epoch 13 | step 175] loss=0.233296
+[stage 5 | epoch 13 | step 200] loss=0.231587
+Stage 5 Epoch 13 | L1=0.078649  PSNR↑=20.8337  SSIM↑=0.8952  MS-SSIM↑=0.9234  LPIPS↓=0.1711  time=25.2s
+[stage 5 | epoch 14 | step 25] loss=0.222746
+[stage 5 | epoch 14 | step 50] loss=0.232513
+[stage 5 | epoch 14 | step 75] loss=0.233348
+[stage 5 | epoch 14 | step 100] loss=0.232873
+[stage 5 | epoch 14 | step 125] loss=0.234418
+[stage 5 | epoch 14 | step 150] loss=0.233950
+[stage 5 | epoch 14 | step 175] loss=0.229252
+[stage 5 | epoch 14 | step 200] loss=0.231719
+Stage 5 Epoch 14 | L1=0.076439  PSNR↑=21.1879  SSIM↑=0.8964  MS-SSIM↑=0.9290  LPIPS↓=0.1651  time=23.3s
+[stage 5 | epoch 15 | step 25] loss=0.236574
+[stage 5 | epoch 15 | step 50] loss=0.241524
+[stage 5 | epoch 15 | step 75] loss=0.242960
+[stage 5 | epoch 15 | step 100] loss=0.240379
+[stage 5 | epoch 15 | step 125] loss=0.239883
+[stage 5 | epoch 15 | step 150] loss=0.234839
+[stage 5 | epoch 15 | step 175] loss=0.236285
+[stage 5 | epoch 15 | step 200] loss=0.234819
+Stage 5 Epoch 15 | L1=0.078307  PSNR↑=20.9537  SSIM↑=0.8948  MS-SSIM↑=0.9248  LPIPS↓=0.1677  time=24.0s
+[stage 5 | epoch 16 | step 25] loss=0.215081
+[stage 5 | epoch 16 | step 50] loss=0.212010
+[stage 5 | epoch 16 | step 75] loss=0.224428
+[stage 5 | epoch 16 | step 100] loss=0.225070
+[stage 5 | epoch 16 | step 125] loss=0.225429
+[stage 5 | epoch 16 | step 150] loss=0.221643
+[stage 5 | epoch 16 | step 175] loss=0.225840
+[stage 5 | epoch 16 | step 200] loss=0.228745
+Stage 5 Epoch 16 | L1=0.076665  PSNR↑=20.9930  SSIM↑=0.8983  MS-SSIM↑=0.9277  LPIPS↓=0.1715  time=24.3s
+[stage 5 | epoch 17 | step 25] loss=0.206687
+[stage 5 | epoch 17 | step 50] loss=0.219485
+[stage 5 | epoch 17 | step 75] loss=0.225530
+[stage 5 | epoch 17 | step 100] loss=0.226210
+[stage 5 | epoch 17 | step 125] loss=0.232282
+[stage 5 | epoch 17 | step 150] loss=0.225685
+[stage 5 | epoch 17 | step 175] loss=0.226592
+[stage 5 | epoch 17 | step 200] loss=0.227398
+Stage 5 Epoch 17 | L1=0.079832  PSNR↑=20.7152  SSIM↑=0.8910  MS-SSIM↑=0.9208  LPIPS↓=0.1697  time=24.2s
+[stage 5 | epoch 18 | step 25] loss=0.224916
+[stage 5 | epoch 18 | step 50] loss=0.235265
+[stage 5 | epoch 18 | step 75] loss=0.234807
+[stage 5 | epoch 18 | step 100] loss=0.235062
+[stage 5 | epoch 18 | step 125] loss=0.231529
+[stage 5 | epoch 18 | step 150] loss=0.225994
+[stage 5 | epoch 18 | step 175] loss=0.230480
+[stage 5 | epoch 18 | step 200] loss=0.230739
+Stage 5 Epoch 18 | L1=0.074220  PSNR↑=21.3746  SSIM↑=0.9024  MS-SSIM↑=0.9335  LPIPS↓=0.1633  time=24.7s
+  ✅ saved stage best: stage_05_best.pt
+[stage 5 | epoch 19 | step 25] loss=0.222108
+[stage 5 | epoch 19 | step 50] loss=0.216062
+[stage 5 | epoch 19 | step 75] loss=0.223240
+[stage 5 | epoch 19 | step 100] loss=0.232430
+[stage 5 | epoch 19 | step 125] loss=0.232237
+[stage 5 | epoch 19 | step 150] loss=0.233491
+[stage 5 | epoch 19 | step 175] loss=0.231572
+[stage 5 | epoch 19 | step 200] loss=0.230482
+Stage 5 Epoch 19 | L1=0.078405  PSNR↑=20.9286  SSIM↑=0.8945  MS-SSIM↑=0.9264  LPIPS↓=0.1702  time=23.2s
+[stage 5 | epoch 20 | step 25] loss=0.248824
+[stage 5 | epoch 20 | step 50] loss=0.245125
+[stage 5 | epoch 20 | step 75] loss=0.246424
+[stage 5 | epoch 20 | step 100] loss=0.236465
+[stage 5 | epoch 20 | step 125] loss=0.235249
+[stage 5 | epoch 20 | step 150] loss=0.233352
+[stage 5 | epoch 20 | step 175] loss=0.228821
+[stage 5 | epoch 20 | step 200] loss=0.227944
+Stage 5 Epoch 20 | L1=0.078719  PSNR↑=20.8722  SSIM↑=0.8934  MS-SSIM↑=0.9246  LPIPS↓=0.1693  time=22.9s
+[FULL EVAL] stage=5 epoch=20 | PSNR↑=20.8722  SSIM↑=0.8934  MS-SSIM↑=0.9246  LPIPS↓=0.1693  NIQE↓=4.1420  UIQM↑=264.8090  UCIQE↑=inf
+[stage 5 | epoch 21 | step 25] loss=0.212137
+[stage 5 | epoch 21 | step 50] loss=0.221916
+[stage 5 | epoch 21 | step 75] loss=0.226999
+[stage 5 | epoch 21 | step 100] loss=0.236421
+[stage 5 | epoch 21 | step 125] loss=0.231719
+[stage 5 | epoch 21 | step 150] loss=0.224301
+[stage 5 | epoch 21 | step 175] loss=0.227116
+[stage 5 | epoch 21 | step 200] loss=0.225675
+Stage 5 Epoch 21 | L1=0.075357  PSNR↑=21.3105  SSIM↑=0.8999  MS-SSIM↑=0.9314  LPIPS↓=0.1651  time=23.9s
+[stage 5 | epoch 22 | step 25] loss=0.235063
+[stage 5 | epoch 22 | step 50] loss=0.226127
+[stage 5 | epoch 22 | step 75] loss=0.229882
+[stage 5 | epoch 22 | step 100] loss=0.227598
+[stage 5 | epoch 22 | step 125] loss=0.228915
+[stage 5 | epoch 22 | step 150] loss=0.233162
+[stage 5 | epoch 22 | step 175] loss=0.230195
+[stage 5 | epoch 22 | step 200] loss=0.228353
+Stage 5 Epoch 22 | L1=0.076512  PSNR↑=21.0363  SSIM↑=0.8992  MS-SSIM↑=0.9290  LPIPS↓=0.1701  time=24.4s
+[stage 5 | epoch 23 | step 25] loss=0.228841
+[stage 5 | epoch 23 | step 50] loss=0.220926
+[stage 5 | epoch 23 | step 75] loss=0.219737
+[stage 5 | epoch 23 | step 100] loss=0.221068
+[stage 5 | epoch 23 | step 125] loss=0.223685
+[stage 5 | epoch 23 | step 150] loss=0.222991
+[stage 5 | epoch 23 | step 175] loss=0.224048
+[stage 5 | epoch 23 | step 200] loss=0.225055
+Stage 5 Epoch 23 | L1=0.076653  PSNR↑=21.0899  SSIM↑=0.8985  MS-SSIM↑=0.9270  LPIPS↓=0.1681  time=23.2s
+[stage 5 | epoch 24 | step 25] loss=0.265365
+[stage 5 | epoch 24 | step 50] loss=0.236327
+[stage 5 | epoch 24 | step 75] loss=0.234878
+[stage 5 | epoch 24 | step 100] loss=0.234662
+[stage 5 | epoch 24 | step 125] loss=0.233840
+[stage 5 | epoch 24 | step 150] loss=0.232070
+[stage 5 | epoch 24 | step 175] loss=0.229183
+[stage 5 | epoch 24 | step 200] loss=0.230732
+Stage 5 Epoch 24 | L1=0.078817  PSNR↑=20.9360  SSIM↑=0.8924  MS-SSIM↑=0.9256  LPIPS↓=0.1672  time=30.0s
+[stage 5 | epoch 25 | step 25] loss=0.229954
+[stage 5 | epoch 25 | step 50] loss=0.234097
+[stage 5 | epoch 25 | step 75] loss=0.233360
+[stage 5 | epoch 25 | step 100] loss=0.229533
+[stage 5 | epoch 25 | step 125] loss=0.223721
+[stage 5 | epoch 25 | step 150] loss=0.224790
+[stage 5 | epoch 25 | step 175] loss=0.225915
+[stage 5 | epoch 25 | step 200] loss=0.227515
+Stage 5 Epoch 25 | L1=0.076301  PSNR↑=21.2223  SSIM↑=0.8981  MS-SSIM↑=0.9285  LPIPS↓=0.1643  time=31.6s
+[stage 5 | epoch 26 | step 25] loss=0.209775
+[stage 5 | epoch 26 | step 50] loss=0.208740
+[stage 5 | epoch 26 | step 75] loss=0.219609
+[stage 5 | epoch 26 | step 100] loss=0.222274
+[stage 5 | epoch 26 | step 125] loss=0.226036
+[stage 5 | epoch 26 | step 150] loss=0.224748
+[stage 5 | epoch 26 | step 175] loss=0.225361
+[stage 5 | epoch 26 | step 200] loss=0.224494
+Stage 5 Epoch 26 | L1=0.079886  PSNR↑=20.6723  SSIM↑=0.8903  MS-SSIM↑=0.9237  LPIPS↓=0.1706  time=24.0s
+[stage 5 | epoch 27 | step 25] loss=0.228222
+[stage 5 | epoch 27 | step 50] loss=0.223966
+[stage 5 | epoch 27 | step 75] loss=0.230768
+[stage 5 | epoch 27 | step 100] loss=0.235480
+[stage 5 | epoch 27 | step 125] loss=0.235464
+[stage 5 | epoch 27 | step 150] loss=0.233390
+[stage 5 | epoch 27 | step 175] loss=0.234039
+[stage 5 | epoch 27 | step 200] loss=0.233088
+Stage 5 Epoch 27 | L1=0.075935  PSNR↑=21.1633  SSIM↑=0.8990  MS-SSIM↑=0.9277  LPIPS↓=0.1657  time=38.5s
+[stage 5 | epoch 28 | step 25] loss=0.234493
+[stage 5 | epoch 28 | step 50] loss=0.228745
+[stage 5 | epoch 28 | step 75] loss=0.228595
+[stage 5 | epoch 28 | step 100] loss=0.233518
+[stage 5 | epoch 28 | step 125] loss=0.227890
+[stage 5 | epoch 28 | step 150] loss=0.228428
+[stage 5 | epoch 28 | step 175] loss=0.229901
+[stage 5 | epoch 28 | step 200] loss=0.229246
+Stage 5 Epoch 28 | L1=0.077993  PSNR↑=20.9094  SSIM↑=0.8957  MS-SSIM↑=0.9235  LPIPS↓=0.1672  time=28.1s
+[stage 5 | epoch 29 | step 25] loss=0.215993
+[stage 5 | epoch 29 | step 50] loss=0.232169
+[stage 5 | epoch 29 | step 75] loss=0.229299
+[stage 5 | epoch 29 | step 100] loss=0.225030
+[stage 5 | epoch 29 | step 125] loss=0.228719
+[stage 5 | epoch 29 | step 150] loss=0.226134
+[stage 5 | epoch 29 | step 175] loss=0.225662
+[stage 5 | epoch 29 | step 200] loss=0.223639
+Stage 5 Epoch 29 | L1=0.075942  PSNR↑=21.1476  SSIM↑=0.8984  MS-SSIM↑=0.9271  LPIPS↓=0.1659  time=35.1s
+[stage 5 | epoch 30 | step 25] loss=0.215897
+[stage 5 | epoch 30 | step 50] loss=0.214102
+[stage 5 | epoch 30 | step 75] loss=0.217976
+[stage 5 | epoch 30 | step 100] loss=0.220877
+[stage 5 | epoch 30 | step 125] loss=0.228292
+[stage 5 | epoch 30 | step 150] loss=0.227019
+[stage 5 | epoch 30 | step 175] loss=0.225808
+[stage 5 | epoch 30 | step 200] loss=0.226855
+Stage 5 Epoch 30 | L1=0.076090  PSNR↑=21.1077  SSIM↑=0.8983  MS-SSIM↑=0.9270  LPIPS↓=0.1655  time=30.6s
+[stage 5 | epoch 31 | step 25] loss=0.238841
+[stage 5 | epoch 31 | step 50] loss=0.246050
+[stage 5 | epoch 31 | step 75] loss=0.244601
+[stage 5 | epoch 31 | step 100] loss=0.235663
+[stage 5 | epoch 31 | step 125] loss=0.228007
+[stage 5 | epoch 31 | step 150] loss=0.227107
+[stage 5 | epoch 31 | step 175] loss=0.223384
+[stage 5 | epoch 31 | step 200] loss=0.222487
+Stage 5 Epoch 31 | L1=0.078251  PSNR↑=20.8767  SSIM↑=0.8960  MS-SSIM↑=0.9268  LPIPS↓=0.1692  time=40.6s
+[stage 5 | epoch 32 | step 25] loss=0.258949
+[stage 5 | epoch 32 | step 50] loss=0.248254
+[stage 5 | epoch 32 | step 75] loss=0.246167
+[stage 5 | epoch 32 | step 100] loss=0.240866
+[stage 5 | epoch 32 | step 125] loss=0.237387
+[stage 5 | epoch 32 | step 150] loss=0.239939
+[stage 5 | epoch 32 | step 175] loss=0.235820
+[stage 5 | epoch 32 | step 200] loss=0.232414
+Stage 5 Epoch 32 | L1=0.079730  PSNR↑=20.7367  SSIM↑=0.8904  MS-SSIM↑=0.9219  LPIPS↓=0.1703  time=63.4s
+[stage 5 | epoch 33 | step 25] loss=0.240234
+[stage 5 | epoch 33 | step 50] loss=0.227204
+[stage 5 | epoch 33 | step 75] loss=0.226786
+[stage 5 | epoch 33 | step 100] loss=0.225473
+[stage 5 | epoch 33 | step 125] loss=0.225680
+[stage 5 | epoch 33 | step 150] loss=0.227556
+[stage 5 | epoch 33 | step 175] loss=0.230608
+[stage 5 | epoch 33 | step 200] loss=0.232174
+Stage 5 Epoch 33 | L1=0.077695  PSNR↑=20.8775  SSIM↑=0.8960  MS-SSIM↑=0.9234  LPIPS↓=0.1693  time=32.9s
+[stage 5 | epoch 34 | step 25] loss=0.239093
+[stage 5 | epoch 34 | step 50] loss=0.228456
+[stage 5 | epoch 34 | step 75] loss=0.237106
+[stage 5 | epoch 34 | step 100] loss=0.235007
+[stage 5 | epoch 34 | step 125] loss=0.228372
+[stage 5 | epoch 34 | step 150] loss=0.228515
+[stage 5 | epoch 34 | step 175] loss=0.225622
+[stage 5 | epoch 34 | step 200] loss=0.227099
+Stage 5 Epoch 34 | L1=0.077079  PSNR↑=20.9823  SSIM↑=0.8961  MS-SSIM↑=0.9262  LPIPS↓=0.1680  time=43.3s
+[stage 5 | epoch 35 | step 25] loss=0.238785
+[stage 5 | epoch 35 | step 50] loss=0.228498
+[stage 5 | epoch 35 | step 75] loss=0.235270
+[stage 5 | epoch 35 | step 100] loss=0.231273
+[stage 5 | epoch 35 | step 125] loss=0.230473
+[stage 5 | epoch 35 | step 150] loss=0.230576
+[stage 5 | epoch 35 | step 175] loss=0.227150
+[stage 5 | epoch 35 | step 200] loss=0.229143
+Stage 5 Epoch 35 | L1=0.079462  PSNR↑=20.7648  SSIM↑=0.8912  MS-SSIM↑=0.9223  LPIPS↓=0.1703  time=23.4s
+[stage 5 | epoch 36 | step 25] loss=0.249336
+[stage 5 | epoch 36 | step 50] loss=0.249991
+[stage 5 | epoch 36 | step 75] loss=0.249390
+[stage 5 | epoch 36 | step 100] loss=0.240399
+[stage 5 | epoch 36 | step 125] loss=0.237270
+[stage 5 | epoch 36 | step 150] loss=0.231242
+[stage 5 | epoch 36 | step 175] loss=0.229275
+[stage 5 | epoch 36 | step 200] loss=0.230090
+Stage 5 Epoch 36 | L1=0.078340  PSNR↑=20.9430  SSIM↑=0.8936  MS-SSIM↑=0.9243  LPIPS↓=0.1692  time=34.4s
+[stage 5 | epoch 37 | step 25] loss=0.243324
+[stage 5 | epoch 37 | step 50] loss=0.231879
+[stage 5 | epoch 37 | step 75] loss=0.230828
+[stage 5 | epoch 37 | step 100] loss=0.236055
+[stage 5 | epoch 37 | step 125] loss=0.231169
+[stage 5 | epoch 37 | step 150] loss=0.227811
+[stage 5 | epoch 37 | step 175] loss=0.225033
+[stage 5 | epoch 37 | step 200] loss=0.225473
+Stage 5 Epoch 37 | L1=0.077198  PSNR↑=21.0054  SSIM↑=0.8969  MS-SSIM↑=0.9278  LPIPS↓=0.1673  time=45.8s
+[stage 5 | epoch 38 | step 25] loss=0.232980
+[stage 5 | epoch 38 | step 50] loss=0.227405
+[stage 5 | epoch 38 | step 75] loss=0.227732
+[stage 5 | epoch 38 | step 100] loss=0.231171
+[stage 5 | epoch 38 | step 125] loss=0.229077
+[stage 5 | epoch 38 | step 150] loss=0.230764
+[stage 5 | epoch 38 | step 175] loss=0.231042
+[stage 5 | epoch 38 | step 200] loss=0.232954
+Stage 5 Epoch 38 | L1=0.077863  PSNR↑=20.9034  SSIM↑=0.8991  MS-SSIM↑=0.9245  LPIPS↓=0.1689  time=23.8s
+[stage 5 | epoch 39 | step 25] loss=0.236855
+[stage 5 | epoch 39 | step 50] loss=0.240749
+[stage 5 | epoch 39 | step 75] loss=0.226276
+[stage 5 | epoch 39 | step 100] loss=0.223549
+[stage 5 | epoch 39 | step 125] loss=0.223285
+[stage 5 | epoch 39 | step 150] loss=0.225353
+[stage 5 | epoch 39 | step 175] loss=0.227414
+[stage 5 | epoch 39 | step 200] loss=0.229798
+Stage 5 Epoch 39 | L1=0.080682  PSNR↑=20.5954  SSIM↑=0.8888  MS-SSIM↑=0.9201  LPIPS↓=0.1717  time=23.5s
+[stage 5 | epoch 40 | step 25] loss=0.230252
+[stage 5 | epoch 40 | step 50] loss=0.231635
+[stage 5 | epoch 40 | step 75] loss=0.230696
+[stage 5 | epoch 40 | step 100] loss=0.227150
+[stage 5 | epoch 40 | step 125] loss=0.226555
+[stage 5 | epoch 40 | step 150] loss=0.224447
+[stage 5 | epoch 40 | step 175] loss=0.224213
+[stage 5 | epoch 40 | step 200] loss=0.224976
+Stage 5 Epoch 40 | L1=0.080166  PSNR↑=20.6942  SSIM↑=0.8930  MS-SSIM↑=0.9232  LPIPS↓=0.1696  time=47.4s
+[FULL EVAL] stage=5 epoch=40 | PSNR↑=20.6942  SSIM↑=0.8930  MS-SSIM↑=0.9232  LPIPS↓=0.1696  NIQE↓=4.1353  UIQM↑=261.4096  UCIQE↑=inf
+[stage 5 | epoch 41 | step 25] loss=0.223953
+[stage 5 | epoch 41 | step 50] loss=0.225343
+[stage 5 | epoch 41 | step 75] loss=0.225761
+[stage 5 | epoch 41 | step 100] loss=0.225865
+[stage 5 | epoch 41 | step 125] loss=0.223984
+[stage 5 | epoch 41 | step 150] loss=0.225570
+[stage 5 | epoch 41 | step 175] loss=0.227465
+[stage 5 | epoch 41 | step 200] loss=0.228171
+Stage 5 Epoch 41 | L1=0.076456  PSNR↑=21.1280  SSIM↑=0.8978  MS-SSIM↑=0.9272  LPIPS↓=0.1651  time=27.5s
+[stage 5 | epoch 42 | step 25] loss=0.239314
+[stage 5 | epoch 42 | step 50] loss=0.239582
+[stage 5 | epoch 42 | step 75] loss=0.228873
+[stage 5 | epoch 42 | step 100] loss=0.220967
+[stage 5 | epoch 42 | step 125] loss=0.224062
+[stage 5 | epoch 42 | step 150] loss=0.225505
+[stage 5 | epoch 42 | step 175] loss=0.224455
+[stage 5 | epoch 42 | step 200] loss=0.224807
+Stage 5 Epoch 42 | L1=0.078717  PSNR↑=20.8091  SSIM↑=0.8963  MS-SSIM↑=0.9253  LPIPS↓=0.1704  time=25.1s
+[stage 5 | epoch 43 | step 25] loss=0.225531
+[stage 5 | epoch 43 | step 50] loss=0.223929
+[stage 5 | epoch 43 | step 75] loss=0.226166
+[stage 5 | epoch 43 | step 100] loss=0.223440
+[stage 5 | epoch 43 | step 125] loss=0.223992
+[stage 5 | epoch 43 | step 150] loss=0.220033
+[stage 5 | epoch 43 | step 175] loss=0.221344
+[stage 5 | epoch 43 | step 200] loss=0.222639
+Stage 5 Epoch 43 | L1=0.078293  PSNR↑=20.9181  SSIM↑=0.8956  MS-SSIM↑=0.9242  LPIPS↓=0.1666  time=39.3s
+[stage 5 | epoch 44 | step 25] loss=0.243634
+[stage 5 | epoch 44 | step 50] loss=0.226951
+[stage 5 | epoch 44 | step 75] loss=0.226096
+[stage 5 | epoch 44 | step 100] loss=0.224596
+[stage 5 | epoch 44 | step 125] loss=0.224455
+[stage 5 | epoch 44 | step 150] loss=0.225199
+[stage 5 | epoch 44 | step 175] loss=0.226942
+[stage 5 | epoch 44 | step 200] loss=0.227791
+Stage 5 Epoch 44 | L1=0.080550  PSNR↑=20.6369  SSIM↑=0.8918  MS-SSIM↑=0.9235  LPIPS↓=0.1740  time=24.2s
+[stage 5 | epoch 45 | step 25] loss=0.229950
+[stage 5 | epoch 45 | step 50] loss=0.240211
+[stage 5 | epoch 45 | step 75] loss=0.230907
+[stage 5 | epoch 45 | step 100] loss=0.226882
+[stage 5 | epoch 45 | step 125] loss=0.231498
+[stage 5 | epoch 45 | step 150] loss=0.230114
+[stage 5 | epoch 45 | step 175] loss=0.230168
+[stage 5 | epoch 45 | step 200] loss=0.230695
+Stage 5 Epoch 45 | L1=0.077856  PSNR↑=20.9752  SSIM↑=0.8961  MS-SSIM↑=0.9253  LPIPS↓=0.1653  time=24.1s
+[stage 5 | epoch 46 | step 25] loss=0.227687
+[stage 5 | epoch 46 | step 50] loss=0.224067
+[stage 5 | epoch 46 | step 75] loss=0.228726
+[stage 5 | epoch 46 | step 100] loss=0.232417
+[stage 5 | epoch 46 | step 125] loss=0.231048
+[stage 5 | epoch 46 | step 150] loss=0.232682
+[stage 5 | epoch 46 | step 175] loss=0.230110
+[stage 5 | epoch 46 | step 200] loss=0.227878
+Stage 5 Epoch 46 | L1=0.075823  PSNR↑=21.1932  SSIM↑=0.8978  MS-SSIM↑=0.9261  LPIPS↓=0.1644  time=24.1s
+[stage 5 | epoch 47 | step 25] loss=0.226292
+[stage 5 | epoch 47 | step 50] loss=0.220679
+[stage 5 | epoch 47 | step 75] loss=0.215300
+[stage 5 | epoch 47 | step 100] loss=0.222107
+[stage 5 | epoch 47 | step 125] loss=0.224914
+[stage 5 | epoch 47 | step 150] loss=0.223712
+[stage 5 | epoch 47 | step 175] loss=0.226214
+[stage 5 | epoch 47 | step 200] loss=0.224972
+Stage 5 Epoch 47 | L1=0.078371  PSNR↑=20.9360  SSIM↑=0.8945  MS-SSIM↑=0.9247  LPIPS↓=0.1681  time=23.8s
+[stage 5 | epoch 48 | step 25] loss=0.228210
+[stage 5 | epoch 48 | step 50] loss=0.223932
+[stage 5 | epoch 48 | step 75] loss=0.224621
+[stage 5 | epoch 48 | step 100] loss=0.222469
+[stage 5 | epoch 48 | step 125] loss=0.228411
+[stage 5 | epoch 48 | step 150] loss=0.230455
+[stage 5 | epoch 48 | step 175] loss=0.228058
+[stage 5 | epoch 48 | step 200] loss=0.229485
+Stage 5 Epoch 48 | L1=0.078109  PSNR↑=21.0456  SSIM↑=0.8970  MS-SSIM↑=0.9275  LPIPS↓=0.1663  time=24.9s
+[stage 5 | epoch 49 | step 25] loss=0.243744
+[stage 5 | epoch 49 | step 50] loss=0.240609
+[stage 5 | epoch 49 | step 75] loss=0.238876
+[stage 5 | epoch 49 | step 100] loss=0.235211
+[stage 5 | epoch 49 | step 125] loss=0.233714
+[stage 5 | epoch 49 | step 150] loss=0.231534
+[stage 5 | epoch 49 | step 175] loss=0.228119
+[stage 5 | epoch 49 | step 200] loss=0.226015
+Stage 5 Epoch 49 | L1=0.081040  PSNR↑=20.5885  SSIM↑=0.8898  MS-SSIM↑=0.9231  LPIPS↓=0.1732  time=23.3s
+[stage 5 | epoch 50 | step 25] loss=0.233156
+[stage 5 | epoch 50 | step 50] loss=0.223891
+[stage 5 | epoch 50 | step 75] loss=0.219489
+[stage 5 | epoch 50 | step 100] loss=0.217975
+[stage 5 | epoch 50 | step 125] loss=0.217535
+[stage 5 | epoch 50 | step 150] loss=0.218599
+[stage 5 | epoch 50 | step 175] loss=0.219952
+[stage 5 | epoch 50 | step 200] loss=0.222999
+Stage 5 Epoch 50 | L1=0.078430  PSNR↑=20.8727  SSIM↑=0.8949  MS-SSIM↑=0.9260  LPIPS↓=0.1698  time=22.8s
+[stage 5 | epoch 51 | step 25] loss=0.241244
+[stage 5 | epoch 51 | step 50] loss=0.235969
+[stage 5 | epoch 51 | step 75] loss=0.229711
+[stage 5 | epoch 51 | step 100] loss=0.230097
+[stage 5 | epoch 51 | step 125] loss=0.233638
+[stage 5 | epoch 51 | step 150] loss=0.233229
+[stage 5 | epoch 51 | step 175] loss=0.233306
+[stage 5 | epoch 51 | step 200] loss=0.233329
+Stage 5 Epoch 51 | L1=0.078846  PSNR↑=20.7660  SSIM↑=0.8936  MS-SSIM↑=0.9225  LPIPS↓=0.1732  time=24.5s
+[stage 5 | epoch 52 | step 25] loss=0.239812
+[stage 5 | epoch 52 | step 50] loss=0.232200
+[stage 5 | epoch 52 | step 75] loss=0.225994
+[stage 5 | epoch 52 | step 100] loss=0.225099
+[stage 5 | epoch 52 | step 125] loss=0.224640
+[stage 5 | epoch 52 | step 150] loss=0.227827
+[stage 5 | epoch 52 | step 175] loss=0.228607
+[stage 5 | epoch 52 | step 200] loss=0.227911
+Stage 5 Epoch 52 | L1=0.079910  PSNR↑=20.7093  SSIM↑=0.8931  MS-SSIM↑=0.9225  LPIPS↓=0.1736  time=24.8s
+[stage 5 | epoch 53 | step 25] loss=0.232632
+[stage 5 | epoch 53 | step 50] loss=0.234910
+[stage 5 | epoch 53 | step 75] loss=0.234559
+[stage 5 | epoch 53 | step 100] loss=0.232895
+[stage 5 | epoch 53 | step 125] loss=0.236166
+[stage 5 | epoch 53 | step 150] loss=0.233625
+[stage 5 | epoch 53 | step 175] loss=0.234447
+[stage 5 | epoch 53 | step 200] loss=0.229288
+Stage 5 Epoch 53 | L1=0.078261  PSNR↑=20.8149  SSIM↑=0.8953  MS-SSIM↑=0.9270  LPIPS↓=0.1716  time=24.3s
+[stage 5 | epoch 54 | step 25] loss=0.251450
+[stage 5 | epoch 54 | step 50] loss=0.242276
+[stage 5 | epoch 54 | step 75] loss=0.242679
+[stage 5 | epoch 54 | step 100] loss=0.238499
+[stage 5 | epoch 54 | step 125] loss=0.240067
+[stage 5 | epoch 54 | step 150] loss=0.242212
+[stage 5 | epoch 54 | step 175] loss=0.237380
+[stage 5 | epoch 54 | step 200] loss=0.236438
+Stage 5 Epoch 54 | L1=0.079665  PSNR↑=20.6650  SSIM↑=0.8959  MS-SSIM↑=0.9226  LPIPS↓=0.1735  time=23.7s
+[stage 5 | epoch 55 | step 25] loss=0.224612
+[stage 5 | epoch 55 | step 50] loss=0.219545
+[stage 5 | epoch 55 | step 75] loss=0.220439
+[stage 5 | epoch 55 | step 100] loss=0.222570
+[stage 5 | epoch 55 | step 125] loss=0.221272
+[stage 5 | epoch 55 | step 150] loss=0.221887
+[stage 5 | epoch 55 | step 175] loss=0.222456
+[stage 5 | epoch 55 | step 200] loss=0.222397
+Stage 5 Epoch 55 | L1=0.076341  PSNR↑=21.0999  SSIM↑=0.8971  MS-SSIM↑=0.9287  LPIPS↓=0.1687  time=23.7s
+[stage 5 | epoch 56 | step 25] loss=0.238876
+[stage 5 | epoch 56 | step 50] loss=0.249930
+[stage 5 | epoch 56 | step 75] loss=0.240513
+[stage 5 | epoch 56 | step 100] loss=0.232716
+[stage 5 | epoch 56 | step 125] loss=0.230657
+[stage 5 | epoch 56 | step 150] loss=0.231148
+[stage 5 | epoch 56 | step 175] loss=0.231663
+[stage 5 | epoch 56 | step 200] loss=0.228524
+Stage 5 Epoch 56 | L1=0.076364  PSNR↑=21.1120  SSIM↑=0.8964  MS-SSIM↑=0.9254  LPIPS↓=0.1668  time=23.2s
+[stage 5 | epoch 57 | step 25] loss=0.223324
+[stage 5 | epoch 57 | step 50] loss=0.221249
+[stage 5 | epoch 57 | step 75] loss=0.224283
+[stage 5 | epoch 57 | step 100] loss=0.226341
+[stage 5 | epoch 57 | step 125] loss=0.226771
+[stage 5 | epoch 57 | step 150] loss=0.228727
+[stage 5 | epoch 57 | step 175] loss=0.227988
+[stage 5 | epoch 57 | step 200] loss=0.227918
+Stage 5 Epoch 57 | L1=0.076024  PSNR↑=21.1197  SSIM↑=0.8968  MS-SSIM↑=0.9272  LPIPS↓=0.1657  time=24.7s
+[stage 5 | epoch 58 | step 25] loss=0.229315
+[stage 5 | epoch 58 | step 50] loss=0.233189
+[stage 5 | epoch 58 | step 75] loss=0.228650
+[stage 5 | epoch 58 | step 100] loss=0.232007
+[stage 5 | epoch 58 | step 125] loss=0.227326
+[stage 5 | epoch 58 | step 150] loss=0.223501
+[stage 5 | epoch 58 | step 175] loss=0.225169
+[stage 5 | epoch 58 | step 200] loss=0.223175
+Stage 5 Epoch 58 | L1=0.076745  PSNR↑=21.0686  SSIM↑=0.8960  MS-SSIM↑=0.9252  LPIPS↓=0.1661  time=24.4s
+[stage 5 | epoch 59 | step 25] loss=0.199386
+[stage 5 | epoch 59 | step 50] loss=0.210315
+[stage 5 | epoch 59 | step 75] loss=0.215871
+[stage 5 | epoch 59 | step 100] loss=0.219293
+[stage 5 | epoch 59 | step 125] loss=0.216715
+[stage 5 | epoch 59 | step 150] loss=0.218985
+[stage 5 | epoch 59 | step 175] loss=0.219884
+[stage 5 | epoch 59 | step 200] loss=0.222200
+Stage 5 Epoch 59 | L1=0.076111  PSNR↑=21.1587  SSIM↑=0.8992  MS-SSIM↑=0.9289  LPIPS↓=0.1652  time=25.6s
+[stage 5 | epoch 60 | step 25] loss=0.230424
+[stage 5 | epoch 60 | step 50] loss=0.219622
+[stage 5 | epoch 60 | step 75] loss=0.223718
+[stage 5 | epoch 60 | step 100] loss=0.229121
+[stage 5 | epoch 60 | step 125] loss=0.230141
+[stage 5 | epoch 60 | step 150] loss=0.229929
+[stage 5 | epoch 60 | step 175] loss=0.230628
+[stage 5 | epoch 60 | step 200] loss=0.228533
+Stage 5 Epoch 60 | L1=0.079590  PSNR↑=20.7470  SSIM↑=0.8939  MS-SSIM↑=0.9222  LPIPS↓=0.1712  time=30.2s
+[FULL EVAL] stage=5 epoch=60 | PSNR↑=20.7470  SSIM↑=0.8939  MS-SSIM↑=0.9222  LPIPS↓=0.1712  NIQE↓=4.1446  UIQM↑=263.1011  UCIQE↑=inf
+[stage 5 | epoch 61 | step 25] loss=0.218094
+[stage 5 | epoch 61 | step 50] loss=0.224762
+[stage 5 | epoch 61 | step 75] loss=0.222441
+[stage 5 | epoch 61 | step 100] loss=0.225823
+[stage 5 | epoch 61 | step 125] loss=0.223438
+[stage 5 | epoch 61 | step 150] loss=0.222506
+[stage 5 | epoch 61 | step 175] loss=0.222734
+[stage 5 | epoch 61 | step 200] loss=0.220955
+Stage 5 Epoch 61 | L1=0.076275  PSNR↑=21.1104  SSIM↑=0.9011  MS-SSIM↑=0.9299  LPIPS↓=0.1664  time=27.9s
+[stage 5 | epoch 62 | step 25] loss=0.234752
+[stage 5 | epoch 62 | step 50] loss=0.247850
+[stage 5 | epoch 62 | step 75] loss=0.242216
+[stage 5 | epoch 62 | step 100] loss=0.237768
+[stage 5 | epoch 62 | step 125] loss=0.235370
+[stage 5 | epoch 62 | step 150] loss=0.231899
+[stage 5 | epoch 62 | step 175] loss=0.234030
+[stage 5 | epoch 62 | step 200] loss=0.234248
+Stage 5 Epoch 62 | L1=0.079530  PSNR↑=20.7436  SSIM↑=0.8917  MS-SSIM↑=0.9220  LPIPS↓=0.1735  time=28.8s
+[stage 5 | epoch 63 | step 25] loss=0.220091
+[stage 5 | epoch 63 | step 50] loss=0.225416
+[stage 5 | epoch 63 | step 75] loss=0.226347
+[stage 5 | epoch 63 | step 100] loss=0.228872
+[stage 5 | epoch 63 | step 125] loss=0.229201
+[stage 5 | epoch 63 | step 150] loss=0.229732
+[stage 5 | epoch 63 | step 175] loss=0.229717
+[stage 5 | epoch 63 | step 200] loss=0.232331
+Stage 5 Epoch 63 | L1=0.076952  PSNR↑=21.1157  SSIM↑=0.8968  MS-SSIM↑=0.9271  LPIPS↓=0.1654  time=33.3s
+[stage 5 | epoch 64 | step 25] loss=0.226505
+[stage 5 | epoch 64 | step 50] loss=0.231912
+[stage 5 | epoch 64 | step 75] loss=0.223406
+[stage 5 | epoch 64 | step 100] loss=0.222871
+[stage 5 | epoch 64 | step 125] loss=0.220626
+[stage 5 | epoch 64 | step 150] loss=0.221049
+[stage 5 | epoch 64 | step 175] loss=0.223215
+[stage 5 | epoch 64 | step 200] loss=0.223771
+Stage 5 Epoch 64 | L1=0.078819  PSNR↑=20.8157  SSIM↑=0.8977  MS-SSIM↑=0.9279  LPIPS↓=0.1709  time=29.6s
+[stage 5 | epoch 65 | step 25] loss=0.233727
+[stage 5 | epoch 65 | step 50] loss=0.231321
+[stage 5 | epoch 65 | step 75] loss=0.230979
+[stage 5 | epoch 65 | step 100] loss=0.237572
+[stage 5 | epoch 65 | step 125] loss=0.238307
+[stage 5 | epoch 65 | step 150] loss=0.236394
+[stage 5 | epoch 65 | step 175] loss=0.232622
+[stage 5 | epoch 65 | step 200] loss=0.234776
+Stage 5 Epoch 65 | L1=0.080022  PSNR↑=20.7435  SSIM↑=0.8896  MS-SSIM↑=0.9207  LPIPS↓=0.1718  time=33.3s
+[stage 5 | epoch 66 | step 25] loss=0.237985
+[stage 5 | epoch 66 | step 50] loss=0.232415
+[stage 5 | epoch 66 | step 75] loss=0.222133
+[stage 5 | epoch 66 | step 100] loss=0.219442
+[stage 5 | epoch 66 | step 125] loss=0.221039
+[stage 5 | epoch 66 | step 150] loss=0.216264
+[stage 5 | epoch 66 | step 175] loss=0.218755
+[stage 5 | epoch 66 | step 200] loss=0.220558
+Stage 5 Epoch 66 | L1=0.079230  PSNR↑=20.8678  SSIM↑=0.8965  MS-SSIM↑=0.9262  LPIPS↓=0.1705  time=37.8s
+[stage 5 | epoch 67 | step 25] loss=0.214861
+[stage 5 | epoch 67 | step 50] loss=0.215033
+[stage 5 | epoch 67 | step 75] loss=0.220979
+[stage 5 | epoch 67 | step 100] loss=0.228969
+[stage 5 | epoch 67 | step 125] loss=0.232129
+[stage 5 | epoch 67 | step 150] loss=0.234898
+[stage 5 | epoch 67 | step 175] loss=0.230138
+[stage 5 | epoch 67 | step 200] loss=0.229734
+Stage 5 Epoch 67 | L1=0.077106  PSNR↑=21.0674  SSIM↑=0.8985  MS-SSIM↑=0.9254  LPIPS↓=0.1666  time=24.6s
+[stage 5 | epoch 68 | step 25] loss=0.238661
+[stage 5 | epoch 68 | step 50] loss=0.234013
+[stage 5 | epoch 68 | step 75] loss=0.233681
+[stage 5 | epoch 68 | step 100] loss=0.228632
+[stage 5 | epoch 68 | step 125] loss=0.223563
+[stage 5 | epoch 68 | step 150] loss=0.226115
+[stage 5 | epoch 68 | step 175] loss=0.223845
+[stage 5 | epoch 68 | step 200] loss=0.222815
+Stage 5 Epoch 68 | L1=0.078264  PSNR↑=20.9338  SSIM↑=0.8959  MS-SSIM↑=0.9251  LPIPS↓=0.1706  time=32.4s
+[stage 5 | epoch 69 | step 25] loss=0.263461
+[stage 5 | epoch 69 | step 50] loss=0.254945
+[stage 5 | epoch 69 | step 75] loss=0.249344
+[stage 5 | epoch 69 | step 100] loss=0.241383
+[stage 5 | epoch 69 | step 125] loss=0.239193
+[stage 5 | epoch 69 | step 150] loss=0.236773
+[stage 5 | epoch 69 | step 175] loss=0.234475
+[stage 5 | epoch 69 | step 200] loss=0.232575
+Stage 5 Epoch 69 | L1=0.078907  PSNR↑=20.8695  SSIM↑=0.8965  MS-SSIM↑=0.9238  LPIPS↓=0.1663  time=38.1s
+[stage 5 | epoch 70 | step 25] loss=0.210577
+[stage 5 | epoch 70 | step 50] loss=0.219948
+[stage 5 | epoch 70 | step 75] loss=0.230643
+[stage 5 | epoch 70 | step 100] loss=0.235500
+[stage 5 | epoch 70 | step 125] loss=0.229982
+[stage 5 | epoch 70 | step 150] loss=0.229056
+[stage 5 | epoch 70 | step 175] loss=0.230119
+[stage 5 | epoch 70 | step 200] loss=0.228284
+Stage 5 Epoch 70 | L1=0.078451  PSNR↑=20.8775  SSIM↑=0.8963  MS-SSIM↑=0.9262  LPIPS↓=0.1694  time=46.8s
+[stage 5 | epoch 71 | step 25] loss=0.236621
+[stage 5 | epoch 71 | step 50] loss=0.224381
+[stage 5 | epoch 71 | step 75] loss=0.219038
+[stage 5 | epoch 71 | step 100] loss=0.217484
+[stage 5 | epoch 71 | step 125] loss=0.221569
+[stage 5 | epoch 71 | step 150] loss=0.220474
+[stage 5 | epoch 71 | step 175] loss=0.223829
+[stage 5 | epoch 71 | step 200] loss=0.222951
+Stage 5 Epoch 71 | L1=0.080261  PSNR↑=20.8059  SSIM↑=0.8974  MS-SSIM↑=0.9258  LPIPS↓=0.1681  time=22.8s
+[stage 5 | epoch 72 | step 25] loss=0.220240
+[stage 5 | epoch 72 | step 50] loss=0.227384
+[stage 5 | epoch 72 | step 75] loss=0.226155
+[stage 5 | epoch 72 | step 100] loss=0.228348
+[stage 5 | epoch 72 | step 125] loss=0.227008
+[stage 5 | epoch 72 | step 150] loss=0.225827
+[stage 5 | epoch 72 | step 175] loss=0.223758
+[stage 5 | epoch 72 | step 200] loss=0.223734
+Stage 5 Epoch 72 | L1=0.077038  PSNR↑=21.0038  SSIM↑=0.9008  MS-SSIM↑=0.9320  LPIPS↓=0.1667  time=32.7s
+[stage 5 | epoch 73 | step 25] loss=0.208699
+[stage 5 | epoch 73 | step 50] loss=0.213755
+[stage 5 | epoch 73 | step 75] loss=0.223046
+[stage 5 | epoch 73 | step 100] loss=0.224545
+[stage 5 | epoch 73 | step 125] loss=0.226266
+[stage 5 | epoch 73 | step 150] loss=0.229402
+[stage 5 | epoch 73 | step 175] loss=0.227551
+[stage 5 | epoch 73 | step 200] loss=0.224179
+Stage 5 Epoch 73 | L1=0.078887  PSNR↑=20.8699  SSIM↑=0.8951  MS-SSIM↑=0.9263  LPIPS↓=0.1674  time=24.8s
+[stage 5 | epoch 74 | step 25] loss=0.250275
+[stage 5 | epoch 74 | step 50] loss=0.241261
+[stage 5 | epoch 74 | step 75] loss=0.237055
+[stage 5 | epoch 74 | step 100] loss=0.234380
+[stage 5 | epoch 74 | step 125] loss=0.229714
+[stage 5 | epoch 74 | step 150] loss=0.226549
+[stage 5 | epoch 74 | step 175] loss=0.223199
+[stage 5 | epoch 74 | step 200] loss=0.221537
+Stage 5 Epoch 74 | L1=0.078083  PSNR↑=20.8780  SSIM↑=0.8988  MS-SSIM↑=0.9304  LPIPS↓=0.1687  time=35.6s
+[stage 5 | epoch 75 | step 25] loss=0.241415
+[stage 5 | epoch 75 | step 50] loss=0.239197
+[stage 5 | epoch 75 | step 75] loss=0.234410
+[stage 5 | epoch 75 | step 100] loss=0.233474
+[stage 5 | epoch 75 | step 125] loss=0.225799
+[stage 5 | epoch 75 | step 150] loss=0.227568
+[stage 5 | epoch 75 | step 175] loss=0.228173
+[stage 5 | epoch 75 | step 200] loss=0.231168
+Stage 5 Epoch 75 | L1=0.076581  PSNR↑=21.0635  SSIM↑=0.8986  MS-SSIM↑=0.9284  LPIPS↓=0.1656  time=30.4s
+[stage 5 | epoch 76 | step 25] loss=0.247090
+[stage 5 | epoch 76 | step 50] loss=0.240060
+[stage 5 | epoch 76 | step 75] loss=0.236439
+[stage 5 | epoch 76 | step 100] loss=0.236083
+[stage 5 | epoch 76 | step 125] loss=0.239816
+[stage 5 | epoch 76 | step 150] loss=0.240248
+[stage 5 | epoch 76 | step 175] loss=0.238334
+[stage 5 | epoch 76 | step 200] loss=0.236157
+Stage 5 Epoch 76 | L1=0.080422  PSNR↑=20.5820  SSIM↑=0.8901  MS-SSIM↑=0.9207  LPIPS↓=0.1740  time=25.3s
+[stage 5 | epoch 77 | step 25] loss=0.245475
+[stage 5 | epoch 77 | step 50] loss=0.228512
+[stage 5 | epoch 77 | step 75] loss=0.231959
+[stage 5 | epoch 77 | step 100] loss=0.233111
+[stage 5 | epoch 77 | step 125] loss=0.231790
+[stage 5 | epoch 77 | step 150] loss=0.229843
+[stage 5 | epoch 77 | step 175] loss=0.229360
+[stage 5 | epoch 77 | step 200] loss=0.225541
+Stage 5 Epoch 77 | L1=0.076580  PSNR↑=21.1189  SSIM↑=0.9002  MS-SSIM↑=0.9288  LPIPS↓=0.1639  time=27.8s
+[stage 5 | epoch 78 | step 25] loss=0.215608
+[stage 5 | epoch 78 | step 50] loss=0.224941
+[stage 5 | epoch 78 | step 75] loss=0.227846
+[stage 5 | epoch 78 | step 100] loss=0.232191
+[stage 5 | epoch 78 | step 125] loss=0.229863
+[stage 5 | epoch 78 | step 150] loss=0.229171
+[stage 5 | epoch 78 | step 175] loss=0.231051
+[stage 5 | epoch 78 | step 200] loss=0.233112
+Stage 5 Epoch 78 | L1=0.074591  PSNR↑=21.2676  SSIM↑=0.9023  MS-SSIM↑=0.9296  LPIPS↓=0.1644  time=33.2s
+[stage 5 | epoch 79 | step 25] loss=0.225664
+[stage 5 | epoch 79 | step 50] loss=0.238646
+[stage 5 | epoch 79 | step 75] loss=0.234840
+[stage 5 | epoch 79 | step 100] loss=0.226636
+[stage 5 | epoch 79 | step 125] loss=0.228876
+[stage 5 | epoch 79 | step 150] loss=0.228746
+[stage 5 | epoch 79 | step 175] loss=0.230266
+[stage 5 | epoch 79 | step 200] loss=0.230978
+Stage 5 Epoch 79 | L1=0.082461  PSNR↑=20.4167  SSIM↑=0.8917  MS-SSIM↑=0.9191  LPIPS↓=0.1767  time=38.1s
+[stage 5 | epoch 80 | step 25] loss=0.232377
+[stage 5 | epoch 80 | step 50] loss=0.232347
+[stage 5 | epoch 80 | step 75] loss=0.231520
+[stage 5 | epoch 80 | step 100] loss=0.228953
+[stage 5 | epoch 80 | step 125] loss=0.226746
+[stage 5 | epoch 80 | step 150] loss=0.224137
+[stage 5 | epoch 80 | step 175] loss=0.223869
+[stage 5 | epoch 80 | step 200] loss=0.225429
+Stage 5 Epoch 80 | L1=0.079828  PSNR↑=20.7437  SSIM↑=0.8930  MS-SSIM↑=0.9272  LPIPS↓=0.1701  time=24.0s
+[FULL EVAL] stage=5 epoch=80 | PSNR↑=20.7437  SSIM↑=0.8930  MS-SSIM↑=0.9272  LPIPS↓=0.1701  NIQE↓=4.1032  UIQM↑=269.6113  UCIQE↑=inf
+[stage 5 | epoch 81 | step 25] loss=0.200254
+[stage 5 | epoch 81 | step 50] loss=0.211785
+[stage 5 | epoch 81 | step 75] loss=0.219587
+[stage 5 | epoch 81 | step 100] loss=0.222996
+[stage 5 | epoch 81 | step 125] loss=0.221381
+[stage 5 | epoch 81 | step 150] loss=0.224229
+[stage 5 | epoch 81 | step 175] loss=0.225286
+[stage 5 | epoch 81 | step 200] loss=0.223602
+Stage 5 Epoch 81 | L1=0.077392  PSNR↑=20.9646  SSIM↑=0.8976  MS-SSIM↑=0.9273  LPIPS↓=0.1670  time=34.2s
+[stage 5 | epoch 82 | step 25] loss=0.225161
+[stage 5 | epoch 82 | step 50] loss=0.235235
+[stage 5 | epoch 82 | step 75] loss=0.238722
+[stage 5 | epoch 82 | step 100] loss=0.240025
+[stage 5 | epoch 82 | step 125] loss=0.237817
+[stage 5 | epoch 82 | step 150] loss=0.238428
+[stage 5 | epoch 82 | step 175] loss=0.235657
+[stage 5 | epoch 82 | step 200] loss=0.233821
+Stage 5 Epoch 82 | L1=0.074489  PSNR↑=21.3017  SSIM↑=0.9013  MS-SSIM↑=0.9307  LPIPS↓=0.1617  time=49.5s
+[stage 5 | epoch 83 | step 25] loss=0.217327
+[stage 5 | epoch 83 | step 50] loss=0.215940
+[stage 5 | epoch 83 | step 75] loss=0.222196
+[stage 5 | epoch 83 | step 100] loss=0.220707
+[stage 5 | epoch 83 | step 125] loss=0.218660
+[stage 5 | epoch 83 | step 150] loss=0.218829
+[stage 5 | epoch 83 | step 175] loss=0.220792
+[stage 5 | epoch 83 | step 200] loss=0.221011
+Stage 5 Epoch 83 | L1=0.078147  PSNR↑=20.9157  SSIM↑=0.8973  MS-SSIM↑=0.9249  LPIPS↓=0.1670  time=28.5s
+[stage 5 | epoch 84 | step 25] loss=0.232350
+[stage 5 | epoch 84 | step 50] loss=0.225694
+[stage 5 | epoch 84 | step 75] loss=0.228887
+[stage 5 | epoch 84 | step 100] loss=0.229678
+[stage 5 | epoch 84 | step 125] loss=0.227944
+[stage 5 | epoch 84 | step 150] loss=0.223915
+[stage 5 | epoch 84 | step 175] loss=0.227807
+[stage 5 | epoch 84 | step 200] loss=0.229409
+Stage 5 Epoch 84 | L1=0.082855  PSNR↑=20.4024  SSIM↑=0.8921  MS-SSIM↑=0.9205  LPIPS↓=0.1775  time=23.3s
+[stage 5 | epoch 85 | step 25] loss=0.244164
+[stage 5 | epoch 85 | step 50] loss=0.234485
+[stage 5 | epoch 85 | step 75] loss=0.235889
+[stage 5 | epoch 85 | step 100] loss=0.232180
+[stage 5 | epoch 85 | step 125] loss=0.229155
+[stage 5 | epoch 85 | step 150] loss=0.230629
+[stage 5 | epoch 85 | step 175] loss=0.229160
+[stage 5 | epoch 85 | step 200] loss=0.226149
+Stage 5 Epoch 85 | L1=0.077672  PSNR↑=21.0370  SSIM↑=0.8996  MS-SSIM↑=0.9321  LPIPS↓=0.1661  time=29.6s
+[stage 5 | epoch 86 | step 25] loss=0.230945
+[stage 5 | epoch 86 | step 50] loss=0.219451
+[stage 5 | epoch 86 | step 75] loss=0.225247
+[stage 5 | epoch 86 | step 100] loss=0.226451
+[stage 5 | epoch 86 | step 125] loss=0.223182
+[stage 5 | epoch 86 | step 150] loss=0.221749
+[stage 5 | epoch 86 | step 175] loss=0.219939
+[stage 5 | epoch 86 | step 200] loss=0.223391
+Stage 5 Epoch 86 | L1=0.080152  PSNR↑=20.6969  SSIM↑=0.8958  MS-SSIM↑=0.9286  LPIPS↓=0.1702  time=22.4s
+[stage 5 | epoch 87 | step 25] loss=0.253116
+[stage 5 | epoch 87 | step 50] loss=0.249938
+[stage 5 | epoch 87 | step 75] loss=0.243130
+[stage 5 | epoch 87 | step 100] loss=0.240084
+[stage 5 | epoch 87 | step 125] loss=0.235270
+[stage 5 | epoch 87 | step 150] loss=0.232900
+[stage 5 | epoch 87 | step 175] loss=0.231836
+[stage 5 | epoch 87 | step 200] loss=0.232810
+Stage 5 Epoch 87 | L1=0.079618  PSNR↑=20.7763  SSIM↑=0.8941  MS-SSIM↑=0.9231  LPIPS↓=0.1692  time=38.0s
+[stage 5 | epoch 88 | step 25] loss=0.228121
+[stage 5 | epoch 88 | step 50] loss=0.235215
+[stage 5 | epoch 88 | step 75] loss=0.243969
+[stage 5 | epoch 88 | step 100] loss=0.237329
+[stage 5 | epoch 88 | step 125] loss=0.236576
+[stage 5 | epoch 88 | step 150] loss=0.236305
+[stage 5 | epoch 88 | step 175] loss=0.232130
+[stage 5 | epoch 88 | step 200] loss=0.233934
+Stage 5 Epoch 88 | L1=0.078561  PSNR↑=20.8902  SSIM↑=0.8980  MS-SSIM↑=0.9254  LPIPS↓=0.1681  time=30.6s
+[stage 5 | epoch 89 | step 25] loss=0.229135
+[stage 5 | epoch 89 | step 50] loss=0.222684
+[stage 5 | epoch 89 | step 75] loss=0.229506
+[stage 5 | epoch 89 | step 100] loss=0.231098
+[stage 5 | epoch 89 | step 125] loss=0.230446
+[stage 5 | epoch 89 | step 150] loss=0.231097
+[stage 5 | epoch 89 | step 175] loss=0.227867
+[stage 5 | epoch 89 | step 200] loss=0.227307
+Stage 5 Epoch 89 | L1=0.077374  PSNR↑=21.0575  SSIM↑=0.9014  MS-SSIM↑=0.9303  LPIPS↓=0.1666  time=23.9s
+[stage 5 | epoch 90 | step 25] loss=0.226848
+[stage 5 | epoch 90 | step 50] loss=0.237816
+[stage 5 | epoch 90 | step 75] loss=0.233363
+[stage 5 | epoch 90 | step 100] loss=0.229102
+[stage 5 | epoch 90 | step 125] loss=0.234021
+[stage 5 | epoch 90 | step 150] loss=0.232192
+[stage 5 | epoch 90 | step 175] loss=0.229362
+[stage 5 | epoch 90 | step 200] loss=0.229328
+Stage 5 Epoch 90 | L1=0.077746  PSNR↑=20.9197  SSIM↑=0.8963  MS-SSIM↑=0.9258  LPIPS↓=0.1691  time=34.7s
+[stage 5 | epoch 91 | step 25] loss=0.237557
+[stage 5 | epoch 91 | step 50] loss=0.238452
+[stage 5 | epoch 91 | step 75] loss=0.240366
+[stage 5 | epoch 91 | step 100] loss=0.234952
+[stage 5 | epoch 91 | step 125] loss=0.229985
+[stage 5 | epoch 91 | step 150] loss=0.231574
+[stage 5 | epoch 91 | step 175] loss=0.233875
+[stage 5 | epoch 91 | step 200] loss=0.233750
+Stage 5 Epoch 91 | L1=0.077468  PSNR↑=20.9595  SSIM↑=0.8984  MS-SSIM↑=0.9267  LPIPS↓=0.1695  time=32.1s
+[stage 5 | epoch 92 | step 25] loss=0.230099
+[stage 5 | epoch 92 | step 50] loss=0.232319
+[stage 5 | epoch 92 | step 75] loss=0.231505
+[stage 5 | epoch 92 | step 100] loss=0.231767
+[stage 5 | epoch 92 | step 125] loss=0.230216
+[stage 5 | epoch 92 | step 150] loss=0.233096
+[stage 5 | epoch 92 | step 175] loss=0.231903
+[stage 5 | epoch 92 | step 200] loss=0.231809
+Stage 5 Epoch 92 | L1=0.077202  PSNR↑=20.9850  SSIM↑=0.8973  MS-SSIM↑=0.9274  LPIPS↓=0.1674  time=25.3s
+[stage 5 | epoch 93 | step 25] loss=0.253827
+[stage 5 | epoch 93 | step 50] loss=0.234550
+[stage 5 | epoch 93 | step 75] loss=0.233319
+[stage 5 | epoch 93 | step 100] loss=0.229507
+[stage 5 | epoch 93 | step 125] loss=0.224562
+[stage 5 | epoch 93 | step 150] loss=0.228179
+[stage 5 | epoch 93 | step 175] loss=0.228830
+[stage 5 | epoch 93 | step 200] loss=0.229139
+Stage 5 Epoch 93 | L1=0.079165  PSNR↑=20.8355  SSIM↑=0.8959  MS-SSIM↑=0.9233  LPIPS↓=0.1666  time=28.3s
+[stage 5 | epoch 94 | step 25] loss=0.241533
+[stage 5 | epoch 94 | step 50] loss=0.229475
+[stage 5 | epoch 94 | step 75] loss=0.234095
+[stage 5 | epoch 94 | step 100] loss=0.231989
+[stage 5 | epoch 94 | step 125] loss=0.234544
+[stage 5 | epoch 94 | step 150] loss=0.237329
+[stage 5 | epoch 94 | step 175] loss=0.241420
+[stage 5 | epoch 94 | step 200] loss=0.239310
+Stage 5 Epoch 94 | L1=0.080340  PSNR↑=20.7542  SSIM↑=0.8922  MS-SSIM↑=0.9212  LPIPS↓=0.1671  time=34.3s
+[stage 5 | epoch 95 | step 25] loss=0.214626
+[stage 5 | epoch 95 | step 50] loss=0.219172
+[stage 5 | epoch 95 | step 75] loss=0.221530
+[stage 5 | epoch 95 | step 100] loss=0.219505
+[stage 5 | epoch 95 | step 125] loss=0.222421
+[stage 5 | epoch 95 | step 150] loss=0.223865
+[stage 5 | epoch 95 | step 175] loss=0.222766
+[stage 5 | epoch 95 | step 200] loss=0.222551
+Stage 5 Epoch 95 | L1=0.079633  PSNR↑=20.8580  SSIM↑=0.8971  MS-SSIM↑=0.9265  LPIPS↓=0.1713  time=80.2s
+[stage 5 | epoch 96 | step 25] loss=0.247796
+[stage 5 | epoch 96 | step 50] loss=0.232511
+[stage 5 | epoch 96 | step 75] loss=0.234745
+[stage 5 | epoch 96 | step 100] loss=0.232429
+[stage 5 | epoch 96 | step 125] loss=0.233321
+[stage 5 | epoch 96 | step 150] loss=0.236719
+[stage 5 | epoch 96 | step 175] loss=0.233696
+[stage 5 | epoch 96 | step 200] loss=0.232498
+Stage 5 Epoch 96 | L1=0.077113  PSNR↑=21.0532  SSIM↑=0.8963  MS-SSIM↑=0.9271  LPIPS↓=0.1668  time=44.5s
+[stage 5 | epoch 97 | step 25] loss=0.227919
+[stage 5 | epoch 97 | step 50] loss=0.225101
+[stage 5 | epoch 97 | step 75] loss=0.220471
+[stage 5 | epoch 97 | step 100] loss=0.220251
+[stage 5 | epoch 97 | step 125] loss=0.223412
+[stage 5 | epoch 97 | step 150] loss=0.225027
+[stage 5 | epoch 97 | step 175] loss=0.222758
+[stage 5 | epoch 97 | step 200] loss=0.220964
+Stage 5 Epoch 97 | L1=0.078503  PSNR↑=20.8791  SSIM↑=0.8981  MS-SSIM↑=0.9257  LPIPS↓=0.1673  time=27.8s
+[stage 5 | epoch 98 | step 25] loss=0.222447
+[stage 5 | epoch 98 | step 50] loss=0.223477
+[stage 5 | epoch 98 | step 75] loss=0.218691
+[stage 5 | epoch 98 | step 100] loss=0.223296
+[stage 5 | epoch 98 | step 125] loss=0.219828
+[stage 5 | epoch 98 | step 150] loss=0.222730
+[stage 5 | epoch 98 | step 175] loss=0.221552
+[stage 5 | epoch 98 | step 200] loss=0.223822
+Stage 5 Epoch 98 | L1=0.075376  PSNR↑=21.2278  SSIM↑=0.9018  MS-SSIM↑=0.9313  LPIPS↓=0.1650  time=32.4s
+[stage 5 | epoch 99 | step 25] loss=0.240692
+[stage 5 | epoch 99 | step 50] loss=0.238133
+[stage 5 | epoch 99 | step 75] loss=0.236060
+[stage 5 | epoch 99 | step 100] loss=0.233369
+[stage 5 | epoch 99 | step 125] loss=0.228792
+[stage 5 | epoch 99 | step 150] loss=0.227759
+[stage 5 | epoch 99 | step 175] loss=0.226924
+[stage 5 | epoch 99 | step 200] loss=0.225030
+Stage 5 Epoch 99 | L1=0.080301  PSNR↑=20.8326  SSIM↑=0.8950  MS-SSIM↑=0.9256  LPIPS↓=0.1698  time=30.1s
+[stage 5 | epoch 100 | step 25] loss=0.228765
+[stage 5 | epoch 100 | step 50] loss=0.228685
+[stage 5 | epoch 100 | step 75] loss=0.227642
+[stage 5 | epoch 100 | step 100] loss=0.231921
+[stage 5 | epoch 100 | step 125] loss=0.229598
+[stage 5 | epoch 100 | step 150] loss=0.226415
+[stage 5 | epoch 100 | step 175] loss=0.222859
+[stage 5 | epoch 100 | step 200] loss=0.223109
+Stage 5 Epoch 100 | L1=0.077498  PSNR↑=21.0452  SSIM↑=0.8975  MS-SSIM↑=0.9300  LPIPS↓=0.1666  time=29.8s
+[FULL EVAL] stage=5 epoch=100 | PSNR↑=21.0452  SSIM↑=0.8975  MS-SSIM↑=0.9300  LPIPS↓=0.1666  NIQE↓=4.1149  UIQM↑=276.5007  UCIQE↑=inf
+[stage 5 | epoch 101 | step 25] loss=0.232004
+[stage 5 | epoch 101 | step 50] loss=0.214768
+[stage 5 | epoch 101 | step 75] loss=0.220615
+[stage 5 | epoch 101 | step 100] loss=0.224416
+[stage 5 | epoch 101 | step 125] loss=0.229458
+[stage 5 | epoch 101 | step 150] loss=0.231566
+[stage 5 | epoch 101 | step 175] loss=0.228122
+[stage 5 | epoch 101 | step 200] loss=0.225296
+Stage 5 Epoch 101 | L1=0.078154  PSNR↑=20.9531  SSIM↑=0.8971  MS-SSIM�[stage 5 | epoch 102 | step 25] loss=0.194975
+[stage 5 | epoch 102 | step 50] loss=0.210409
+[stage 5 | epoch 102 | step 75] loss=0.211311
+[stage 5 | epoch 102 | step 100] loss=0.216355
+[stage 5 | epoch 102 | step 125] loss=0.216757
+[stage 5 | epoch 102 | step 150] loss=0.220768
+[stage 5 | epoch 102 | step 175] loss=0.222268
+[stage 5 | epoch 102 | step 200] loss=0.223534
+Stage 5 Epoch 102 | L1=0.076983  PSNR↑=21.0583  SSIM↑=0.9000  MS-SSIM↑=0.9300  LPIPS↓=0.1650  time=57.9s
+[stage 5 | epoch 103 | step 25] loss=0.230942
+[stage 5 | epoch 103 | step 50] loss=0.227979
+[stage 5 | epoch 103 | step 75] loss=0.224561
+[stage 5 | epoch 103 | step 100] loss=0.233203
+[stage 5 | epoch 103 | step 125] loss=0.226088
+[stage 5 | epoch 103 | step 150] loss=0.226486
+[stage 5 | epoch 103 | step 175] loss=0.226893
+[stage 5 | epoch 103 | step 200] loss=0.225039
+Stage 5 Epoch 103 | L1=0.074869  PSNR↑=21.4125  SSIM↑=0.9011  MS-SSIM↑=0.9323  LPIPS↓=0.1597  time=23.6s
+[stage 5 | epoch 104 | step 25] loss=0.239935
+[stage 5 | epoch 104 | step 50] loss=0.241497
+[stage 5 | epoch 104 | step 75] loss=0.234901
+[stage 5 | epoch 104 | step 100] loss=0.235876
+[stage 5 | epoch 104 | step 125] loss=0.239518
+[stage 5 | epoch 104 | step 150] loss=0.240127
+[stage 5 | epoch 104 | step 175] loss=0.239252
+[stage 5 | epoch 104 | step 200] loss=0.239454
+Stage 5 Epoch 104 | L1=0.078217  PSNR↑=20.8409  SSIM↑=0.8948  MS-SSIM↑=0.9253  LPIPS↓=0.1719  time=35.3s
+[stage 5 | epoch 105 | step 25] loss=0.234003
+[stage 5 | epoch 105 | step 50] loss=0.230840
+[stage 5 | epoch 105 | step 75] loss=0.241886
+[stage 5 | epoch 105 | step 100] loss=0.244715
+[stage 5 | epoch 105 | step 125] loss=0.239556
+[stage 5 | epoch 105 | step 150] loss=0.235844
+[stage 5 | epoch 105 | step 175] loss=0.237001
+[stage 5 | epoch 105 | step 200] loss=0.236321
+Stage 5 Epoch 105 | L1=0.075531  PSNR↑=21.1831  SSIM↑=0.9000  MS-SSIM↑=0.9286  LPIPS↓=0.1644  time=32.5s
+[stage 5 | epoch 106 | step 25] loss=0.222585
+[stage 5 | epoch 106 | step 50] loss=0.227839
+[stage 5 | epoch 106 | step 75] loss=0.222655
+[stage 5 | epoch 106 | step 100] loss=0.227241
+[stage 5 | epoch 106 | step 125] loss=0.229136
+[stage 5 | epoch 106 | step 150] loss=0.229252
+[stage 5 | epoch 106 | step 175] loss=0.226689
+[stage 5 | epoch 106 | step 200] loss=0.226246
+Stage 5 Epoch 106 | L1=0.076010  PSNR↑=21.1149  SSIM↑=0.9001  MS-SSIM↑=0.9293  LPIPS↓=0.1656  time=24.8s
+[stage 5 | epoch 107 | step 25] loss=0.210015
+[stage 5 | epoch 107 | step 50] loss=0.223578
+[stage 5 | epoch 107 | step 75] loss=0.227190
+[stage 5 | epoch 107 | step 100] loss=0.225476
+[stage 5 | epoch 107 | step 125] loss=0.224814
+[stage 5 | epoch 107 | step 150] loss=0.223097
+[stage 5 | epoch 107 | step 175] loss=0.222180
+[stage 5 | epoch 107 | step 200] loss=0.221791
+Stage 5 Epoch 107 | L1=0.079259  PSNR↑=20.8758  SSIM↑=0.8951  MS-SSIM↑=0.9268  LPIPS↓=0.1690  time=24.8s
+[stage 5 | epoch 108 | step 25] loss=0.217264
+[stage 5 | epoch 108 | step 50] loss=0.228452
+[stage 5 | epoch 108 | step 75] loss=0.230378
+[stage 5 | epoch 108 | step 100] loss=0.230869
+[stage 5 | epoch 108 | step 125] loss=0.225921
+[stage 5 | epoch 108 | step 150] loss=0.226240
+[stage 5 | epoch 108 | step 175] loss=0.229416
+[stage 5 | epoch 108 | step 200] loss=0.229110
+Stage 5 Epoch 108 | L1=0.075748  PSNR↑=21.2324  SSIM↑=0.9002  MS-SSIM↑=0.9306  LPIPS↓=0.1627  time=25.9s
+[stage 5 | epoch 109 | step 25] loss=0.216469
+[stage 5 | epoch 109 | step 50] loss=0.226498
+[stage 5 | epoch 109 | step 75] loss=0.232212
+[stage 5 | epoch 109 | step 100] loss=0.228395
+[stage 5 | epoch 109 | step 125] loss=0.229561
+[stage 5 | epoch 109 | step 150] loss=0.228092
+[stage 5 | epoch 109 | step 175] loss=0.228470
+[stage 5 | epoch 109 | step 200] loss=0.228164
+Stage 5 Epoch 109 | L1=0.078088  PSNR↑=20.9752  SSIM↑=0.8957  MS-SSIM↑=0.9282  LPIPS↓=0.1670  time=25.0s
+[stage 5 | epoch 110 | step 25] loss=0.215171
+[stage 5 | epoch 110 | step 50] loss=0.220207
+[stage 5 | epoch 110 | step 75] loss=0.221159
+[stage 5 | epoch 110 | step 100] loss=0.220327
+[stage 5 | epoch 110 | [stage 5 | epoch 110 | step 200] loss=0.227346
+step 150] loss=0.226694
+[stage 5 | epoch 110 | step 175] loss=0.227909
+Stage 5 Epoch 110 | L1=0.073915  PSNR↑=21.4088  SSIM↑=0.9053  MS-SSIM↑=0.9331  LPIPS↓=0.1586  time=23.9s
+  ✅ saved stage best: stage_05_best.pt
+[stage 5 | epoch 111 | step 25] loss=0.235751
+[stage 5 | epoch 111 | step 50] loss=0.230544
+[stage 5 | epoch 111 | step 75] loss=0.228764
+[stage 5 | epoch 111 | step 100] loss=0.231292
+[stage 5 | epoch 111 | step 125] loss=0.227218
+[stage 5 | epoch 111 | step 150] loss=0.226732
+[stage 5 | epoch 111 | step 175] loss=0.225562
+[stage 5 | epoch 111 | step 200] loss=0.224894
+Stage 5 Epoch 111 | L1=0.076118  PSNR↑=21.1892  SSIM↑=0.9000  MS-SSIM↑=0.9305  LPIPS↓=0.1654  time=24.0s
+[stage 5 | epoch 112 | step 25] loss=0.232867
+[stage 5 | epoch 112 | step 50] loss=0.233579
+[stage 5 | epoch 112 | step 75] loss=0.225110
+[stage 5 | epoch 112 | step 100] loss=0.225365
+[stage 5 | epoch 112 | step 125] loss=0.230396
+[stage 5 | epoch 112 | step 150] loss=0.228465
+[stage 5 | epoch 112 | step 175] loss=0.228471
+[stage 5 | epoch 112 | step 200] loss=0.229429
+Stage 5 Epoch 112 | L1=0.078694  PSNR↑=20.9279  SSIM↑=0.8973  MS-SSIM↑=0.9262  LPIPS↓=0.1669  time=23.2s
+[stage 5 | epoch 113 | step 25] loss=0.203641
+[stage 5 | epoch 113 | step 50] loss=0.225388
+[stage 5 | epoch 113 | step 75] loss=0.231129
+[stage 5 | epoch 113 | step 100] loss=0.231686
+[stage 5 | epoch 113 | step 125] loss=0.230170
+[stage 5 | epoch 113 | step 150] loss=0.232377
+[stage 5 | epoch 113 | step 175] loss=0.232215
+[stage 5 | epoch 113 | step 200] loss=0.232173
+Stage 5 Epoch 113 | L1=0.078498  PSNR↑=20.8613  SSIM↑=0.8920  MS-SSIM↑=0.9221  LPIPS↓=0.1689  time=24.0s
+[stage 5 | epoch 114 | step 25] loss=0.233172
+[stage 5 | epoch 114 | step 50] loss=0.231159
+[stage 5 | epoch 114 | step 75] loss=0.226436
+[stage 5 | epoch 114 | step 100] loss=0.229857
+[stage 5 | epoch 114 | step 125] loss=0.229565
+[stage 5 | epoch 114 | step 150] loss=0.229387
+[stage 5 | epoch 114 | step 175] loss=0.230194
+[stage 5 | epoch 114 | step 200] loss=0.228708
+Stage 5 Epoch 114 | L1=0.075410  PSNR↑=21.2452  SSIM↑=0.9004  MS-SSIM↑=0.9295  LPIPS↓=0.1631  time=23.3s
+[stage 5 | epoch 115 | step 25] loss=0.225377
+[stage 5 | epoch 115 | step 50] loss=0.227428
+[stage 5 | epoch 115 | step 75] loss=0.228587
+[stage 5 | epoch 115 | step 100] loss=0.225347
+[stage 5 | epoch 115 | step 125] loss=0.227058
+[stage 5 | epoch 115 | step 150] loss=0.226441
+[stage 5 | epoch 115 | step 175] loss=0.226160
+[stage 5 | epoch 115 | step 200] loss=0.227794
+Stage 5 Epoch 115 | L1=0.077304  PSNR↑=20.9973  SSIM↑=0.8993  MS-SSIM↑=0.9268  LPIPS↓=0.1671  time=23.8s
+[stage 5 | epoch 116 | step 25] loss=0.244957
+[stage 5 | epoch 116 | step 50] loss=0.227043
+[stage 5 | epoch 116 | step 75] loss=0.219273
+[stage 5 | epoch 116 | step 100] loss=0.216226
+[stage 5 | epoch 116 | step 125] loss=0.218684
+[stage 5 | epoch 116 | step 150] loss=0.220629
+[stage 5 | epoch 116 | step 175] loss=0.223437
+[stage 5 | epoch 116 | step 200] loss=0.223174
+Stage 5 Epoch 116 | L1=0.076960  PSNR↑=21.0840  SSIM↑=0.8983  MS-SSIM↑=0.9283  LPIPS↓=0.1650  time=23.2s
+[stage 5 | epoch 117 | step 25] loss=0.248297
+[stage 5 | epoch 117 | step 50] loss=0.240839
+[stage 5 | epoch 117 | step 75] loss=0.242261
+[stage 5 | epoch 117 | step 100] loss=0.233262
+[stage 5 | epoch 117 | step 125] loss=0.233628
+[stage 5 | epoch 117 | step 150] loss=0.231501
+[stage 5 | epoch 117 | step 175] loss=0.230951
+[stage 5 | epoch 117 | step 200] loss=0.229813
+Stage 5 Epoch 117 | L1=0.080267  PSNR↑=20.5939  SSIM↑=0.8946  MS-SSIM↑=0.9239  LPIPS↓=0.1751  time=23.8s
+[stage 5 | epoch 118 | step 25] loss=0.216370
+[stage 5 | epoch 118 | step 50] loss=0.226472
+[stage 5 | epoch 118 | step 75] loss=0.227166
+[stage 5 | epoch 118 | step 100] loss=0.229529
+[stage 5 | epoch 118 | step 125] loss=0.225388
+[stage 5 | epoch 118 | step 150] loss=0.229222
+[stage 5 | epoch 118 | step 175] loss=0.231909
+[stage 5 | epoch 118 | step 200] loss=0.230565
+Stage 5 Epoch 118 | L1=0.077412  PSNR↑=21.0305  SSIM↑=0.8970  MS-SSIM↑=0.9262  LPIPS↓=0.1647  time=23.2s
+[stage 5 | epoch 119 | step 25] loss=0.221837
+[stage 5 | epoch 119 | step 50] loss=0.229681
+[stage 5 | epoch 119 | step 75] loss=0.232878
+[stage 5 | epoch 119 | step 100] loss=0.230468
+[stage 5 | epoch 119 | step 125] loss=0.229946
+[stage 5 | epoch 119 | step 150] loss=0.226771
+[stage 5 | epoch 119 | step 175] loss=0.226199
+[stage 5 | epoch 119 | step 200] loss=0.229593
+Stage 5 Epoch 119 | L1=0.076614  PSNR↑=21.1022  SSIM↑=0.9006  MS-SSIM↑=0.9297  LPIPS↓=0.1673  time=24.0s
+[stage 5 | epoch 120 | step 25] loss=0.250781
+[stage 5 | epoch 120 | step 50] loss=0.236179
+[stage 5 | epoch 120 | step 75] loss=0.229163
+[stage 5 | epoch 120 | step 100] loss=0.229183
+[stage 5 | epoch 120 | step 125] loss=0.225746
+[stage 5 | epoch 120 | step 150] loss=0.224975
+[stage 5 | epoch 120 | step 175] loss=0.222306
+[stage 5 | epoch 120 | step 200] loss=0.223394
+Stage 5 Epoch 120 | L1=0.076098  PSNR↑=21.2083  SSIM↑=0.9004  MS-SSIM↑=0.9290  LPIPS↓=0.1628  time=24.8s
+[FULL EVAL] stage=5 epoch=120 | PSNR↑=21.2083  SSIM↑=0.9004  MS-SSIM↑=0.9290  LPIPS↓=0.1628  NIQE↓=4.1504  UIQM↑=271.1661  UCIQE↑=inf
+[FINAL GLOBAL BEST] | PSNR↑=21.5507  SSIM↑=0.9010  MS-SSIM↑=0.9322  LPIPS↓=0.1590  NIQE↓=4.1194  UIQM↑=275.3129  UCIQE↑=inf
+
+Done.
+Best model: checkpoints/global_best.pt

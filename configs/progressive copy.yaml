@@ -1,0 +1,37 @@
+seed: 42
+
+data:
+  train_low_dir: "/home/shahid-ahamed.hasib/Downloads/Data/UIEB_splits/train/low"
+  train_high_dir: "/home/shahid-ahamed.hasib/Downloads/Data/UIEB_splits/train/high"
+  val_low_dir: "/home/shahid-ahamed.hasib/Downloads/Data/UIEB_splits/val/low"
+  val_high_dir: "/home/shahid-ahamed.hasib/Downloads/Data/UIEB_splits/val/high"
+  num_workers: 4
+
+train:
+  amp: true
+  weight_decay: 0.0
+  log_every: 25
+  save_every: 1
+
+progressive:
+  crops: [256, 320, 384, 448, 512]
+  epochs_per_stage: 120
+  batch_sizes: [16, 12, 8, 6, 4]
+  lrs: [0.0003, 0.00025, 0.0002, 0.00015, 0.0001]
+  full_eval_every: 20   # full metrics every 20 epochs and at stage end
+
+loss:
+  w_l1: 1.0
+  w_ssim: 0.20
+  w_lpips: 0.05
+
+model:
+  gain_min: 0.6
+  gain_max: 2.0
+  gamma_min: 0.6
+  gamma_max: 2.2
+  ccm_strength: 0.30
+  bias_strength: 0.06
+
+runtime:
+  device: "cuda"
