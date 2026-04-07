@@ -32,7 +32,7 @@ phys_curve_prog5/
 The figure below shows example enhancement results produced by TinyCurveNet.
 
 <p align="center">
-  <img src="https://github.com/ShahidHasib586/TinyCurveNet/blob/main/Outputs/tinynet_output.png?raw=true" alt="TinyCurveNet qualitative results" width="100%">
+  <img src="https://github.com/ShahidHasib586/TinyCurveNet/blob/main/Outputs/preview.png?raw=true" alt="TinyCurveNet qualitative results" width="100%">
 </p>
 
 ## 📊 Evaluation Metrics
