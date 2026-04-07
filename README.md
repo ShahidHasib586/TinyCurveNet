@@ -117,3 +117,65 @@ python3 test_custom_data.py \
   --output_dir outputs/
 
 ```
+## 🧠 Model Architecture
+
+TinyCurveNet is a lightweight, physics-inspired neural network that predicts global image enhancement parameters instead of pixel-wise mappings.
+
+### 🔷 Architecture Overview
+
+The model consists of:
+
+- **Stem layer**: initial feature extraction
+- **Depthwise separable convolution blocks**: efficient feature learning
+- **Global pooling**: aggregates spatial information
+- **Fully connected head**: predicts enhancement parameters
+
+### 🔧 Network Design
+
+```text
+Input (3×H×W)
+   ↓
+Conv (3 → 16) + BN + SiLU
+   ↓
+Depthwise Separable Conv (16 → 24, stride=2)
+   ↓
+Depthwise Separable Conv (24 → 32, stride=2)
+   ↓
+Depthwise Separable Conv (32 → 48, stride=2)
+   ↓
+Depthwise Separable Conv (48 → 64, stride=2)
+   ↓
+Global Average Pooling
+   ↓
+Fully Connected (64 → 48 → 18)
+   ↓
+Parameter Outputs:
+   - Gain (3)
+   - Gamma (3)
+   - Color Correction Matrix (3×3 = 9)
+   - Bias (3)
+
+```
+## ⚙️ Enhancement Formulation
+
+The model applies a physics-inspired transformation:
+
+```math
+y = M \cdot \left( (g \cdot x)^{\gamma} \right) + b
+
+```
+Where:
+
+- **\( g \)**: per-channel gain  
+- **\( \gamma \)**: gamma correction  
+- **\( M \)**: color correction matrix (CCM)  
+- **\( b \)**: bias  
+
+---
+
+## 🚀 Key Advantages
+
+- **Lightweight** – uses depthwise separable convolutions  
+- **Interpretable** – explicitly predicts physical enhancement parameters  
+- **Real-time capable** – suitable for embedded systems (Jetson, ROVs)  
+- **Stable** – applies global transformations instead of pixel-wise noise amplification  
