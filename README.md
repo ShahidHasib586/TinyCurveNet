@@ -178,4 +178,12 @@ Where:
 - **Lightweight** – uses depthwise separable convolutions  
 - **Interpretable** – explicitly predicts physical enhancement parameters  
 - **Real-time capable** – suitable for embedded systems (Jetson, ROVs)  
-- **Stable** – applies global transformations instead of pixel-wise noise amplification  
+- **Stable** – applies global transformations instead of pixel-wise noise amplification
+
+## License
+
+This project is licensed under the Apache License 2.0.
+
+Copyright (c) 2026 Shahid Ahamed Hasib
+
+See the LICENSE file for details.
