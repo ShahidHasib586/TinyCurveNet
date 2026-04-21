@@ -96,6 +96,18 @@ python3 train.py \
   --crop 256 \
   --lr 2e-4
 ```
+
+## Test on custom data
+
+
+```bash
+python "/path/run_tinycurveccm_recursive.py" \
+  --model "path/checkpoint.pt" \
+  --input "path/test_images" \
+  --output "path/tinycurve_outputs" \
+  --amp
+```
+
 ## 📈 Evaluation
 
 Evaluate model performance:
