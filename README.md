@@ -101,10 +101,15 @@ python3 train.py \
 
 
 ```bash
-python "/path/run_tinycurveccm_recursive.py" \
-  --model "path/checkpoint.pt" \
-  --input "path/test_images" \
-  --output "path/tinycurve_outputs" \
+CUDA_VISIBLE_DEVICES=0 python "path/tinycurvenetmodelonly.py" \
+  --model "path/tinycurvenetf16.pt" \
+  --input "/path/test_images/images" \
+  --output "path/TinyCurve_f16_512_fast_outputs" \
+  --device cuda:0 \
+  --infer-size 128 \
+  --output-size 512 \
+  --save-format jpg \
+  --jpg-quality 95 \
   --amp
 ```
 
