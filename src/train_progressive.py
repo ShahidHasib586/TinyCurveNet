@@ -273,12 +273,12 @@ def main():
             if val_core["L1"] < stage_best:
                 stage_best = val_core["L1"]
                 save_ckpt(ckpt_dir / f"stage_{s_idx+1:02d}_best.pt", model, opt, s_idx, epoch, best_val)
-                print(f"  ✅ saved stage best: stage_{s_idx+1:02d}_best.pt")
+                print(f" saved stage best: stage_{s_idx+1:02d}_best.pt")
 
             if val_core["L1"] < best_val:
                 best_val = val_core["L1"]
                 save_ckpt(ckpt_dir / "global_best.pt", model, opt, s_idx, epoch, best_val)
-                print("  ✅ saved global_best.pt")
+                print(" saved global_best.pt")
 
             save_ckpt(latest_path, model, opt, s_idx, epoch, best_val)
 
