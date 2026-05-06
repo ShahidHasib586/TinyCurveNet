@@ -27,6 +27,15 @@ phys_curve_prog5/
 └── ...
 
 ```
+
+## Model Architecture
+
+<p align="center">
+  <img src="Resources/TinyCurveNET.png" alt="TinyCurveNET-CCM Architecture" width="800">
+</p>
+
+<p align="center"><b>TinyCurveNET-CCM Architecture</b></p>
+
 ## 🖼️ Qualitative Results
 
 The figure below shows example enhancement results produced by TinyCurveNet.
