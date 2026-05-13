@@ -18,7 +18,6 @@ This design makes it highly efficient, interpretable, and suitable for real-time
 
 phys_curve_prog5/
 ├── checkpoints/ # trained models (best.pt, global_best.pt)
-├── logs/ # training logs (slurm outputs)
 ├── configs/ # training configs (if available)
 ├── datasets/ # (NOT included)
 ├── train.py
