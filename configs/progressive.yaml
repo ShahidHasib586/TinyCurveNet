@@ -23,7 +23,10 @@ progressive:
 loss:
   w_l1: 1.0
   w_ssim: 0.20
+  w_msssim: 0.0
   w_lpips: 0.05
+  lpips_net: vgg
+  use_lpips: true
 
 model:
   gain_min: 0.6
