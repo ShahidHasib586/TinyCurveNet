@@ -43,22 +43,7 @@ The figure below shows example enhancement results produced by TinyCurveNet.
   <img src="https://github.com/ShahidHasib586/TinyCurveNet/blob/main/Outputs/preview.png?raw=true" alt="TinyCurveNet qualitative results" width="100%">
 </p>
 
-## 📊 Evaluation Metrics
 
-TinyCurveNet was evaluated using standard full-reference image enhancement metrics.
-
-| Metric | Value | Interpretation |
-|--------|------:|----------------|
-| **PSNR** | **22.06** | Measures reconstruction fidelity |
-| **SSIM** | **0.9096** | Measures structural similarity |
-| **MS-SSIM** | **0.9390** | Multi-scale structural similarity |
-| **L1** | **0.0698** | Pixel-wise reconstruction error |
-| **LPIPS** | **0.1404** | Perceptual similarity error |
-
-Higher is better for **PSNR**, **SSIM**, and **MS-SSIM**.  
-Lower is better for **L1** and **LPIPS**.
-
----
 
 ## ⚙️ Environment Setup
 
