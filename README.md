@@ -15,9 +15,13 @@ See [paper protocol and reproducibility notes](docs/PAPER.md), [machine-readable
 
 The implementation is `src/model.py::TinyCurveCCMNet` (alias `TinyCurveNet`). A 3×3 stem maps RGB to 16 channels; four stride-2 depthwise separable blocks use 24, 32, 48 and 64 channels. Global average pooling and a 64 → 48 → 18 head predict the transform. There are **11,642 trainable parameters** in the released model; **18 is the number of predicted enhancement values**.
 
-```math
-I_{enh}=\operatorname{clip}\left[M\left(\operatorname{clip}(g\odot I,0,1)+10^{-6}\right)^\gamma+b,0,1\right]
+```text
+z     = clip(g ⊙ I, 0, 1)
+u     = (z + 1e-6) ^ gamma
+I_enh = clip(M @ u + b, 0, 1)
 ```
+
+Here, `⊙` and `^` denote element-wise multiplication and exponentiation; `M @ u` applies the 3×3 colour matrix to each pixel's RGB vector. `clip(x, 0, 1)` clamps values to [0, 1].
 
 Gain ∈ [0.6,2.0], gamma ∈ [0.6,2.2], M = I₃ + 0.30 tanh(R), and b = 0.06 tanh(b_raw). This is physics-inspired correction, not inversion of an underwater image-formation model.
 
