@@ -4,3 +4,15 @@ __pycache__/
 runs/
 logs/
 outputs/
+
+# Generated local artifacts
+*.py[cod]
+__pycache__/
+*.log
+*.out
+.DS_Store
+.pytest_cache/
+# Keep curated manuscript results versioned
+!results/
+!results/*.csv
+!results/README.md

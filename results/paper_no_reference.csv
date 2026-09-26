@@ -1,0 +1,9 @@
+model,dataset,uiqm,uciqe,niqe,brisque,piqe,source_table
+TinyCurveNet,UIEB-C60,3.03,0.22,,,,XIII
+TinyCurveNet,EUVP-T515,3.36,0.27,,,,XIII
+TinyCurveNet,SQUID-T16,2.90,0.25,,,,XIII
+TinyCurveNet,RUIE-T78,2.80,0.19,,,,XIII
+TinyCurveNet,UIEB,,,5.20,34.28,49.99,XIV
+TinyCurveNet,EUVP,,,5.16,22.42,30.11,XIV
+TinyCurveNet,SQUID,,,7.14,33.64,31.23,XIV
+TinyCurveNet,RUIE,,,4.94,34.64,33.94,XIV

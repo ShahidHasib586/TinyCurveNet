@@ -1,0 +1,11 @@
+dataset,checkpoint,epoch,l1,mse,psnr_db,ssim,ms_ssim,lpips,niqe,source_table
+UIEB test subset,Polish global best,19,.0733,.00962,21.5181,.9058,.9294,.1659,4.0106,XXII
+UIEB test subset,Anticast global best,41,.0738,.00974,21.4501,.9054,.9284,.1673,4.0161,XXII
+UIEB test subset,Anticast PSNR best,41,.0738,.00974,21.4501,.9054,.9284,.1673,4.0161,XXII
+UIEB test subset,Anticast balanced best,41,.0738,.00974,21.4501,.9054,.9284,.1673,4.0161,XXII
+UIEB test subset,Anticast LPIPS best,172,.0729,.00954,21.5745,.9059,.9296,.1644,4.0039,XXII
+EUVP Test,Polish global best,19,.0908,.01442,19.8472,.8378,.9588,.2773,5.4484,XXII
+EUVP Test,Anticast global best,41,.0897,.01418,19.9283,.8397,.9592,.2764,5.4564,XXII
+EUVP Test,Anticast PSNR best,41,.0897,.01418,19.9283,.8397,.9592,.2764,5.4564,XXII
+EUVP Test,Anticast balanced best,41,.0897,.01418,19.9283,.8397,.9592,.2764,5.4564,XXII
+EUVP Test,Anticast LPIPS best,172,.0900,.01427,19.9279,.8379,.9580,.2760,5.4440,XXII

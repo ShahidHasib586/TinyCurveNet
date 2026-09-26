@@ -41,6 +41,23 @@ Gain ∈ [0.6,2.0], gamma ∈ [0.6,2.2], M = I₃ + 0.30 tanh(R), and b = 0.06 t
 
 See Tables V and XXII; validation and test rows must remain distinct.
 
+## Full checkpoint evaluation (Table XXII)
+
+All checkpoint-selection rows from the paper are included below. Identically reported scores are retained under their original checkpoint labels. These named checkpoints have not been identified among the bundled example weights.
+
+| Dataset | Checkpoint | Epoch | L1 ↓ | MSE ↓ | PSNR ↑ | SSIM ↑ | MS-SSIM ↑ | LPIPS ↓ | NIQE ↓ |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| UIEB test subset | Polish global best | 19 | .0733 | .00962 | 21.5181 | .9058 | .9294 | .1659 | 4.0106 |
+| UIEB test subset | Anticast global best | 41 | .0738 | .00974 | 21.4501 | .9054 | .9284 | .1673 | 4.0161 |
+| UIEB test subset | Anticast PSNR best | 41 | .0738 | .00974 | 21.4501 | .9054 | .9284 | .1673 | 4.0161 |
+| UIEB test subset | Anticast balanced best | 41 | .0738 | .00974 | 21.4501 | .9054 | .9284 | .1673 | 4.0161 |
+| UIEB test subset | Anticast LPIPS best | 172 | .0729 | .00954 | 21.5745 | .9059 | .9296 | .1644 | 4.0039 |
+| EUVP Test | Polish global best | 19 | .0908 | .01442 | 19.8472 | .8378 | .9588 | .2773 | 5.4484 |
+| EUVP Test | Anticast global best | 41 | .0897 | .01418 | 19.9283 | .8397 | .9592 | .2764 | 5.4564 |
+| EUVP Test | Anticast PSNR best | 41 | .0897 | .01418 | 19.9283 | .8397 | .9592 | .2764 | 5.4564 |
+| EUVP Test | Anticast balanced best | 41 | .0897 | .01418 | 19.9283 | .8397 | .9592 | .2764 | 5.4564 |
+| EUVP Test | Anticast LPIPS best | 172 | .0900 | .01427 | 19.9279 | .8379 | .9580 | .2760 | 5.4440 |
+
 ## Paper-reported runtime
 
 RTX 3070, 228 images, saving disabled; Tables XV–XIX.
@@ -55,6 +72,40 @@ RTX 3070, 228 images, saving disabled; Tables XV–XIX.
 | Batch optimized pipeline | 4.95 | 201.45 |
 
 **Model-only means parameter prediction only.** The complete pipeline also applies gain, gamma, CCM and bias.
+
+## Paper-reported component ablations
+
+Source: Table XXI. These are manuscript results; the repository does not bundle every ablation checkpoint.
+
+| Variant | Epoch | PSNR ↑ | SSIM ↑ | LPIPS ↓ |
+| --- | --- | --- | --- | --- |
+| Only gain and gamma | 193 | 20.88 | 0.89 | 0.17 |
+| Without gain | 167 | 21.34 | 0.89 | 0.16 |
+| Without gamma | 193 | 20.83 | 0.86 | 0.17 |
+| Without CCM | 193 | 20.96 | 0.89 | 0.17 |
+| Without bias | 369 | 21.65 | 0.90 | 0.16 |
+| Full L1 | 174 | 21.51 | 0.90 | 0.15 |
+| Full MSE | 12 | 19.93 | 0.87 | 0.20 |
+
+## Paper-reported no-reference quality
+
+Table XIII uses locally prepared subsets and a specific UIQM/UCIQE implementation. These scores must not be mixed with the internal scales in Table V.
+
+| Subset | UIQM ↑ | UCIQE ↑ |
+| --- | --- | --- |
+| UIEB-C60 | 3.03 | 0.22 |
+| EUVP-T515 | 3.36 | 0.27 |
+| SQUID-T16 | 2.90 | 0.25 |
+| RUIE-T78 | 2.80 | 0.19 |
+
+Table XIV reports a separate general perceptual evaluation; its dataset labels and NIQE values are kept separate from the paired evaluation above.
+
+| Dataset | NIQE ↓ | BRISQUE ↓ | PIQE ↓ |
+| --- | --- | --- | --- |
+| UIEB | 5.20 | 34.28 | 49.99 |
+| EUVP | 5.16 | 22.42 | 30.11 |
+| SQUID | 7.14 | 33.64 | 31.23 |
+| RUIE | 4.94 | 34.64 | 33.94 |
 
 ## Setup and usage
 
@@ -82,6 +133,10 @@ The five paper stages use crops [256,320,384,448,512] and 120 epochs/stage. Batc
 The default composite loss is L1 + 0.20(1−SSIM) + 0.05 LPIPS(VGG), with gradients through SSIM/LPIPS. `loss.objective` selects `composite`, `l1` or `mse`. Use separate `--out` directories: the trainer resumes a `latest.pt` inside that run. `src/train_progressive.py` now delegates to this corrected trainer. Paired crops/flips share coordinates, and validation L1 is normalized per pixel.
 
 The stage/example checkpoints are available in `checkpoints/`; the Table XXII Anticast/Polish checkpoints are not identified there. Full training/evaluation may download pretrained perceptual-metric weights. Legacy UIQM/UCIQE helpers are internal-scale approximations, not interchangeable with canonical implementations.
+
+## Repository contents
+
+Training, inference, metric evaluation, original split manifests (where available), unique checkpoints, configuration examples, tests and paper-result CSVs are retained. Architecture figures and one compact qualitative preview (where available) support inspection. See [cleanup and checkpoint notes](docs/CLEANUP.md) for removed files and recovery information.
 
 ## Interpretation and limitations
 
