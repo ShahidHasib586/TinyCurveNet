@@ -1,0 +1,8 @@
+variant,epoch,psnr_db,ssim,lpips,source_table
+Only gain and gamma,193,20.88,0.89,0.17,XXI
+Without gain,167,21.34,0.89,0.16,XXI
+Without gamma,193,20.83,0.86,0.17,XXI
+Without CCM,193,20.96,0.89,0.17,XXI
+Without bias,369,21.65,0.90,0.16,XXI
+Full L1,174,21.51,0.90,0.15,XXI
+Full MSE,12,19.93,0.87,0.20,XXI

@@ -1,0 +1,51 @@
+# Paper crop schedule; edit dataset paths. LR/batch choices follow the released five-stage config.
+seed: 42
+data:
+  train_low_dir: data/train/low
+  train_high_dir: data/train/high
+  val_low_dir: data/val/low
+  val_high_dir: data/val/high
+  num_workers: 4
+train:
+  amp: true
+  weight_decay: 0.0
+  log_every: 25
+  save_every: 1
+progressive:
+  crops:
+  - 256
+  - 320
+  - 384
+  - 448
+  - 512
+  epochs_per_stage: 120
+  batch_sizes:
+  - 16
+  - 12
+  - 8
+  - 6
+  - 4
+  lrs:
+  - 0.0003
+  - 0.00025
+  - 0.0002
+  - 0.00015
+  - 0.0001
+  full_eval_every: 20
+loss:
+  objective: mse
+  w_l1: 1.0
+  w_ssim: 0.2
+  w_msssim: 0.0
+  w_lpips: 0.05
+  lpips_net: vgg
+  use_lpips: true
+model:
+  gain_min: 0.6
+  gain_max: 2.0
+  gamma_min: 0.6
+  gamma_max: 2.2
+  ccm_strength: 0.3
+  bias_strength: 0.06
+runtime:
+  device: cuda

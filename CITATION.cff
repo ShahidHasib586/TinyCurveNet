@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: Please cite the accompanying manuscript when using this research software.
+title: 'TinyCurveNet-CCM: underwater image enhancement'
+type: software
+authors:
+- family-names: Hasib
+  given-names: Shahid Ahamed
+repository-code: https://github.com/ShahidHasib586/TinyCurveNet
+license: Apache-2.0
+preferred-citation:
+  type: unpublished
+  title: 'Three Lightweight Architectures for Underwater Image Enhancement: A Quality
+    and Efficiency Study for Real-Time Robotic Perception'
+  authors:
+  - family-names: Hasib
+    given-names: Shahid Ahamed
+  - family-names: Dinar
+    given-names: Farid
+  - family-names: Zniyed
+    given-names: Yassine
+  - family-names: Seinturier
+    given-names: Julien
+  - family-names: Thirion-Moreau
+    given-names: Nadège
+  year: 2026
+  notes: Revised manuscript; publication venue and DOI not yet specified.

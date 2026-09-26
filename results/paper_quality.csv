@@ -1,0 +1,15 @@
+model,evaluation_set,objective_or_checkpoint,psnr_db,ssim,ms_ssim,lpips,niqe,source_table
+AquaFastNet,UIEB test subset,L1 + SSIM + VGG perceptual,25.27,0.95,,0.15,,V
+AquaFastNet,EUVP Test,L1 + SSIM + VGG perceptual,24.32,0.89,,0.17,,V
+AquaFastNet,UIEB test subset,L2/MSE,25.22,0.95,,0.15,,V
+AquaFastNet,EUVP Test,L2/MSE,25.19,0.91,,0.18,,V
+EdgeOSA,UIEB test subset,L1 + SSIM + VGG perceptual,24.34,0.93,0.92,0.13,3.85,V
+EdgeOSA,EUVP Test,L1 + SSIM + VGG perceptual,19.16,0.79,0.86,0.28,5.28,V
+EdgeOSA,UIEB test subset,L2/MSE,24.27,0.92,,0.16,,V
+EdgeOSA,EUVP Test,L2/MSE,20.1,0.8,,0.24,,V
+TinyCurveNet-CCM,Validation set,Earlier L1-selected checkpoint,21.7,0.9,0.93,0.16,,V
+TinyCurveNet-CCM,Validation set,Full L1 ablation checkpoint,21.51,0.9,,0.15,,V
+TinyCurveNet-CCM,UIEB test subset,L1; Anticast LPIPS best; epoch 172,21.5745,0.9059,0.9296,0.1644,4.0039,XXII
+TinyCurveNet-CCM,EUVP Test,L1; Anticast PSNR best; epoch 41,19.9283,0.8397,0.9592,0.2764,5.4564,XXII
+TinyCurveNet-CCM,EUVP Test,L1; Anticast LPIPS best; epoch 172,19.9279,0.8379,0.958,0.276,5.444,XXII
+TinyCurveNet-CCM,Validation set,MSE; PSNR-selected checkpoint,19.93,0.87,,0.2,,V

@@ -94,7 +94,7 @@ def append_csv(path, row, header=None):
 def validate_core(model, loader, device, iqa, sample_path=None):
     model.eval()
 
-    l1 = nn.L1Loss(reduction="sum")
+    l1 = nn.L1Loss()
 
     sums = defaultdict(float)
     total_images = 0
@@ -108,7 +108,7 @@ def validate_core(model, loader, device, iqa, sample_path=None):
 
         batch_size = low.size(0)
 
-        loss_l1 = l1(pred, high).item() / batch_size
+        loss_l1 = l1(pred, high).item()
         fr = iqa.fr_batch(pred, high)
 
         sums["L1"] += loss_l1 * batch_size
@@ -172,6 +172,7 @@ def print_full_metrics(tag, mets):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--config", type=str, default="configs/progressive.yaml")
+    ap.add_argument("--out", default="runs/tinycurve", help="Isolated checkpoints, outputs and logs")
     args = ap.parse_args()
 
     cfg = load_cfg(args.config)
@@ -183,9 +184,9 @@ def main():
 
     print("Using device:", device)
 
-    ckpt_dir = Path("checkpoints")
-    out_dir = Path("outputs")
-    log_dir = Path("logs")
+    ckpt_dir = Path(args.out) / "checkpoints"
+    out_dir = Path(args.out) / "outputs"
+    log_dir = Path(args.out) / "logs"
 
     ckpt_dir.mkdir(exist_ok=True, parents=True)
     out_dir.mkdir(exist_ok=True, parents=True)
@@ -209,6 +210,7 @@ def main():
         w_lpips=cfg["loss"].get("w_lpips", 0.05),
         lpips_net=cfg["loss"].get("lpips_net", "vgg"),
         use_lpips=cfg["loss"].get("use_lpips", True),
+        objective=cfg["loss"].get("objective", "composite"),
     ).to(device)
 
     scaler = torch.cuda.amp.GradScaler(

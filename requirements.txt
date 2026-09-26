@@ -1,0 +1,10 @@
+torch
+torchvision
+numpy
+Pillow
+PyYAML
+tqdm
+opencv-python
+pytorch-msssim
+lpips
+pyiqa

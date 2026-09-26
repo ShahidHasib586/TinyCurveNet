@@ -181,7 +181,7 @@ def load_state_dict_robust(model, ckpt_path):
         raise RuntimeError("Could not find state_dict in checkpoint.")
 
     state = {k.replace("module.", ""): v for k, v in state.items()}
-    missing, unexpected = model.load_state_dict(state, strict=False)
+    missing, unexpected = model.load_state_dict(state, strict=True)
 
     print("Loaded ckpt:", ckpt_path)
     if missing:

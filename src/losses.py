@@ -25,9 +25,15 @@ class TinyCurveLoss(nn.Module):
         w_lpips=0.05,
         lpips_net="vgg",
         use_lpips=True,
+        objective="composite",
     ):
         super().__init__()
 
+        if objective not in {"composite", "l1", "mse"}:
+            raise ValueError("objective must be composite, l1, or mse")
+        self.objective = objective
+        if objective != "composite":
+            w_ssim = w_msssim = w_lpips = 0.0
         self.w_l1 = float(w_l1)
         self.w_ssim = float(w_ssim)
         self.w_msssim = float(w_msssim)
@@ -51,6 +57,10 @@ class TinyCurveLoss(nn.Module):
         target = torch.clamp(target, 0.0, 1.0)
 
         loss_l1 = self.l1(pred, target)
+        if self.objective in {"l1", "mse"}:
+            total = loss_l1 if self.objective == "l1" else nn.functional.mse_loss(pred, target)
+            return total, {"total": float(total.detach()), "l1": float(loss_l1.detach()),
+                           "ssim_loss": 0.0, "msssim_loss": 0.0, "lpips_loss": 0.0}
 
         loss_ssim = pred.new_tensor(0.0)
         if self.w_ssim > 0.0:

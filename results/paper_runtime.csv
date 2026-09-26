@@ -1,0 +1,19 @@
+model,mode,latency_ms_per_image,fps,source_table,gpu,images,disk_writing
+TinyCurveNet-CCM,single_model_only,2.37,422.01,XVI,NVIDIA RTX 3070,228,False
+TinyCurveNet-CCM,single_standard_pipeline,27.18,36.78,XVIII,NVIDIA RTX 3070,228,False
+TinyCurveNet-CCM,single_optimized_pipeline,11.97,83.51,XIX,NVIDIA RTX 3070,228,False
+TinyCurveNet-CCM,batch_model_only,0.41,2465.54,XVII,NVIDIA RTX 3070,228,False
+TinyCurveNet-CCM,batch_standard_pipeline,25.61,39.04,XVII,NVIDIA RTX 3070,228,False
+TinyCurveNet-CCM,batch_optimized_pipeline,4.95,201.45,XVII,NVIDIA RTX 3070,228,False
+AquaFastNet,single_model_only,7.76,128.93,XVI,NVIDIA RTX 3070,228,False
+AquaFastNet,single_standard_pipeline,78.13,12.8,XVIII,NVIDIA RTX 3070,228,False
+AquaFastNet,single_optimized_pipeline,25.44,39.3,XIX,NVIDIA RTX 3070,228,False
+AquaFastNet,batch_model_only,4.97,201.07,XVII,NVIDIA RTX 3070,228,False
+AquaFastNet,batch_standard_pipeline,29.3,34.12,XVII,NVIDIA RTX 3070,228,False
+AquaFastNet,batch_optimized_pipeline,12.11,82.53,XVII,NVIDIA RTX 3070,228,False
+EdgeOSA,single_model_only,29.27,34.16,XVI,NVIDIA RTX 3070,228,False
+EdgeOSA,single_standard_pipeline,98.25,10.18,XVIII,NVIDIA RTX 3070,228,False
+EdgeOSA,single_optimized_pipeline,46.12,21.68,XIX,NVIDIA RTX 3070,228,False
+EdgeOSA,batch_model_only,47.94,20.86,XVII,NVIDIA RTX 3070,228,False
+EdgeOSA,batch_standard_pipeline,56.57,17.68,XVII,NVIDIA RTX 3070,228,False
+EdgeOSA,batch_optimized_pipeline,53.85,18.57,XVII,NVIDIA RTX 3070,228,False
